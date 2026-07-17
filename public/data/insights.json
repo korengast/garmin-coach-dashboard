@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-17T19:00:00+03:00",
+  "window": "2026-01-19..2026-07-17",
+  "n_days": 180,
+  "n_activities": 49,
+  "headline": "Fitter over 6 months \u2014 sleep and debt did not improve with fitness",
+  "cards": [
+    {
+      "id": "july-paradox",
+      "title": "July paradox",
+      "severity": "high",
+      "text": "Best HRV (~44) and RHR (~53) of the half-year, more running \u2014 but sleep still ~6.3h and ~2h nightly debt. Fitter \u2260 recovered."
+    },
+    {
+      "id": "fitness-dividend",
+      "title": "Getting fitter, not sleeping more",
+      "severity": "high",
+      "text": "First 90d vs last 90d: HRV 35.33\u219239.19, RHR 56.63\u219255.56, sleep 6.66\u21926.5h, stress 23.33\u219225.98."
+    },
+    {
+      "id": "capoeira-tax",
+      "title": "Capoeira tax (next night)",
+      "severity": "high",
+      "text": "After Capoeira (n=20): sleep 6.2h vs 6.63h other days; debt +2.27h vs +1.81h. HRV barely changes \u2014 duration takes the hit."
+    },
+    {
+      "id": "evening-hard",
+      "title": "Evening hard sessions",
+      "severity": "high",
+      "text": "n=25: next sleep 5.97h vs 6.68h (\u22120.7h). Debt +2.51 vs +1.74."
+    },
+    {
+      "id": "weekly-rhythm",
+      "title": "Weekly rhythm",
+      "severity": "medium",
+      "text": "Mon Capoeira rate 46%, Thu 31%. Best sleep Sat 7.29h. Worst sleep+HRV Fri 6.26h / HRV 35.81."
+    },
+    {
+      "id": "no-autodelod",
+      "title": "No auto-deload after bad sleep",
+      "severity": "high",
+      "text": "Short-sleep days (<6.5h) have MORE steps (~8.5k vs ~7.3k) and the SAME intensity as long-sleep days. Rest is not automatic \u2014 needs a rule."
+    },
+    {
+      "id": "rem-canary",
+      "title": "REM is the canary",
+      "severity": "medium",
+      "text": "Debt steals REM (r\u2248\u22120.40). Short nights can look deep-rich (deep% up when hours down). Don't trust deep% alone."
+    },
+    {
+      "id": "cum-debt",
+      "title": "Cumulative sleep debt",
+      "severity": "high",
+      "text": "~276.7h summed shortfall vs need across the window (~11.5 full nights owed). Longest debt>1h streak: 24 nights. Longest \u22657h sleep streak: only 4."
+    },
+    {
+      "id": "sport-mix",
+      "title": "Capoeira is the program",
+      "severity": "medium",
+      "text": "Minutes: Capoeira 2375, swim 294, run 230. Capoeira is ~75%+ of training time."
+    },
+    {
+      "id": "stress-season",
+      "title": "May\u2013Jun stress season",
+      "severity": "medium",
+      "text": "May stress 26.45, Jun 27.67 (peaks); steps dipped in May (7142). Life load visible beyond training."
+    },
+    {
+      "id": "hrv-rhr",
+      "title": "Autonomic coupling",
+      "severity": "medium",
+      "text": "HRV \u2194 RHR r=\u22120.71 over 180 days. Use the pair together when judging readiness."
+    },
+    {
+      "id": "vo2-stable",
+      "title": "VO2 stable 47\u201349",
+      "severity": "low",
+      "text": "Run VO2 samples flat Mar\u2192Jul. Engine is fine; recovery/sleep is the bottleneck."
+    }
+  ],
+  "correlations": [
+    {
+      "a": "debt_h",
+      "b": "sleep_h",
+      "r": -0.923,
+      "n": 148,
+      "kind": "same_day"
+    },
+    {
+      "a": "intensity",
+      "b": "train_min",
+      "r": 0.852,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "hrv",
+      "b": "rhr",
+      "r": -0.714,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "sleep_h",
+      "b": "sleep_score",
+      "r": 0.584,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "debt_h",
+      "b": "sleep_score",
+      "r": -0.546,
+      "n": 148,
+      "kind": "same_day"
+    },
+    {
+      "a": "bb_drained",
+      "b": "hrv",
+      "r": 0.53,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "bb_charged",
+      "b": "bb_drained",
+      "r": 0.499,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "bb_charged",
+      "b": "hrv",
+      "r": 0.48,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "bb_drained",
+      "b": "rhr",
+      "r": -0.451,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "intensity",
+      "b": "steps",
+      "r": 0.45,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "rem_pct",
+      "b": "sleep_score",
+      "r": 0.441,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "bb_charged",
+      "b": "rhr",
+      "r": -0.404,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "debt_h",
+      "b": "rem_pct",
+      "r": -0.397,
+      "n": 148,
+      "kind": "same_day"
+    },
+    {
+      "a": "bb_drained",
+      "b": "intensity",
+      "r": 0.368,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "steps",
+      "b": "train_min",
+      "r": 0.317,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "rem_pct",
+      "b": "sleep_h",
+      "r": 0.303,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "bb_drained",
+      "b": "train_min",
+      "r": 0.3,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "bb_charged",
+      "b": "sleep_score",
+      "r": 0.295,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "deep_pct",
+      "b": "sleep_h",
+      "r": -0.291,
+      "n": 180,
+      "kind": "same_day"
+    },
+    {
+      "a": "bb_charged",
+      "b": "sleep_h",
+      "r": 0.289,
+      "n": 180,
+      "kind": "same_day"
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2026-01",
+      "sleep_h": 6.54,
+      "hrv": 31.31,
+      "rhr": 58.92,
+      "stress": 24.46,
+      "steps": 7800.46,
+      "capoeira_days": 2,
+      "run_days": 0
+    },
+    {
+      "month": "2026-02",
+      "sleep_h": 6.86,
+      "hrv": 32.04,
+      "rhr": 56.96,
+      "stress": 22.21,
+      "steps": 7648.25,
+      "capoeira_days": 3,
+      "run_days": 0
+    },
+    {
+      "month": "2026-03",
+      "sleep_h": 6.55,
+      "hrv": 36.68,
+      "rhr": 57.23,
+      "stress": 23.97,
+      "steps": 8660.29,
+      "capoeira_days": 3,
+      "run_days": 3
+    },
+    {
+      "month": "2026-04",
+      "sleep_h": 6.58,
+      "hrv": 40.6,
+      "rhr": 53.97,
+      "stress": 24.4,
+      "steps": 8421.4,
+      "capoeira_days": 4,
+      "run_days": 1
+    },
+    {
+      "month": "2026-05",
+      "sleep_h": 6.66,
+      "hrv": 37.45,
+      "rhr": 56.61,
+      "stress": 26.45,
+      "steps": 7142.32,
+      "capoeira_days": 3,
+      "run_days": 0
+    },
+    {
+      "month": "2026-06",
+      "sleep_h": 6.43,
+      "hrv": 38.2,
+      "rhr": 55.97,
+      "stress": 27.67,
+      "steps": 7712.63,
+      "capoeira_days": 3,
+      "run_days": 0
+    },
+    {
+      "month": "2026-07",
+      "sleep_h": 6.34,
+      "hrv": 43.59,
+      "rhr": 53.47,
+      "stress": 21.94,
+      "steps": 9370.94,
+      "capoeira_days": 2,
+      "run_days": 4
+    }
+  ],
+  "dow": [
+    {
+      "dow": "Mon",
+      "sleep_h": 6.81,
+      "hrv": 39.27,
+      "steps": 8041.35,
+      "stress": 23.81,
+      "capoeira_rate": 0.46,
+      "intensity": 50.38
+    },
+    {
+      "dow": "Tue",
+      "sleep_h": 6.52,
+      "hrv": 36.65,
+      "steps": 7522.54,
+      "stress": 25.92,
+      "capoeira_rate": 0.0,
+      "intensity": 12.42
+    },
+    {
+      "dow": "Wed",
+      "sleep_h": 6.36,
+      "hrv": 36.65,
+      "steps": 8492.38,
+      "stress": 24.42,
+      "capoeira_rate": 0.0,
+      "intensity": 13.88
+    },
+    {
+      "dow": "Thu",
+      "sleep_h": 6.38,
+      "hrv": 37.54,
+      "steps": 8622.85,
+      "stress": 24.62,
+      "capoeira_rate": 0.31,
+      "intensity": 45.35
+    },
+    {
+      "dow": "Fri",
+      "sleep_h": 6.26,
+      "hrv": 35.81,
+      "steps": 8715.65,
+      "stress": 25,
+      "capoeira_rate": 0.0,
+      "intensity": 18.92
+    },
+    {
+      "dow": "Sat",
+      "sleep_h": 7.29,
+      "hrv": 36.84,
+      "steps": 7669.64,
+      "stress": 24.96,
+      "capoeira_rate": 0.0,
+      "intensity": 6.72
+    },
+    {
+      "dow": "Sun",
+      "sleep_h": 6.46,
+      "hrv": 38.08,
+      "steps": 7230.4,
+      "stress": 23.84,
+      "capoeira_rate": 0.0,
+      "intensity": 7
+    }
+  ],
+  "streaks": {
+    "debt_gt_1h": 24,
+    "sleep_lt_6_5": 10,
+    "sleep_ge_7": 4,
+    "hrv_ge_45": 2,
+    "no_vig": 6
+  },
+  "cum_debt_h": 276.7,
+  "sport_minutes": {
+    "capoeira": 2375.0,
+    "lap_swimming": 293.5,
+    "yoga": 137.6,
+    "running": 230.1,
+    "walking": 131.1
+  },
+  "actions": [
+    "Earlier bedtime protocol after every Capoeira (Mon/Thu)",
+    "Protect Friday like a training session",
+    "Rule: sleep <6.5h \u2192 no hard intensity next day",
+    "Spend July fitness dividend on sleep, not more redline",
+    "Track REM% + debt weekly, not only Body Battery"
+  ]
+}

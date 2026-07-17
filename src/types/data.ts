@@ -26,6 +26,10 @@ export type DayRow = {
   bb_drained?: number | null
   mod_min?: number | null
   vig_min?: number | null
+  debt_h?: number | null
+  has_capoeira?: boolean
+  evening_hard?: boolean
+  train_min?: number | null
 }
 
 export type Latest = {
@@ -42,6 +46,8 @@ export type Latest = {
     days_14: Record<string, number | null | undefined>
   }
   sport_notes?: Record<string, string>
+  insights_window?: string
+  cum_debt_h?: number
 }
 
 export type Activity = {
@@ -85,6 +91,56 @@ export type Meta = {
   source?: string
 }
 
+export type InsightCard = {
+  id: string
+  title: string
+  severity: 'high' | 'medium' | 'low' | string
+  text: string
+}
+
+export type Correlation = {
+  a: string
+  b: string
+  r: number
+  n: number
+  kind: string
+  label?: string
+}
+
+export type Insights = {
+  schema_version: number
+  updated_at: string
+  window: string
+  n_days: number
+  n_activities: number
+  headline: string
+  cards: InsightCard[]
+  correlations: Correlation[]
+  monthly: {
+    month: string
+    sleep_h?: number | null
+    hrv?: number | null
+    rhr?: number | null
+    stress?: number | null
+    steps?: number | null
+    capoeira_days?: number
+    run_days?: number
+  }[]
+  dow: {
+    dow: string
+    sleep_h?: number | null
+    hrv?: number | null
+    steps?: number | null
+    stress?: number | null
+    capoeira_rate?: number
+    intensity?: number | null
+  }[]
+  streaks: Record<string, number>
+  cum_debt_h?: number
+  sport_minutes?: Record<string, number>
+  actions: string[]
+}
+
 export type DashboardData = {
   meta: Meta
   latest: Latest
@@ -92,4 +148,5 @@ export type DashboardData = {
   activities: Activity[]
   recoveryPairs: RecoveryPair[]
   notes: CoachNotes
+  insights: Insights
 }

@@ -3,6 +3,7 @@ import type {
   CoachNotes,
   DashboardData,
   DayRow,
+  Insights,
   Latest,
   Meta,
   RecoveryPair,
@@ -18,15 +19,16 @@ async function fetchJson<T>(path: string): Promise<T> {
 }
 
 export async function loadDashboardData(): Promise<DashboardData> {
-  const [meta, latest, days, activities, recoveryPairs, notes] = await Promise.all([
+  const [meta, latest, days, activities, recoveryPairs, notes, insights] = await Promise.all([
     fetchJson<Meta>('data/meta.json'),
     fetchJson<Latest>('data/latest.json'),
     fetchJson<DayRow[]>('data/history/days.json'),
     fetchJson<Activity[]>('data/history/activities.json'),
     fetchJson<RecoveryPair[]>('data/history/recovery_pairs.json'),
     fetchJson<CoachNotes>('data/coach/notes.json'),
+    fetchJson<Insights>('data/insights.json'),
   ])
-  return { meta, latest, days, activities, recoveryPairs, notes }
+  return { meta, latest, days, activities, recoveryPairs, notes, insights }
 }
 
 export function bandColor(band: string): string {
@@ -41,6 +43,12 @@ export function gradeColor(grade: string): string {
   return 'bg-rose-500/20 text-rose-100 ring-rose-400/40'
 }
 
+export function severityColor(sev: string): string {
+  if (sev === 'high') return 'bg-rose-500/15 text-rose-100 ring-rose-400/30'
+  if (sev === 'medium') return 'bg-amber-500/15 text-amber-100 ring-amber-400/30'
+  return 'bg-slate-700/40 text-slate-300 ring-slate-600/40'
+}
+
 export function fmtNum(n: number | null | undefined, digits = 0): string {
   if (n == null || Number.isNaN(n)) return '—'
   return Number(n).toFixed(digits)
@@ -49,4 +57,9 @@ export function fmtNum(n: number | null | undefined, digits = 0): string {
 export function shortDate(iso: string): string {
   const d = new Date(iso.includes('T') ? iso : `${iso}T12:00:00`)
   return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })
+}
+
+export function corrLabel(c: { a: string; b: string; kind: string; label?: string }): string {
+  if (c.kind === 'lag' && c.label) return c.label
+  return `${c.a} ↔ ${c.b}`
 }

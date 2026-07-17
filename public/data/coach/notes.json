@@ -1,6 +1,36 @@
 {
-  "updated_at": "2026-07-17T17:30:00+03:00",
+  "updated_at": "2026-07-17T19:00:00+03:00",
   "notes": [
+    {
+      "date": "2026-07-17",
+      "category": "insight",
+      "text": "Short-sleep days (<6.5h) have MORE steps (~8.5k vs ~7.3k) and the SAME intensity as long-sleep days. Rest is not automatic \u2014 needs a rule."
+    },
+    {
+      "date": "2026-07-17",
+      "category": "insight",
+      "text": "Mon Capoeira rate 46%, Thu 31%. Best sleep Sat 7.29h. Worst sleep+HRV Fri 6.26h / HRV 35.81."
+    },
+    {
+      "date": "2026-07-17",
+      "category": "insight",
+      "text": "n=25: next sleep 5.97h vs 6.68h (\u22120.7h). Debt +2.51 vs +1.74."
+    },
+    {
+      "date": "2026-07-17",
+      "category": "insight",
+      "text": "After Capoeira (n=20): sleep 6.2h vs 6.63h other days; debt +2.27h vs +1.81h. HRV barely changes \u2014 duration takes the hit."
+    },
+    {
+      "date": "2026-07-17",
+      "category": "insight",
+      "text": "First 90d vs last 90d: HRV 35.33\u219239.19, RHR 56.63\u219255.56, sleep 6.66\u21926.5h, stress 23.33\u219225.98."
+    },
+    {
+      "date": "2026-07-17",
+      "category": "insight",
+      "text": "Best HRV (~44) and RHR (~53) of the half-year, more running \u2014 but sleep still ~6.3h and ~2h nightly debt. Fitter \u2260 recovered."
+    },
     {
       "date": "2026-07-17",
       "category": "profile",

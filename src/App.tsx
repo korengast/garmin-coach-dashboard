@@ -9,12 +9,13 @@ import {
   YAxis,
 } from 'recharts'
 import type { DashboardData } from './types/data'
-import { bandColor, fmtNum, gradeColor, loadDashboardData, shortDate } from './lib/data'
+import { bandColor, corrLabel, fmtNum, gradeColor, loadDashboardData, severityColor, shortDate } from './lib/data'
 
-type Tab = 'today' | 'sleep' | 'recovery' | 'training' | 'trends' | 'coach'
+type Tab = 'today' | 'insights' | 'sleep' | 'recovery' | 'training' | 'trends' | 'coach'
 
 const TABS: { id: Tab; label: string }[] = [
   { id: 'today', label: 'Today' },
+  { id: 'insights', label: 'Insights' },
   { id: 'sleep', label: 'Sleep' },
   { id: 'recovery', label: 'Recovery' },
   { id: 'training', label: 'Training' },
@@ -78,7 +79,8 @@ export default function App() {
 
   const chartDays = useMemo(() => {
     if (!data) return []
-    return data.days.map((d) => ({
+    const slice = data.days.slice(-60)
+    return slice.map((d) => ({
       label: shortDate(d.date),
       sleep_score: d.sleep_score ?? null,
       hrv: d.hrv ?? null,
@@ -86,6 +88,18 @@ export default function App() {
       steps: d.steps ?? null,
       sleep_hours: d.sleep_hours ?? null,
       need_hours: d.sleep_need_min != null ? +(d.sleep_need_min / 60).toFixed(2) : null,
+      debt_h: d.debt_h ?? null,
+    }))
+  }, [data])
+
+  const monthlyChart = useMemo(() => {
+    if (!data?.insights?.monthly) return []
+    return data.insights.monthly.map((m) => ({
+      label: m.month.slice(5),
+      hrv: m.hrv ?? null,
+      sleep_h: m.sleep_h ?? null,
+      stress: m.stress ?? null,
+      rhr: m.rhr ?? null,
     }))
   }, [data])
 
@@ -103,7 +117,7 @@ export default function App() {
     )
   }
 
-  const { latest, activities, recoveryPairs, notes, days } = data
+  const { latest, activities, recoveryPairs, notes, days, insights } = data
   const t = latest.today
   const readiness = t.readiness
 
@@ -214,6 +228,93 @@ export default function App() {
         </section>
       )}
 
+      {tab === 'insights' && (
+        <section className="space-y-4">
+          <div className="card">
+            <p className="text-xs uppercase tracking-wider text-teal-300/80">Beyond Garmin Connect</p>
+            <h2 className="mt-1 text-xl font-semibold text-white">{insights.headline}</h2>
+            <p className="mt-2 text-sm text-slate-400">
+              Window {insights.window} · {insights.n_days} days · {insights.n_activities} activities
+              {insights.cum_debt_h != null ? ` · ~${insights.cum_debt_h}h cumulative sleep debt` : ''}
+            </p>
+          </div>
+
+          <div className="space-y-3">
+            {insights.cards.map((c) => (
+              <div key={c.id} className="card">
+                <div className="flex items-center justify-between gap-2">
+                  <h3 className="font-semibold text-slate-100">{c.title}</h3>
+                  <span className={`chip ring-1 ${severityColor(c.severity)}`}>{c.severity}</span>
+                </div>
+                <p className="mt-2 text-sm leading-relaxed text-slate-300">{c.text}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="card">
+            <h2 className="mb-3 text-lg font-semibold">Top correlations</h2>
+            <p className="mb-3 text-xs text-slate-500">Pearson r · |r| higher = tighter link. Lag = today predicts tomorrow.</p>
+            <div className="space-y-2">
+              {insights.correlations.map((c, i) => (
+                <div key={`${c.a}-${c.b}-${i}`} className="flex items-center justify-between gap-2 rounded-xl border border-slate-800 bg-slate-950/40 px-3 py-2">
+                  <div className="min-w-0 text-sm text-slate-300">
+                    <div className="truncate font-medium text-slate-100">{corrLabel(c)}</div>
+                    <div className="text-xs text-slate-500">n={c.n} · {c.kind}</div>
+                  </div>
+                  <div className={`text-lg font-bold ${Math.abs(c.r) >= 0.4 ? 'text-teal-300' : 'text-slate-200'}`}>
+                    {c.r > 0 ? '+' : ''}{c.r.toFixed(2)}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="card">
+            <h2 className="mb-2 text-lg font-semibold">Seasonality — monthly HRV</h2>
+            <Spark data={monthlyChart} dataKey="hrv" color="#2dd4bf" />
+          </div>
+          <div className="card">
+            <h2 className="mb-2 text-lg font-semibold">Seasonality — monthly stress</h2>
+            <Spark data={monthlyChart} dataKey="stress" color="#fbbf24" />
+          </div>
+
+          <div className="card overflow-x-auto">
+            <h2 className="mb-2 text-lg font-semibold">Day-of-week fingerprint</h2>
+            <table className="w-full min-w-[480px] text-left text-sm">
+              <thead className="text-xs uppercase text-slate-500">
+                <tr>
+                  <th className="py-2">Day</th>
+                  <th>Sleep h</th>
+                  <th>HRV</th>
+                  <th>Steps</th>
+                  <th>Capoeira</th>
+                </tr>
+              </thead>
+              <tbody>
+                {insights.dow.map((d) => (
+                  <tr key={d.dow} className="border-t border-slate-800/80">
+                    <td className="py-2 font-medium text-slate-200">{d.dow}</td>
+                    <td>{fmtNum(d.sleep_h, 1)}</td>
+                    <td>{fmtNum(d.hrv, 1)}</td>
+                    <td>{fmtNum(d.steps, 0)}</td>
+                    <td>{d.capoeira_rate != null ? `${Math.round(d.capoeira_rate * 100)}%` : '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="card">
+            <h2 className="mb-2 text-lg font-semibold">Actions implied</h2>
+            <ul className="space-y-2 text-sm text-slate-300">
+              {insights.actions.map((a) => (
+                <li key={a}>→ {a}</li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
       {tab === 'sleep' && (
         <section className="space-y-4">
           <div className="card">
@@ -239,7 +340,7 @@ export default function App() {
                 </tr>
               </thead>
               <tbody>
-                {[...days].reverse().map((d) => (
+                {[...days].slice(-21).reverse().map((d) => (
                   <tr key={d.date} className="border-t border-slate-800/80">
                     <td className="py-2 text-slate-300">{shortDate(d.date)}</td>
                     <td>{fmtNum(d.sleep_score)}</td>
@@ -332,13 +433,16 @@ export default function App() {
             <h2 className="mb-2 text-lg font-semibold">Steps</h2>
             <Spark data={chartDays} dataKey="steps" color="#38bdf8" />
           </div>
+          <div className="card">
+            <h2 className="mb-2 text-lg font-semibold">Sleep debt (last 60d)</h2>
+            <Spark data={chartDays} dataKey="debt_h" color="#fb7185" />
+          </div>
           <div className="card text-sm text-slate-300">
-            <h2 className="mb-2 text-lg font-semibold text-white">Patterns</h2>
+            <h2 className="mb-2 text-lg font-semibold text-white">Open Insights tab for full 180d analysis</h2>
             <ul className="space-y-2">
-              <li>· Evening Capoeira → elevated next sleep need (HIGH_ACWR flags common).</li>
-              <li>· Short hard morning runs (often stroller) sit at high avg HR (~160–169).</li>
-              <li>· Cool-downs ≥12 min show better walk min HR than ~8 min.</li>
-              <li>· RHR stable low-50s = fitness base intact even when sleep is short.</li>
+              <li>· Charts here = last 60 days sparklines.</li>
+              <li>· Insights tab = correlations, seasonality, Capoeira tax, weekly rhythm.</li>
+              <li>· Cumulative debt ~{fmtNum(latest.cum_debt_h, 0)}h across the long window.</li>
             </ul>
           </div>
         </section>
