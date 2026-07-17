@@ -3,6 +3,7 @@ import type {
   CoachNotes,
   DashboardData,
   DayRow,
+  HomeTrends,
   Insights,
   Latest,
   Meta,
@@ -19,16 +20,18 @@ async function fetchJson<T>(path: string): Promise<T> {
 }
 
 export async function loadDashboardData(): Promise<DashboardData> {
-  const [meta, latest, days, activities, recoveryPairs, notes, insights] = await Promise.all([
-    fetchJson<Meta>('data/meta.json'),
-    fetchJson<Latest>('data/latest.json'),
-    fetchJson<DayRow[]>('data/history/days.json'),
-    fetchJson<Activity[]>('data/history/activities.json'),
-    fetchJson<RecoveryPair[]>('data/history/recovery_pairs.json'),
-    fetchJson<CoachNotes>('data/coach/notes.json'),
-    fetchJson<Insights>('data/insights.json'),
-  ])
-  return { meta, latest, days, activities, recoveryPairs, notes, insights }
+  const [meta, latest, days, activities, recoveryPairs, notes, insights, homeTrends] =
+    await Promise.all([
+      fetchJson<Meta>('data/meta.json'),
+      fetchJson<Latest>('data/latest.json'),
+      fetchJson<DayRow[]>('data/history/days.json'),
+      fetchJson<Activity[]>('data/history/activities.json'),
+      fetchJson<RecoveryPair[]>('data/history/recovery_pairs.json'),
+      fetchJson<CoachNotes>('data/coach/notes.json'),
+      fetchJson<Insights>('data/insights.json'),
+      fetchJson<HomeTrends>('data/home_trends.json'),
+    ])
+  return { meta, latest, days, activities, recoveryPairs, notes, insights, homeTrends }
 }
 
 export function bandColor(band: string): string {
@@ -54,6 +57,12 @@ export function fmtNum(n: number | null | undefined, digits = 0): string {
   return Number(n).toFixed(digits)
 }
 
+export function fmtDelta(n: number | null | undefined, digits = 2): string {
+  if (n == null || Number.isNaN(n)) return '—'
+  const v = Number(n)
+  return `${v > 0 ? '+' : ''}${v.toFixed(digits)}`
+}
+
 export function shortDate(iso: string): string {
   const d = new Date(iso.includes('T') ? iso : `${iso}T12:00:00`)
   return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })
@@ -62,4 +71,15 @@ export function shortDate(iso: string): string {
 export function corrLabel(c: { a: string; b: string; kind: string; label?: string }): string {
   if (c.kind === 'lag' && c.label) return c.label
   return `${c.a} ↔ ${c.b}`
+}
+
+export function pointsForChart(
+  pts: { date?: string; label?: string; value: number }[],
+  max = 60,
+): { label: string; value: number | null }[] {
+  const slice = pts.length > max ? pts.slice(pts.length - max) : pts
+  return slice.map((p, i) => ({
+    label: p.label || (p.date ? shortDate(p.date) : String(i)),
+    value: p.value,
+  }))
 }

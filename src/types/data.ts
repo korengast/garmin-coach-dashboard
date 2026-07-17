@@ -139,6 +139,72 @@ export type Insights = {
   cum_debt_h?: number
   sport_minutes?: Record<string, number>
   actions: string[]
+  metric_highlights?: HomeMetric[]
+}
+
+export type SeriesPoint = { date?: string; label?: string; value: number }
+
+export type HomeMetric = {
+  id: string
+  label: string
+  value?: number | null
+  unit?: string
+  delta?: number | null
+  delta_label?: string
+  trend?: string
+  sub?: string
+  why?: string
+}
+
+export type CorrTrend = {
+  label: string
+  explain: string
+  now_30d?: number | null
+  delta_vs_60d_ago?: number | null
+  series: SeriesPoint[]
+}
+
+export type HomeTrends = {
+  schema_version: number
+  updated_at: string
+  window: string
+  n_days: number
+  headline_numbers: string
+  metrics: HomeMetric[]
+  min_hr_trends: {
+    note: string
+    weekly_chart: SeriesPoint[]
+    quarterly_chart: SeriesPoint[]
+    sma28: SeriesPoint[]
+    sma90: SeriesPoint[]
+    daily: SeriesPoint[]
+    yearly_window: {
+      mean: number
+      min: number
+      max: number
+      start_mean_30: number
+      end_mean_30: number
+      delta_start_end: number
+    }
+    weekly_raw?: { week: number; rhr_mean: number; rhr_min: number; n: number }[]
+    quarterly?: { quarter: string; rhr_mean: number; rhr_min: number; n: number }[]
+  }
+  corr_trends: Record<string, CorrTrend>
+  series: Record<string, SeriesPoint[]>
+  capoeira_sleep_tax_by_block: {
+    block: string
+    after_cap?: number | null
+    after_other?: number | null
+    delta?: number | null
+    n_cap: number
+  }[]
+  slopes_per_month: Record<string, number | null>
+  fitness_recovery_gap: {
+    hrv_change: number
+    debt_change: number
+    rhr_change: number
+  }
+  explanations: { title: string; text: string }[]
 }
 
 export type DashboardData = {
@@ -149,4 +215,5 @@ export type DashboardData = {
   recoveryPairs: RecoveryPair[]
   notes: CoachNotes
   insights: Insights
+  homeTrends: HomeTrends
 }

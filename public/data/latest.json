@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-17T19:00:00+03:00",
+  "updated_at": "2026-07-17T20:15:00+03:00",
   "timezone": "Asia/Jerusalem",
   "athlete_label": "Koren",
   "privacy_note": "Personal training metrics published intentionally on a public GitHub Pages site.",
@@ -36,12 +36,12 @@
       ]
     }
   },
-  "headline": "Fitter over 6 months \u2014 sleep and debt did not improve with fitness",
+  "headline": "RHR \u22123.4 bpm (half-year) \u00b7 HRV +1.7 ms/mo \u00b7 debt still ~2.1 h/night \u2014 fitness\u2191 recovery stuck",
   "focus": [
-    "Earlier bedtime protocol after every Capoeira (Mon/Thu)",
-    "Protect Friday like a training session",
-    "Rule: sleep <6.5h \u2192 no hard intensity next day",
-    "Spend July fitness dividend on sleep, not more redline"
+    "RHR 28d 54.2 bpm (-3.43 vs early window)",
+    "HRV slope 1.724 ms/mo",
+    "Debt 30d 2.14 h/night",
+    "No-deload index 1191 steps"
   ],
   "doing_well": [
     "Resting HR ~52\u201355 \u2014 strong fitness base",

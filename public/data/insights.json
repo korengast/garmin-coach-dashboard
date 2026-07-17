@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-17T19:00:00+03:00",
+  "updated_at": "2026-07-17T20:15:00+03:00",
   "window": "2026-01-19..2026-07-17",
   "n_days": 180,
   "n_activities": 49,
-  "headline": "Fitter over 6 months \u2014 sleep and debt did not improve with fitness",
+  "headline": "RHR \u22123.4 bpm (half-year) \u00b7 HRV +1.7 ms/mo \u00b7 debt still ~2.1 h/night \u2014 fitness\u2191 recovery stuck",
   "cards": [
     {
       "id": "july-paradox",
@@ -379,5 +379,94 @@
     "Rule: sleep <6.5h \u2192 no hard intensity next day",
     "Spend July fitness dividend on sleep, not more redline",
     "Track REM% + debt weekly, not only Body Battery"
+  ],
+  "home_trends_ref": "data/home_trends.json",
+  "metric_highlights": [
+    {
+      "id": "rhr_28",
+      "label": "RHR 28d smooth",
+      "value": 54.2,
+      "unit": "bpm",
+      "delta": -3.43,
+      "delta_label": "first\u2192last 30d mean",
+      "trend": "down",
+      "why": "Not in Connect as multi-scale smooth"
+    },
+    {
+      "id": "rhr_90",
+      "label": "RHR 90d smooth",
+      "value": 55.6,
+      "unit": "bpm",
+      "delta": -1.02,
+      "delta_label": "vs ~90d earlier",
+      "trend": "down",
+      "why": "Quarterly fitness resting HR"
+    },
+    {
+      "id": "rhr_week",
+      "label": "RHR this week (raw)",
+      "value": 52.2,
+      "unit": "bpm",
+      "delta": -4.37,
+      "delta_label": "vs ~4 weeks ago",
+      "why": "Unsmoothed week mean"
+    },
+    {
+      "id": "hrv_slope",
+      "label": "HRV slope",
+      "value": 1.724,
+      "unit": "ms/mo",
+      "trend": "up",
+      "why": "Multi-month HRV trajectory"
+    },
+    {
+      "id": "debt_30",
+      "label": "Sleep debt (30d)",
+      "value": 2.14,
+      "unit": "h/night",
+      "delta": 0.45,
+      "delta_label": "vs first 30d",
+      "why": "Rate + change, not single night"
+    },
+    {
+      "id": "gap",
+      "label": "Fitness\u2013recovery gap",
+      "value": 12.6,
+      "unit": "index",
+      "sub": "HRV +10.4 \u00b7 debt +0.45 h",
+      "why": "Fitness up without debt paydown"
+    },
+    {
+      "id": "corr_hrv_rhr",
+      "label": "r HRV\u2194RHR (30d)",
+      "value": -0.538,
+      "delta": 0.099,
+      "delta_label": "\u0394r / 60d",
+      "why": "Rolling autonomic coupling"
+    },
+    {
+      "id": "corr_int_debt",
+      "label": "r intensity\u2192next debt",
+      "value": 0.369,
+      "delta": 0.174,
+      "delta_label": "\u0394r / 60d",
+      "why": "Load\u2192debt coupling trend"
+    },
+    {
+      "id": "corr_stress_hrv",
+      "label": "r stress\u2192next HRV",
+      "value": -0.393,
+      "delta": 0.162,
+      "delta_label": "\u0394r / 60d",
+      "why": "Stress lag into HRV"
+    },
+    {
+      "id": "no_deload",
+      "label": "No-deload index",
+      "value": 1191,
+      "unit": "steps",
+      "sub": "short-sleep days minus \u22657h days",
+      "why": "You move more when under-slept"
+    }
   ]
 }
