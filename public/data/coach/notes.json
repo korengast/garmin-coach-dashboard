@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-07-17T17:30:00+03:00",
+  "notes": [
+    {
+      "date": "2026-07-17",
+      "category": "profile",
+      "text": "Primary sport: Capoeira (Garmin MMA label is proxy only)."
+    },
+    {
+      "date": "2026-07-17",
+      "category": "recovery",
+      "text": "Post-run Walk activities are intentional HR-recovery checks. Best sample min HR ~105 after ~12 min cool-down."
+    },
+    {
+      "date": "2026-07-17",
+      "category": "plan",
+      "text": "Day-by-day coaching only \u2014 no rigid 7-day microcycles unless requested."
+    },
+    {
+      "date": "2026-07-17",
+      "category": "focus",
+      "text": "Easiest high-impact levers: sleep after Capoeira, longer cool-downs, one easy session/week, green/yellow hard-day rule."
+    },
+    {
+      "date": "2026-07-16",
+      "category": "session",
+      "text": "Capoeira ~2h evening, high max HR, large Body Battery cost; next sleep need elevated."
+    }
+  ]
+}

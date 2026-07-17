@@ -1,0 +1,78 @@
+[
+  {
+    "date": "2026-07-14",
+    "run": {
+      "id": 23589250657,
+      "avg_hr": 164.0,
+      "max_hr": 189.0,
+      "duration_min": 18.1,
+      "distance_m": 3008.93
+    },
+    "walk": {
+      "id": 23589290166,
+      "avg_hr": 136.0,
+      "max_hr": 175.0,
+      "min_hr": 121.0,
+      "duration_min": 8.0
+    },
+    "grade": "C",
+    "stroller_run": true
+  },
+  {
+    "date": "2026-07-12",
+    "run": {
+      "id": 23565343122,
+      "avg_hr": 163.0,
+      "max_hr": 189.0,
+      "duration_min": 18.0,
+      "distance_m": 3009.56
+    },
+    "walk": {
+      "id": 23565343318,
+      "avg_hr": 130.0,
+      "max_hr": 174.0,
+      "min_hr": 114.0,
+      "duration_min": 7.9
+    },
+    "grade": "B",
+    "stroller_run": true
+  },
+  {
+    "date": "2026-07-07",
+    "run": {
+      "id": 23505625200,
+      "avg_hr": 169.0,
+      "max_hr": 189.0,
+      "duration_min": 18.4,
+      "distance_m": 3022.56
+    },
+    "walk": {
+      "id": 23505681997,
+      "avg_hr": 124.0,
+      "max_hr": 165.0,
+      "min_hr": 105.0,
+      "duration_min": 11.9
+    },
+    "grade": "A",
+    "stroller_run": true
+  },
+  {
+    "date": "2026-07-09",
+    "run": {
+      "id": 23537996535,
+      "avg_hr": 158.0,
+      "max_hr": 174.0,
+      "duration_min": 39.7,
+      "distance_m": 6009.02
+    },
+    "walk": {
+      "id": 23538214491,
+      "avg_hr": 124.0,
+      "max_hr": 154.0,
+      "min_hr": 112.0,
+      "duration_min": 15.4
+    },
+    "grade": "B",
+    "stroller_run": false
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-17T17:30:00+03:00",
+  "timezone": "Asia/Jerusalem",
+  "athlete_label": "Koren",
+  "privacy_note": "Personal training metrics published intentionally on a public GitHub Pages site.",
+  "today": {
+    "date": "2026-07-17",
+    "sleep_score": 73,
+    "sleep_hours": 6.27,
+    "sleep_need_min": 520,
+    "sleep_need_feedback": "HIGHLY_INCREASED",
+    "training_feedback": "HIGH_ACWR",
+    "deep_pct": 15.7,
+    "rem_pct": 11.2,
+    "light_pct": 73.1,
+    "rhr": 53,
+    "hrv": 47,
+    "hrv_status": "BALANCED",
+    "stress_avg": 19,
+    "stress_max": 66,
+    "steps": 3913,
+    "bb_start": 24,
+    "bb_end": 73,
+    "bb_charged": 50,
+    "bb_drained": 17,
+    "mod_min": 1,
+    "vig_min": 0,
+    "readiness": {
+      "score": 68,
+      "band": "yellow",
+      "reasons": [
+        "HRV balanced/strong",
+        "RHR solid",
+        "Short sleep"
+      ]
+    }
+  },
+  "headline": "Fit engine, recovery lagging \u2014 protect sleep after Capoeira",
+  "focus": [
+    "Night after Capoeira: protect \u22658h in bed",
+    "Post-run cool-down 10\u201315 min easy (track walk min HR)",
+    "Stroller 3k = higher load than free run \u2014 control effort",
+    "Add easy aerobic volume; not every run needs to be redline"
+  ],
+  "doing_well": [
+    "Resting HR ~52\u201355 \u2014 strong fitness base",
+    "Consistent Capoeira + intentional hard runs",
+    "Already logs post-run walks for HR recovery",
+    "Daytime average stress often calm"
+  ],
+  "windows": {
+    "days_14": {
+      "sleep_score_mean": 71.1,
+      "rhr_mean": 53.7,
+      "hrv_mean": 43.4,
+      "steps_mean": 9033.0,
+      "stress_avg_mean": 21.4,
+      "sleep_hours_mean": 6.32
+    }
+  },
+  "sport_notes": {
+    "capoeira": "Garmin type mixed_martial_arts is Capoeira (proxy label)",
+    "stroller_runs": "Many morning 3k runs push a stroller \u2014 higher effort"
+  }
+}
