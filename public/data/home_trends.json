@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-07-17T20:15:00+03:00",
+  "updated_at": "2026-07-17T21:00:00+03:00",
   "window": "2026-01-19..2026-07-17",
   "n_days": 180,
   "headline_numbers": "RHR \u22123.4 bpm (half-year) \u00b7 HRV +1.7 ms/mo \u00b7 debt still ~2.1 h/night \u2014 fitness\u2191 recovery stuck",
@@ -1730,7 +1730,7 @@
   "corr_trends": {
     "hrv_vs_rhr": {
       "label": "HRV \u2194 RHR",
-      "explain": "Negative = healthier pairing (high HRV with low RHR).",
+      "explain": "Autonomic coupling: high HRV + low resting HR = parasympathetic (rest-and-digest) dominance.",
       "now_30d": -0.538,
       "delta_vs_60d_ago": 0.099,
       "series": [
@@ -2034,11 +2034,13 @@
           "date": "2026-07-16",
           "value": -0.546
         }
-      ]
+      ],
+      "physical": "Your heart and nervous system usually move as a pair. When recovery is good, beat-to-beat variability (HRV) rises and the resting pump rate (RHR) falls. A strong negative r means that pairing is reliable in you \u2014 one confirms the other. If r weakens toward zero, the signals disagree (e.g. low HRV but not high RHR), which can mean stress, illness, caffeine, or measurement noise rather than simple fitness change.",
+      "why_interesting": "Connect shows HRV and RHR separately. The rolling r shows whether your autonomic system is still tightly coupled \u2014 a hidden \u2018integrity check\u2019 on recovery status."
     },
     "sleep_vs_score": {
       "label": "Sleep hours \u2194 score",
-      "explain": "How much duration still drives your score.",
+      "explain": "How much total time in bed still drives Garmin\u2019s sleep score for you.",
       "now_30d": 0.562,
       "delta_vs_60d_ago": 0.259,
       "series": [
@@ -2342,11 +2344,13 @@
           "date": "2026-07-16",
           "value": 0.576
         }
-      ]
+      ],
+      "physical": "Sleep score blends duration, stages, awakenings, and restlessness. A high positive r means duration is still the main bottleneck for your score \u2014 more hours \u2192 better score almost linearly. If r fell, stage quality or interruptions would dominate instead.",
+      "why_interesting": "Tells you whether optimizing bedtime length (vs only \u2018sleep hygiene\u2019 gadgets) is the high-leverage move. For you, duration still rules."
     },
     "debt_vs_rem": {
       "label": "Debt \u2194 REM%",
-      "explain": "Negative = debt steals REM.",
+      "explain": "When you undersleep vs need, REM share tends to drop.",
       "now_30d": -0.457,
       "delta_vs_60d_ago": -0.369,
       "series": [
@@ -2650,11 +2654,13 @@
           "date": "2026-07-16",
           "value": -0.455
         }
-      ]
+      ],
+      "physical": "REM consolidates memory, mood, and skill learning and clusters later in the night. Short nights cut the last cycles first \u2192 lower REM%. Deep sleep often still happens early, so deep% can look fine while REM is starved \u2014 a common trap.",
+      "why_interesting": "Explains why Capoeira skill and next-day mood can suffer even when \u2018deep sleep %\u2019 looks OK. Debt is not abstract; it steals REM physiology."
     },
     "sleep_vs_hrv": {
       "label": "Sleep hours \u2194 HRV",
-      "explain": "Same-day sleep vs HRV coupling.",
+      "explain": "Same-day link between how long you slept and that day\u2019s HRV.",
       "now_30d": 0.09,
       "delta_vs_60d_ago": 0.2,
       "series": [
@@ -2958,11 +2964,13 @@
           "date": "2026-07-16",
           "value": 0.133
         }
-      ]
+      ],
+      "physical": "HRV is influenced by last night\u2019s sleep, but also by training, illness, alcohol, and daytime stress. A weak r means one good/bad night does not fully determine HRV \u2014 multi-day debt and life load matter more than a single sleep total.",
+      "why_interesting": "Stops you overreacting to one night. Your system is more \u2018chronic load\u2019 than \u2018last night only\u2019."
     },
     "stress_vs_next_hrv": {
       "label": "Stress \u2192 next HRV",
-      "explain": "Does today\u2019s stress predict tomorrow\u2019s HRV?",
+      "explain": "Does today\u2019s average stress predict tomorrow\u2019s HRV?",
       "now_30d": -0.393,
       "delta_vs_60d_ago": 0.162,
       "series": [
@@ -3266,11 +3274,13 @@
           "date": "2026-07-16",
           "value": -0.393
         }
-      ]
+      ],
+      "physical": "Sympathetic load (work, life, mental load) raises catecholamines and can leave residual autonomic \u2018arousal\u2019 into the next morning\u2019s HRV window. Negative r = more stressed days \u2192 lower next-day HRV. That\u2019s life stress showing up in heart\u2013brain recovery with a lag Connect does not chart.",
+      "why_interesting": "Separates \u2018training fatigue\u2019 from \u2018life stress fatigue\u2019. If this r is strongly negative, easy training won\u2019t fully fix HRV until stress drops."
     },
     "intensity_vs_next_debt": {
       "label": "Intensity \u2192 next debt",
-      "explain": "Does hard load increase next-night shortfall?",
+      "explain": "Harder intensity days predict larger shortfall vs sleep need the next night.",
       "now_30d": 0.369,
       "delta_vs_60d_ago": 0.174,
       "series": [
@@ -3574,11 +3584,13 @@
           "date": "2026-07-16",
           "value": 0.369
         }
-      ]
+      ],
+      "physical": "Hard training raises recovery need (Garmin need hours) and can also disrupt sleep onset (arousal, temperature, late Capoeira). Debt = need \u2212 actual. Positive r means intensity both increases need and/or reduces achieved sleep \u2014 double hit on the balance sheet.",
+      "why_interesting": "Turns \u2018I trained hard\u2019 into a measurable next-night liability. Useful for Mon/Thu Capoeira planning: hard day = pre-book sleep, not hope."
     },
     "train_vs_next_sleep": {
       "label": "Train min \u2192 next sleep",
-      "explain": "Training minutes vs next night duration.",
+      "explain": "More training minutes associate with shorter next-night sleep.",
       "now_30d": -0.446,
       "delta_vs_60d_ago": -0.309,
       "series": [
@@ -3882,11 +3894,13 @@
           "date": "2026-07-16",
           "value": -0.446
         }
-      ]
+      ],
+      "physical": "Long sessions (especially evening Capoeira ~2h) push bedtime later, raise core temperature and arousal, and compete with family schedule. Negative r = volume costs duration, not only \u2018feels tired\u2019.",
+      "why_interesting": "Connect logs the workout length; it doesn\u2019t quantify the sleep penalty. This r is that penalty as a trend."
     },
     "evening_hard_vs_next_sleep": {
       "label": "Evening hard \u2192 next sleep",
-      "explain": "Evening Capoeira/hard session effect on next sleep.",
+      "explain": "Evening hard sessions (Capoeira/late hard) vs next-night hours.",
       "now_30d": -0.551,
       "delta_vs_60d_ago": -0.42,
       "series": [
@@ -4190,7 +4204,9 @@
           "date": "2026-07-16",
           "value": -0.551
         }
-      ]
+      ],
+      "physical": "Evening high intensity delays parasympathetic switch-off: heart rate and body heat stay elevated into the night window when sleep should start. Next sleep shortens even if total weekly load looks fine.",
+      "why_interesting": "Timing effect, not just load. Same work earlier might cost less sleep \u2014 a lever Connect doesn\u2019t isolate for your Mon/Thu pattern."
     }
   },
   "series": {
@@ -6695,28 +6711,32 @@
   },
   "explanations": [
     {
-      "title": "Rolling correlation (trend, not one number)",
-      "text": "r is recomputed every day on the last 30 days. The chart is the history of that r. \u0394r vs 60 days ago tells you if the relationship is strengthening or fading \u2014 Connect only shows isolated metrics."
+      "title": "What correlation (r) means physically",
+      "text": "r ranges from \u22121 to +1. |r| near 0 = little linear link; |r| ~0.3\u20130.5 = meaningful for noisy daily biology; |r| >0.5 is strong for human day-to-day data. Positive r: both rise together. Negative r: one rises when the other falls. These are associations on YOUR last 180 days \u2014 not universal laws and not medical diagnosis."
     },
     {
-      "title": "Smoothed resting / min HR",
-      "text": "Daily RHR jumps around. Weekly raw mean = short load response. 28d smooth = block fitness. 90d \u2248 quarter. Half-year delta (first vs last 30d) is your long arrow. Yours: about \u22123.4 bpm."
+      "title": "Why rolling r is more useful than one number",
+      "text": "A single r for half a year averages winter troughs, miluim stress, and July fitness. Rolling 30d r shows whether a relationship is strengthening or fading right now (\u0394 vs 60d ago). That is a trend of the relationship itself \u2014 not on Garmin Connect."
     },
     {
-      "title": "Fitness\u2013recovery gap",
-      "text": "HRV first\u2192last 30d: +10.4. Debt: +0.45 h/night. RHR: -3.4. Stronger engine, sleep account still overdrawn."
+      "title": "HRV \u2194 RHR (autonomic coupling)",
+      "text": "Your heart and nervous system usually move as a pair. When recovery is good, beat-to-beat variability (HRV) rises and the resting pump rate (RHR) falls. A strong negative r means that pairing is reliable in you \u2014 one confirms the other. If r weakens toward zero, the signals disagree (e.g. low HRV but not high RHR), which can mean stress, illness, caffeine, or measurement noise rather than simple fitness change. Connect shows HRV and RHR separately. The rolling r shows whether your autonomic system is still tightly coupled \u2014 a hidden \u2018integrity check\u2019 on recovery status."
     },
     {
-      "title": "Capoeira tax by period",
-      "text": "Each block = next-night sleep after Capoeira minus other days. Staying negative means class still costs sleep as fitness rises. Latest blocks near \u22120.2 to \u22120.8 h."
+      "title": "Intensity / evening hard \u2192 sleep debt",
+      "text": "Hard training raises recovery need (Garmin need hours) and can also disrupt sleep onset (arousal, temperature, late Capoeira). Debt = need \u2212 actual. Positive r means intensity both increases need and/or reduces achieved sleep \u2014 double hit on the balance sheet. Evening high intensity delays parasympathetic switch-off: heart rate and body heat stay elevated into the night window when sleep should start. Next sleep shortens even if total weekly load looks fine."
     },
     {
-      "title": "No-deload index",
-      "text": "Steps on <6.5h nights minus \u22657h nights = 1191. Positive = busier when under-recovered \u2014 you need an explicit easy day rule."
+      "title": "Stress \u2192 next HRV",
+      "text": "Sympathetic load (work, life, mental load) raises catecholamines and can leave residual autonomic \u2018arousal\u2019 into the next morning\u2019s HRV window. Negative r = more stressed days \u2192 lower next-day HRV. That\u2019s life stress showing up in heart\u2013brain recovery with a lag Connect does not chart. Separates \u2018training fatigue\u2019 from \u2018life stress fatigue\u2019. If this r is strongly negative, easy training won\u2019t fully fix HRV until stress drops."
     },
     {
-      "title": "Intensity \u2192 next debt",
-      "text": "When this rolling r is positive, harder intensity weeks predict larger next-night shortfalls. Watch if it rises during Capoeira-heavy blocks."
+      "title": "Debt \u2194 REM",
+      "text": "REM consolidates memory, mood, and skill learning and clusters later in the night. Short nights cut the last cycles first \u2192 lower REM%. Deep sleep often still happens early, so deep% can look fine while REM is starved \u2014 a common trap. Explains why Capoeira skill and next-day mood can suffer even when \u2018deep sleep %\u2019 looks OK. Debt is not abstract; it steals REM physiology."
+    },
+    {
+      "title": "No-deload index (behavior)",
+      "text": "Not a correlation chart, but same idea: on short-sleep days you still take more steps. Physically you\u2019re stacking load on a tired nervous system \u2014 opposite of recovery. Interesting because it shows choice/schedule pattern, not just physiology."
     }
   ]
 }

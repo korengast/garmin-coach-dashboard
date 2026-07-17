@@ -299,8 +299,9 @@ export default function App() {
 
           <div className="card">
             <h2 className="mb-1 text-lg font-semibold">Rolling correlations (30d window)</h2>
-            <p className="mb-3 text-xs text-slate-500">
-              Trend of r over time — not a single static number. Δ = change vs ~60 days earlier.
+            <p className="mb-2 text-xs text-slate-500">
+              r from −1 to +1 · |r|~0.3+ useful on noisy daily biology · Δ = change vs ~60d earlier. Negative = opposite
+              directions; positive = move together.
             </p>
             <div className="space-y-4">
               {corrKeys.map((key) => {
@@ -324,6 +325,18 @@ export default function App() {
                     <div className="mt-2">
                       <LineSpark data={series} color="#2dd4bf" height={110} />
                     </div>
+                    {c.physical ? (
+                      <p className="mt-2 text-sm leading-relaxed text-slate-300">
+                        <span className="font-medium text-slate-100">Physical meaning: </span>
+                        {c.physical}
+                      </p>
+                    ) : null}
+                    {c.why_interesting ? (
+                      <p className="mt-1.5 text-sm leading-relaxed text-teal-100/90">
+                        <span className="font-medium text-teal-200">Why interesting: </span>
+                        {c.why_interesting}
+                      </p>
+                    ) : null}
                   </div>
                 )
               })}
@@ -414,20 +427,27 @@ export default function App() {
             ))}
           </div>
           <div className="card">
-            <h2 className="mb-3 text-lg font-semibold">Top correlations (full window)</h2>
+            <h2 className="mb-2 text-lg font-semibold">Top correlations (full window)</h2>
+            <p className="mb-3 text-xs text-slate-500">
+              What r means: association strength on your data. Not causation alone — but lag pairs (today→tomorrow) are the
+              best timing clues for coaching.
+            </p>
             <div className="space-y-2">
               {insights.correlations.map((c, i) => (
-                <div key={`${c.a}-${c.b}-${i}`} className="flex items-center justify-between gap-2 rounded-xl border border-slate-800 bg-slate-950/40 px-3 py-2">
-                  <div className="min-w-0 text-sm text-slate-300">
-                    <div className="truncate font-medium text-slate-100">{corrLabel(c)}</div>
-                    <div className="text-xs text-slate-500">
-                      n={c.n} · {c.kind}
+                <div key={`${c.a}-${c.b}-${i}`} className="rounded-xl border border-slate-800 bg-slate-950/40 px-3 py-2">
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="min-w-0 text-sm text-slate-300">
+                      <div className="truncate font-medium text-slate-100">{corrLabel(c)}</div>
+                      <div className="text-xs text-slate-500">
+                        n={c.n} · {c.kind}
+                      </div>
+                    </div>
+                    <div className={`text-lg font-bold ${Math.abs(c.r) >= 0.4 ? 'text-teal-300' : 'text-slate-200'}`}>
+                      {c.r > 0 ? '+' : ''}
+                      {c.r.toFixed(2)}
                     </div>
                   </div>
-                  <div className={`text-lg font-bold ${Math.abs(c.r) >= 0.4 ? 'text-teal-300' : 'text-slate-200'}`}>
-                    {c.r > 0 ? '+' : ''}
-                    {c.r.toFixed(2)}
-                  </div>
+                  {c.meaning ? <p className="mt-1.5 text-xs leading-relaxed text-slate-400">{c.meaning}</p> : null}
                 </div>
               ))}
             </div>

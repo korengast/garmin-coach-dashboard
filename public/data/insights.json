@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-17T20:15:00+03:00",
+  "updated_at": "2026-07-17T21:00:00+03:00",
   "window": "2026-01-19..2026-07-17",
   "n_days": 180,
   "n_activities": 49,
@@ -99,14 +99,16 @@
       "b": "rhr",
       "r": -0.714,
       "n": 180,
-      "kind": "same_day"
+      "kind": "same_day",
+      "meaning": "Higher HRV goes with lower resting HR (healthy autonomic pair)"
     },
     {
       "a": "sleep_h",
       "b": "sleep_score",
       "r": 0.584,
       "n": 180,
-      "kind": "same_day"
+      "kind": "same_day",
+      "meaning": "More sleep hours \u2192 higher sleep score (duration still rules)"
     },
     {
       "a": "debt_h",
@@ -169,7 +171,8 @@
       "b": "rem_pct",
       "r": -0.397,
       "n": 148,
-      "kind": "same_day"
+      "kind": "same_day",
+      "meaning": "More sleep debt \u2192 less REM% (late-night cycles cut)"
     },
     {
       "a": "bb_drained",
@@ -468,5 +471,12 @@
       "sub": "short-sleep days minus \u22657h days",
       "why": "You move more when under-slept"
     }
-  ]
+  ],
+  "correlation_guide": {
+    "r_scale": "\u22480 weak \u00b7 |0.3| useful \u00b7 |0.5+| strong for daily wearable data",
+    "negative": "One goes up as the other goes down (e.g. HRV up, RHR down)",
+    "positive": "They move together (e.g. more intensity, more next-night debt)",
+    "lag": "Today\u2019s A predicts tomorrow\u2019s B \u2014 cause-style timing, still not proof of mechanism",
+    "why": "Interesting when they reveal a lever you can change (bedtime after Capoeira, Friday protection) or a trap (looking only at deep% while REM dies)"
+  }
 }

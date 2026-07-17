@@ -105,6 +105,7 @@ export type Correlation = {
   n: number
   kind: string
   label?: string
+  meaning?: string
 }
 
 export type Insights = {
@@ -159,6 +160,8 @@ export type HomeMetric = {
 export type CorrTrend = {
   label: string
   explain: string
+  physical?: string
+  why_interesting?: string
   now_30d?: number | null
   delta_vs_60d_ago?: number | null
   series: SeriesPoint[]
