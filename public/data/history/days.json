@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-18",
+    "sleep_score": 69,
+    "rhr": 56,
+    "hrv": 44,
+    "hrv_status": "UNBALANCED",
+    "bb_start": 31,
+    "bb_end": 73,
+    "bb_charged": 42,
+    "bb_drained": 11,
+    "stress_avg": 19,
+    "stress_max": 51,
+    "steps": 4064,
+    "mod_min": 7,
+    "vig_min": 21
+  },
+  {
     "date": "2026-01-19",
     "sleep_score": 77,
     "sleep_hours": 7.17,
@@ -4115,28 +4131,5 @@
     "has_capoeira": true,
     "evening_hard": true,
     "train_min": 128.5
-  },
-  {
-    "date": "2026-07-17",
-    "sleep_score": 73,
-    "sleep_hours": 6.27,
-    "sleep_need_min": 520,
-    "deep_pct": 15.7,
-    "rem_pct": 11.2,
-    "rhr": 53,
-    "hrv": 47,
-    "stress_avg": 19,
-    "stress_max": 66,
-    "steps": 3913,
-    "bb_start": 24,
-    "bb_end": 73,
-    "bb_charged": 50,
-    "bb_drained": 17,
-    "mod_min": 1,
-    "vig_min": 0,
-    "debt_h": 2.4,
-    "has_capoeira": false,
-    "evening_hard": false,
-    "train_min": 0
   }
 ]

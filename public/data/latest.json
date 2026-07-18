@@ -1,47 +1,31 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-17T20:15:00+03:00",
+  "updated_at": "2026-07-18T08:30:00+03:00",
   "timezone": "Asia/Jerusalem",
   "athlete_label": "Koren",
   "privacy_note": "Personal training metrics published intentionally on a public GitHub Pages site.",
   "today": {
-    "date": "2026-07-17",
-    "sleep_score": 73,
-    "sleep_hours": 6.27,
-    "sleep_need_min": 520,
-    "sleep_need_feedback": "HIGHLY_INCREASED",
-    "training_feedback": "HIGH_ACWR",
-    "deep_pct": 15.7,
-    "rem_pct": 11.2,
-    "light_pct": 73.1,
-    "rhr": 53,
-    "hrv": 47,
-    "hrv_status": "BALANCED",
-    "stress_avg": 19,
-    "stress_max": 66,
-    "steps": 3913,
-    "bb_start": 24,
-    "bb_end": 73,
-    "bb_charged": 50,
-    "bb_drained": 17,
-    "mod_min": 1,
-    "vig_min": 0,
+    "date": "2026-07-18",
+    "sleep_score": 69,
+    "sleep_hours": 6.4,
+    "rhr": 56,
+    "hrv": 44,
+    "hrv_status": "UNBALANCED",
+    "steps": 4064,
     "readiness": {
-      "score": 68,
+      "score": 72,
       "band": "yellow",
       "reasons": [
-        "HRV balanced/strong",
-        "RHR solid",
-        "Short sleep"
+        "HRV unbalanced",
+        "Good recovery walk"
       ]
     }
   },
-  "headline": "RHR \u22123.4 bpm (half-year) \u00b7 HRV +1.7 ms/mo \u00b7 debt still ~2.1 h/night \u2014 fitness\u2191 recovery stuck",
+  "headline": "Solid tempo 3k after 69-score night \u00b7 HRV 44 (unbalanced) \u00b7 good recovery walk",
   "focus": [
-    "RHR 28d 54.2 bpm (-3.43 vs early window)",
-    "HRV slope 1.724 ms/mo",
-    "Debt 30d 2.14 h/night",
-    "No-deload index 1191 steps"
+    "Protect sleep tonight after hard effort",
+    "HRV unbalanced \u2014 watch load tomorrow",
+    "Recovery walk executed well"
   ],
   "doing_well": [
     "Resting HR ~52\u201355 \u2014 strong fitness base",

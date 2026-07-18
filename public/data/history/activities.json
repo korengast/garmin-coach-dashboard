@@ -1,5 +1,33 @@
 [
   {
+    "id": 23637104337,
+    "name": "Walking",
+    "sport": "walking",
+    "start": "2026-07-18T07:04:45",
+    "duration_min": 8.8,
+    "distance_m": 664,
+    "avg_hr": 128,
+    "max_hr": 173,
+    "calories": 68,
+    "steps": 822
+  },
+  {
+    "id": 23637064902,
+    "name": "Running",
+    "sport": "running",
+    "start": "2026-07-18T06:46:35",
+    "duration_min": 17.8,
+    "distance_m": 3012,
+    "avg_hr": 165,
+    "max_hr": 182,
+    "calories": 219,
+    "steps": 2830,
+    "mod_min": 1,
+    "vig_min": 16,
+    "te_label": "TEMPO",
+    "vo2": 47
+  },
+  {
     "id": 23622635770,
     "name": "Capoeira",
     "garmin_type": "mixed_martial_arts",
