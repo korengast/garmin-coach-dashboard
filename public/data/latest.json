@@ -1,52 +1,49 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-18T08:30:00+03:00",
+  "updated_at": "2026-07-21T12:00:00+03:00",
   "timezone": "Asia/Jerusalem",
   "athlete_label": "Koren",
   "privacy_note": "Personal training metrics published intentionally on a public GitHub Pages site.",
   "today": {
-    "date": "2026-07-18",
+    "date": "2026-07-21",
     "sleep_score": 69,
-    "sleep_hours": 6.4,
+    "sleep_hours": 5.83,
     "rhr": 56,
-    "hrv": 44,
-    "hrv_status": "UNBALANCED",
-    "steps": 4064,
+    "hrv": 47,
+    "hrv_status": "BALANCED",
+    "steps": 1164,
     "readiness": {
-      "score": 72,
-      "band": "yellow",
-      "reasons": [
-        "HRV unbalanced",
-        "Good recovery walk"
-      ]
+      "score": null,
+      "band": "unknown",
+      "reasons": ["Sleep fair (69), good deep but low REM", "Low activity today", "BB recovered well overnight"]
     }
   },
-  "headline": "Solid tempo 3k after 69-score night \u00b7 HRV 44 (unbalanced) \u00b7 good recovery walk",
+  "headline": "Fair sleep 69 (low REM) · HRV 47 balanced · RHR 56 · only 1.1k steps so far · MMA yesterday drained BB",
   "focus": [
-    "Protect sleep tonight after hard effort",
-    "HRV unbalanced \u2014 watch load tomorrow",
-    "Recovery walk executed well"
+    "Protect sleep tonight — REM was low",
+    "Hit 7-8k steps on easy days",
+    "Monitor HR on next hard effort (last 3k was 165 avg)"
   ],
   "doing_well": [
-    "Resting HR ~52\u201355 \u2014 strong fitness base",
-    "Consistent Capoeira + intentional hard runs",
-    "Already logs post-run walks for HR recovery",
-    "Daytime average stress often calm"
+    "RHR stable ~56",
+    "Good overnight BB recharge +38",
+    "Consistent logging of Capoeira/MMA and stroller runs",
+    "Low daytime stress"
   ],
   "windows": {
     "days_14": {
-      "sleep_score_mean": 71.1,
-      "rhr_mean": 53.7,
-      "hrv_mean": 43.4,
-      "steps_mean": 9033.0,
-      "stress_avg_mean": 21.4,
-      "sleep_hours_mean": 6.32
+      "sleep_score_mean": 69,
+      "rhr_mean": 56,
+      "hrv_mean": 47,
+      "steps_mean": null,
+      "stress_avg_mean": 23,
+      "sleep_hours_mean": 5.83
     }
   },
   "sport_notes": {
     "capoeira": "Garmin type mixed_martial_arts is Capoeira (proxy label)",
-    "stroller_runs": "Many morning 3k runs push a stroller \u2014 higher effort"
+    "stroller_runs": "Many morning 3k runs push a stroller — higher effort"
   },
-  "insights_window": "2026-01-19..2026-07-17",
-  "cum_debt_h": 276.7
+  "insights_window": "2026-01-19..2026-07-21",
+  "cum_debt_h": null
 }
