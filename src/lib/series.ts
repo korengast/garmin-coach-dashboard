@@ -94,3 +94,23 @@ export function sportLabel(a: { name?: string; sport?: string; garmin_type?: str
   }
   return a.name || a.sport || 'Activity'
 }
+
+export const METRIC_FIELD: Record<string, keyof DayRow> = {
+  sleep_h: 'sleep_hours',
+  hrv: 'hrv',
+  rhr: 'rhr',
+  bb_wake: 'bb_start',
+  stress: 'stress_avg',
+  steps: 'steps',
+  intensity: 'intensity_min',
+  debt: 'debt_h',
+}
+
+export function sparkValues(days: DayRow[], field: keyof DayRow, lastN = 14): (number | null)[] {
+  const sorted = [...days].sort((a, b) => a.date.localeCompare(b.date))
+  const slice = sorted.slice(-lastN)
+  return slice.map((d) => {
+    const v = d[field]
+    return typeof v === 'number' ? v : null
+  })
+}

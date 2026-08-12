@@ -3,7 +3,7 @@ import { TrendChart } from '../components/TrendChart'
 import { HypothesisCard } from '../components/HypothesisCard'
 import { bandPip } from '../lib/bands'
 import { useDash } from '../lib/ctx'
-import { enrichSeries } from '../lib/series'
+import { enrichSeries, METRIC_FIELD, sparkValues } from '../lib/series'
 
 export function TodayPage() {
   const { latest, days, hypotheses } = useDash()
@@ -17,9 +17,11 @@ export function TodayPage() {
         <span>{latest.readiness.reasons[0]}</span>
       </div>
       <div className="grid grid-cols-2 gap-2 md:grid-cols-4">
-        {latest.metrics.map((m) => (
-          <MetricChip key={m.id} m={m} />
-        ))}
+        {latest.metrics.map((m) => {
+          const field = METRIC_FIELD[m.id]
+          const spark = field ? sparkValues(days, field, 14) : []
+          return <MetricChip key={m.id} m={m} spark={spark} />
+        })}
       </div>
       <div className="grid gap-3 md:grid-cols-2">
         <TrendChart
