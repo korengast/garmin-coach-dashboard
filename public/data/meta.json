@@ -1,7 +1,12 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-07-17T20:15:00+03:00",
+  "schema_version": 3,
+  "updated_at": "2026-08-12T22:17:10+03:00",
   "timezone": "Asia/Jerusalem",
   "athlete_label": "Koren",
-  "source": "Hermes Garmin Health Coach (static export)"
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-08-12",
+    "n_days": 201
+  },
+  "source": "hermes-garmin-export"
 }

@@ -1,0 +1,5776 @@
+{
+  "schema_version": 3,
+  "updated_at": "2026-08-12T22:17:10+03:00",
+  "items": [
+    {
+      "id": "hrv_rhr",
+      "title": "HRV ↔ RHR coupling",
+      "status": "green",
+      "n": 199,
+      "short": {
+        "r": -0.765
+      },
+      "long": {
+        "r": -0.696
+      },
+      "series": [
+        {
+          "date": "2026-02-07",
+          "hrv": 30.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-02-08",
+          "hrv": 36.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-02-09",
+          "hrv": 38.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-02-10",
+          "hrv": 30.0,
+          "rhr": 60.0
+        },
+        {
+          "date": "2026-02-11",
+          "hrv": 24.0,
+          "rhr": 60.0
+        },
+        {
+          "date": "2026-02-12",
+          "hrv": 34.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-02-13",
+          "hrv": 34.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-02-14",
+          "hrv": 34.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-02-15",
+          "hrv": 28.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-02-16",
+          "hrv": 37.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-02-17",
+          "hrv": 30.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-02-18",
+          "hrv": 34.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-02-19",
+          "hrv": 31.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-02-20",
+          "hrv": 24.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-02-21",
+          "hrv": 38.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-02-22",
+          "hrv": 35.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-02-23",
+          "hrv": 39.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-02-24",
+          "hrv": 32.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-02-25",
+          "hrv": 25.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-02-26",
+          "hrv": 34.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-02-27",
+          "hrv": 36.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-02-28",
+          "hrv": 25.0,
+          "rhr": 61.0
+        },
+        {
+          "date": "2026-03-01",
+          "hrv": 30.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-03-02",
+          "hrv": 32.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-03-03",
+          "hrv": 36.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-03-04",
+          "hrv": 36.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-03-05",
+          "hrv": 38.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-03-06",
+          "hrv": 39.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-03-07",
+          "hrv": 30.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-03-08",
+          "hrv": 38.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-03-09",
+          "hrv": 37.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-03-10",
+          "hrv": 36.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-03-11",
+          "hrv": 30.0,
+          "rhr": 61.0
+        },
+        {
+          "date": "2026-03-12",
+          "hrv": 33.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-03-13",
+          "hrv": 37.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-03-14",
+          "hrv": 35.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-03-15",
+          "hrv": 31.0,
+          "rhr": 61.0
+        },
+        {
+          "date": "2026-03-16",
+          "hrv": 35.0,
+          "rhr": 60.0
+        },
+        {
+          "date": "2026-03-17",
+          "hrv": 30.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-03-18",
+          "hrv": 32.0,
+          "rhr": 61.0
+        },
+        {
+          "date": "2026-03-19",
+          "hrv": 31.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-03-20",
+          "hrv": 37.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-03-21",
+          "hrv": 40.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-03-22",
+          "hrv": 39.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-03-23",
+          "hrv": 43.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-03-24",
+          "hrv": 37.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-03-25",
+          "hrv": 37.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-03-26",
+          "hrv": 36.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-03-27",
+          "hrv": 40.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-03-28",
+          "hrv": 53.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-03-29",
+          "hrv": 45.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-03-30",
+          "hrv": 40.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-03-31",
+          "hrv": 44.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-04-01",
+          "hrv": 34.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-04-02",
+          "hrv": 44.0,
+          "rhr": 51.0
+        },
+        {
+          "date": "2026-04-03",
+          "hrv": 43.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-04-04",
+          "hrv": 48.0,
+          "rhr": 48.0
+        },
+        {
+          "date": "2026-04-05",
+          "hrv": 54.0,
+          "rhr": 49.0
+        },
+        {
+          "date": "2026-04-06",
+          "hrv": 42.0,
+          "rhr": 51.0
+        },
+        {
+          "date": "2026-04-07",
+          "hrv": 37.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-04-08",
+          "hrv": 33.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-04-09",
+          "hrv": 40.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-04-10",
+          "hrv": 39.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-04-11",
+          "hrv": 41.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-04-12",
+          "hrv": 47.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-04-13",
+          "hrv": 45.0,
+          "rhr": 51.0
+        },
+        {
+          "date": "2026-04-14",
+          "hrv": 40.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-04-15",
+          "hrv": 39.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-04-16",
+          "hrv": 41.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-04-17",
+          "hrv": 37.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-04-18",
+          "hrv": 35.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-04-19",
+          "hrv": 40.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-04-20",
+          "hrv": 55.0,
+          "rhr": 51.0
+        },
+        {
+          "date": "2026-04-21",
+          "hrv": 41.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-04-22",
+          "hrv": 40.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-04-23",
+          "hrv": 39.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-04-24",
+          "hrv": 32.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-04-25",
+          "hrv": 37.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-04-26",
+          "hrv": 41.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-04-27",
+          "hrv": 45.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-04-28",
+          "hrv": 29.0,
+          "rhr": 60.0
+        },
+        {
+          "date": "2026-04-29",
+          "hrv": 35.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-04-30",
+          "hrv": 45.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-05-01",
+          "hrv": 28.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-05-02",
+          "hrv": 38.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-05-03",
+          "hrv": 43.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-05-04",
+          "hrv": 35.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-05-05",
+          "hrv": 34.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-05-06",
+          "hrv": 38.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-05-07",
+          "hrv": 39.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-05-08",
+          "hrv": 33.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-05-09",
+          "hrv": 30.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-05-10",
+          "hrv": 39.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-05-11",
+          "hrv": 35.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-05-12",
+          "hrv": 35.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-05-13",
+          "hrv": 49.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-05-14",
+          "hrv": 43.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-05-15",
+          "hrv": 32.0,
+          "rhr": 61.0
+        },
+        {
+          "date": "2026-05-16",
+          "hrv": 35.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-05-17",
+          "hrv": 32.0,
+          "rhr": 60.0
+        },
+        {
+          "date": "2026-05-18",
+          "hrv": 42.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-05-19",
+          "hrv": 50.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-05-20",
+          "hrv": 34.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-05-21",
+          "hrv": 43.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-05-22",
+          "hrv": 34.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-05-23",
+          "hrv": 40.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-05-24",
+          "hrv": 43.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-05-25",
+          "hrv": 31.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-05-26",
+          "hrv": 35.0,
+          "rhr": 61.0
+        },
+        {
+          "date": "2026-05-27",
+          "hrv": 38.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-05-28",
+          "hrv": 38.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-05-29",
+          "hrv": 38.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-05-30",
+          "hrv": 38.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-05-31",
+          "hrv": 39.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-06-01",
+          "hrv": 40.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-06-02",
+          "hrv": 45.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-06-03",
+          "hrv": 36.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-06-04",
+          "hrv": 35.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-06-05",
+          "hrv": 33.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-06-06",
+          "hrv": 34.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-06-07",
+          "hrv": 26.0,
+          "rhr": 60.0
+        },
+        {
+          "date": "2026-06-08",
+          "hrv": 34.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-06-09",
+          "hrv": 33.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-06-10",
+          "hrv": 43.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-06-11",
+          "hrv": 39.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-06-12",
+          "hrv": 37.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-06-13",
+          "hrv": 30.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-06-14",
+          "hrv": 42.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-06-15",
+          "hrv": 41.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-06-16",
+          "hrv": 40.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-06-17",
+          "hrv": 37.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-06-18",
+          "hrv": 37.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-06-19",
+          "hrv": 36.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-06-20",
+          "hrv": 34.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-06-21",
+          "hrv": 36.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-06-22",
+          "hrv": 44.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-06-23",
+          "hrv": 43.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-06-24",
+          "hrv": 38.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-06-25",
+          "hrv": 38.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-06-26",
+          "hrv": 49.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-06-27",
+          "hrv": 46.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-06-28",
+          "hrv": 42.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-06-29",
+          "hrv": 39.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-06-30",
+          "hrv": 39.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-07-01",
+          "hrv": 49.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-07-02",
+          "hrv": 45.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-07-03",
+          "hrv": 40.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-07-04",
+          "hrv": 40.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-07-05",
+          "hrv": 38.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-07-06",
+          "hrv": 44.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-07-07",
+          "hrv": 39.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-07-08",
+          "hrv": 44.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-07-09",
+          "hrv": 42.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-07-10",
+          "hrv": 35.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-07-11",
+          "hrv": 39.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-07-12",
+          "hrv": 46.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-07-13",
+          "hrv": 49.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-07-14",
+          "hrv": 42.0,
+          "rhr": 51.0
+        },
+        {
+          "date": "2026-07-15",
+          "hrv": 60.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-07-16",
+          "hrv": 42.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-07-18",
+          "hrv": 44.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-07-25",
+          "hrv": 56.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-07-26",
+          "hrv": 44.0,
+          "rhr": 54.0
+        },
+        {
+          "date": "2026-07-27",
+          "hrv": 38.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-07-28",
+          "hrv": 44.0,
+          "rhr": 58.0
+        },
+        {
+          "date": "2026-07-29",
+          "hrv": 35.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-07-30",
+          "hrv": 40.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-07-31",
+          "hrv": 37.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-08-01",
+          "hrv": 38.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-08-02",
+          "hrv": 36.0,
+          "rhr": 60.0
+        },
+        {
+          "date": "2026-08-03",
+          "hrv": 52.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-08-04",
+          "hrv": 49.0,
+          "rhr": 57.0
+        },
+        {
+          "date": "2026-08-05",
+          "hrv": 48.0,
+          "rhr": 52.0
+        },
+        {
+          "date": "2026-08-06",
+          "hrv": 28.0,
+          "rhr": 59.0
+        },
+        {
+          "date": "2026-08-07",
+          "hrv": 55.0,
+          "rhr": 49.0
+        },
+        {
+          "date": "2026-08-08",
+          "hrv": 44.0,
+          "rhr": 55.0
+        },
+        {
+          "date": "2026-08-09",
+          "hrv": 44.0,
+          "rhr": 53.0
+        },
+        {
+          "date": "2026-08-10",
+          "hrv": 38.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-08-11",
+          "hrv": 40.0,
+          "rhr": 56.0
+        },
+        {
+          "date": "2026-08-12",
+          "hrv": 43.0,
+          "rhr": 53.0
+        }
+      ],
+      "teaser": "Window r = -0.70 (want negative)",
+      "why": "When you are actually recovering, HRV rises as resting HR falls — same autonomic story, two sensors. A solid negative r is an integrity check Garmin never puts on one chart. If the link goes slack while one number looks 'fine', believe the decoupling: residual stress or poor sleep architecture, not a PR. Lever: protect the night after Capoeira before chasing more intensity."
+    },
+    {
+      "id": "sleep_h_score",
+      "title": "Hours still drive score?",
+      "status": "green",
+      "n": 198,
+      "long": {
+        "r": 0.582
+      },
+      "series": [
+        {
+          "date": "2026-02-06",
+          "sleep_hours": 6.86,
+          "sleep_score": 81.0
+        },
+        {
+          "date": "2026-02-07",
+          "sleep_hours": 7.52,
+          "sleep_score": 65.0
+        },
+        {
+          "date": "2026-02-08",
+          "sleep_hours": 6.4,
+          "sleep_score": 72.0
+        },
+        {
+          "date": "2026-02-09",
+          "sleep_hours": 6.73,
+          "sleep_score": 77.0
+        },
+        {
+          "date": "2026-02-10",
+          "sleep_hours": 6.75,
+          "sleep_score": 74.0
+        },
+        {
+          "date": "2026-02-11",
+          "sleep_hours": 5.12,
+          "sleep_score": 64.0
+        },
+        {
+          "date": "2026-02-12",
+          "sleep_hours": 7.08,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-02-13",
+          "sleep_hours": 6.08,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-02-14",
+          "sleep_hours": 8.8,
+          "sleep_score": 78.0
+        },
+        {
+          "date": "2026-02-15",
+          "sleep_hours": 7.54,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-02-16",
+          "sleep_hours": 7.4,
+          "sleep_score": 82.0
+        },
+        {
+          "date": "2026-02-17",
+          "sleep_hours": 6.98,
+          "sleep_score": 76.0
+        },
+        {
+          "date": "2026-02-18",
+          "sleep_hours": 6.72,
+          "sleep_score": 81.0
+        },
+        {
+          "date": "2026-02-19",
+          "sleep_hours": 7.17,
+          "sleep_score": 77.0
+        },
+        {
+          "date": "2026-02-20",
+          "sleep_hours": 7.23,
+          "sleep_score": 61.0
+        },
+        {
+          "date": "2026-02-21",
+          "sleep_hours": 9.55,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-02-22",
+          "sleep_hours": 7.38,
+          "sleep_score": 79.0
+        },
+        {
+          "date": "2026-02-23",
+          "sleep_hours": 6.0,
+          "sleep_score": 63.0
+        },
+        {
+          "date": "2026-02-24",
+          "sleep_hours": 6.34,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-02-25",
+          "sleep_hours": 4.91,
+          "sleep_score": 51.0
+        },
+        {
+          "date": "2026-02-26",
+          "sleep_hours": 6.66,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-02-27",
+          "sleep_hours": 5.58,
+          "sleep_score": 69.0
+        },
+        {
+          "date": "2026-02-28",
+          "sleep_hours": 7.58,
+          "sleep_score": 64.0
+        },
+        {
+          "date": "2026-03-01",
+          "sleep_hours": 7.57,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-03-02",
+          "sleep_hours": 8.58,
+          "sleep_score": 84.0
+        },
+        {
+          "date": "2026-03-03",
+          "sleep_hours": 6.08,
+          "sleep_score": 67.0
+        },
+        {
+          "date": "2026-03-04",
+          "sleep_hours": 7.35,
+          "sleep_score": 81.0
+        },
+        {
+          "date": "2026-03-05",
+          "sleep_hours": 5.57,
+          "sleep_score": 58.0
+        },
+        {
+          "date": "2026-03-06",
+          "sleep_hours": 5.78,
+          "sleep_score": 57.0
+        },
+        {
+          "date": "2026-03-07",
+          "sleep_hours": 7.23,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-03-08",
+          "sleep_hours": 7.28,
+          "sleep_score": 86.0
+        },
+        {
+          "date": "2026-03-09",
+          "sleep_hours": 8.15,
+          "sleep_score": 55.0
+        },
+        {
+          "date": "2026-03-10",
+          "sleep_hours": 8.28,
+          "sleep_score": 74.0
+        },
+        {
+          "date": "2026-03-11",
+          "sleep_hours": 5.12,
+          "sleep_score": 54.0
+        },
+        {
+          "date": "2026-03-12",
+          "sleep_hours": 4.68,
+          "sleep_score": 58.0
+        },
+        {
+          "date": "2026-03-13",
+          "sleep_hours": 6.05,
+          "sleep_score": 72.0
+        },
+        {
+          "date": "2026-03-14",
+          "sleep_hours": 9.1,
+          "sleep_score": 82.0
+        },
+        {
+          "date": "2026-03-15",
+          "sleep_hours": 8.13,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-03-16",
+          "sleep_hours": 4.78,
+          "sleep_score": 59.0
+        },
+        {
+          "date": "2026-03-17",
+          "sleep_hours": 5.62,
+          "sleep_score": 62.0
+        },
+        {
+          "date": "2026-03-18",
+          "sleep_hours": 6.37,
+          "sleep_score": 65.0
+        },
+        {
+          "date": "2026-03-19",
+          "sleep_hours": 5.25,
+          "sleep_score": 63.0
+        },
+        {
+          "date": "2026-03-20",
+          "sleep_hours": 7.5,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-03-21",
+          "sleep_hours": 6.82,
+          "sleep_score": 49.0
+        },
+        {
+          "date": "2026-03-22",
+          "sleep_hours": 5.98,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-03-23",
+          "sleep_hours": 6.42,
+          "sleep_score": 69.0
+        },
+        {
+          "date": "2026-03-24",
+          "sleep_hours": 6.27,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-03-25",
+          "sleep_hours": 6.45,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-03-26",
+          "sleep_hours": 4.68,
+          "sleep_score": 60.0
+        },
+        {
+          "date": "2026-03-27",
+          "sleep_hours": 7.22,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-03-28",
+          "sleep_hours": 5.53,
+          "sleep_score": 64.0
+        },
+        {
+          "date": "2026-03-29",
+          "sleep_hours": 7.13,
+          "sleep_score": 80.0
+        },
+        {
+          "date": "2026-03-30",
+          "sleep_hours": 6.42,
+          "sleep_score": 59.0
+        },
+        {
+          "date": "2026-03-31",
+          "sleep_hours": 5.52,
+          "sleep_score": 66.0
+        },
+        {
+          "date": "2026-04-01",
+          "sleep_hours": 7.25,
+          "sleep_score": 77.0
+        },
+        {
+          "date": "2026-04-02",
+          "sleep_hours": 5.65,
+          "sleep_score": 64.0
+        },
+        {
+          "date": "2026-04-03",
+          "sleep_hours": 7.65,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-04-04",
+          "sleep_hours": 6.13,
+          "sleep_score": 63.0
+        },
+        {
+          "date": "2026-04-05",
+          "sleep_hours": 6.88,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-04-06",
+          "sleep_hours": 6.45,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-04-07",
+          "sleep_hours": 7.1,
+          "sleep_score": 62.0
+        },
+        {
+          "date": "2026-04-08",
+          "sleep_hours": 6.93,
+          "sleep_score": 65.0
+        },
+        {
+          "date": "2026-04-09",
+          "sleep_hours": 6.55,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-04-10",
+          "sleep_hours": 5.26,
+          "sleep_score": 66.0
+        },
+        {
+          "date": "2026-04-11",
+          "sleep_hours": 8.03,
+          "sleep_score": 88.0
+        },
+        {
+          "date": "2026-04-12",
+          "sleep_hours": 6.28,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-04-13",
+          "sleep_hours": 6.45,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-04-14",
+          "sleep_hours": 6.6,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-04-15",
+          "sleep_hours": 6.43,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-04-16",
+          "sleep_hours": 7.28,
+          "sleep_score": 79.0
+        },
+        {
+          "date": "2026-04-17",
+          "sleep_hours": 6.33,
+          "sleep_score": 65.0
+        },
+        {
+          "date": "2026-04-18",
+          "sleep_hours": 5.98,
+          "sleep_score": 64.0
+        },
+        {
+          "date": "2026-04-19",
+          "sleep_hours": 6.8,
+          "sleep_score": 80.0
+        },
+        {
+          "date": "2026-04-20",
+          "sleep_hours": 5.9,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-04-21",
+          "sleep_hours": 6.75,
+          "sleep_score": 80.0
+        },
+        {
+          "date": "2026-04-22",
+          "sleep_hours": 6.28,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-04-23",
+          "sleep_hours": 6.85,
+          "sleep_score": 78.0
+        },
+        {
+          "date": "2026-04-24",
+          "sleep_hours": 5.67,
+          "sleep_score": 63.0
+        },
+        {
+          "date": "2026-04-25",
+          "sleep_hours": 6.0,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-04-26",
+          "sleep_hours": 7.45,
+          "sleep_score": 80.0
+        },
+        {
+          "date": "2026-04-27",
+          "sleep_hours": 6.37,
+          "sleep_score": 80.0
+        },
+        {
+          "date": "2026-04-28",
+          "sleep_hours": 6.6,
+          "sleep_score": 57.0
+        },
+        {
+          "date": "2026-04-29",
+          "sleep_hours": 6.93,
+          "sleep_score": 78.0
+        },
+        {
+          "date": "2026-04-30",
+          "sleep_hours": 6.58,
+          "sleep_score": 77.0
+        },
+        {
+          "date": "2026-05-01",
+          "sleep_hours": 6.45,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-05-02",
+          "sleep_hours": 9.91,
+          "sleep_score": 82.0
+        },
+        {
+          "date": "2026-05-03",
+          "sleep_hours": 6.92,
+          "sleep_score": 78.0
+        },
+        {
+          "date": "2026-05-04",
+          "sleep_hours": 5.72,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-05-05",
+          "sleep_hours": 6.92,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-05-06",
+          "sleep_hours": 6.95,
+          "sleep_score": 77.0
+        },
+        {
+          "date": "2026-05-07",
+          "sleep_hours": 6.82,
+          "sleep_score": 80.0
+        },
+        {
+          "date": "2026-05-08",
+          "sleep_hours": 6.87,
+          "sleep_score": 74.0
+        },
+        {
+          "date": "2026-05-09",
+          "sleep_hours": 8.82,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-05-10",
+          "sleep_hours": 7.07,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-05-11",
+          "sleep_hours": 6.02,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-05-12",
+          "sleep_hours": 7.53,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-05-13",
+          "sleep_hours": 7.23,
+          "sleep_score": 74.0
+        },
+        {
+          "date": "2026-05-14",
+          "sleep_hours": 5.63,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-05-15",
+          "sleep_hours": 6.57,
+          "sleep_score": 65.0
+        },
+        {
+          "date": "2026-05-16",
+          "sleep_hours": 9.03,
+          "sleep_score": 77.0
+        },
+        {
+          "date": "2026-05-17",
+          "sleep_hours": 6.62,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-05-18",
+          "sleep_hours": 8.2,
+          "sleep_score": 66.0
+        },
+        {
+          "date": "2026-05-19",
+          "sleep_hours": 8.96,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-05-20",
+          "sleep_hours": 5.78,
+          "sleep_score": 72.0
+        },
+        {
+          "date": "2026-05-21",
+          "sleep_hours": 8.73,
+          "sleep_score": 67.0
+        },
+        {
+          "date": "2026-05-22",
+          "sleep_hours": 4.32,
+          "sleep_score": 55.0
+        },
+        {
+          "date": "2026-05-23",
+          "sleep_hours": 5.23,
+          "sleep_score": 64.0
+        },
+        {
+          "date": "2026-05-24",
+          "sleep_hours": 3.98,
+          "sleep_score": 52.0
+        },
+        {
+          "date": "2026-05-25",
+          "sleep_hours": 6.47,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-05-26",
+          "sleep_hours": 6.17,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-05-27",
+          "sleep_hours": 5.77,
+          "sleep_score": 58.0
+        },
+        {
+          "date": "2026-05-28",
+          "sleep_hours": 6.28,
+          "sleep_score": 76.0
+        },
+        {
+          "date": "2026-05-29",
+          "sleep_hours": 5.82,
+          "sleep_score": 72.0
+        },
+        {
+          "date": "2026-05-30",
+          "sleep_hours": 3.93,
+          "sleep_score": 56.0
+        },
+        {
+          "date": "2026-05-31",
+          "sleep_hours": 5.85,
+          "sleep_score": 62.0
+        },
+        {
+          "date": "2026-06-01",
+          "sleep_hours": 8.65,
+          "sleep_score": 69.0
+        },
+        {
+          "date": "2026-06-02",
+          "sleep_hours": 4.57,
+          "sleep_score": 59.0
+        },
+        {
+          "date": "2026-06-03",
+          "sleep_hours": 9.71,
+          "sleep_score": 76.0
+        },
+        {
+          "date": "2026-06-04",
+          "sleep_hours": 5.77,
+          "sleep_score": 72.0
+        },
+        {
+          "date": "2026-06-05",
+          "sleep_hours": 4.85,
+          "sleep_score": 56.0
+        },
+        {
+          "date": "2026-06-06",
+          "sleep_hours": 6.67,
+          "sleep_score": 66.0
+        },
+        {
+          "date": "2026-06-07",
+          "sleep_hours": 5.18,
+          "sleep_score": 41.0
+        },
+        {
+          "date": "2026-06-08",
+          "sleep_hours": 5.88,
+          "sleep_score": 69.0
+        },
+        {
+          "date": "2026-06-09",
+          "sleep_hours": 6.75,
+          "sleep_score": 72.0
+        },
+        {
+          "date": "2026-06-10",
+          "sleep_hours": 5.92,
+          "sleep_score": 72.0
+        },
+        {
+          "date": "2026-06-11",
+          "sleep_hours": 5.33,
+          "sleep_score": 58.0
+        },
+        {
+          "date": "2026-06-12",
+          "sleep_hours": 6.37,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-06-13",
+          "sleep_hours": 7.68,
+          "sleep_score": 83.0
+        },
+        {
+          "date": "2026-06-14",
+          "sleep_hours": 4.7,
+          "sleep_score": 54.0
+        },
+        {
+          "date": "2026-06-15",
+          "sleep_hours": 7.7,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-06-16",
+          "sleep_hours": 6.42,
+          "sleep_score": 79.0
+        },
+        {
+          "date": "2026-06-17",
+          "sleep_hours": 4.97,
+          "sleep_score": 63.0
+        },
+        {
+          "date": "2026-06-18",
+          "sleep_hours": 7.5,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-06-19",
+          "sleep_hours": 7.47,
+          "sleep_score": 87.0
+        },
+        {
+          "date": "2026-06-20",
+          "sleep_hours": 7.92,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-06-21",
+          "sleep_hours": 4.68,
+          "sleep_score": 58.0
+        },
+        {
+          "date": "2026-06-22",
+          "sleep_hours": 5.73,
+          "sleep_score": 60.0
+        },
+        {
+          "date": "2026-06-23",
+          "sleep_hours": 5.2,
+          "sleep_score": 56.0
+        },
+        {
+          "date": "2026-06-24",
+          "sleep_hours": 5.8,
+          "sleep_score": 72.0
+        },
+        {
+          "date": "2026-06-25",
+          "sleep_hours": 6.87,
+          "sleep_score": 69.0
+        },
+        {
+          "date": "2026-06-26",
+          "sleep_hours": 5.53,
+          "sleep_score": 62.0
+        },
+        {
+          "date": "2026-06-27",
+          "sleep_hours": 7.93,
+          "sleep_score": 62.0
+        },
+        {
+          "date": "2026-06-28",
+          "sleep_hours": 5.3,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-06-29",
+          "sleep_hours": 7.82,
+          "sleep_score": 94.0
+        },
+        {
+          "date": "2026-06-30",
+          "sleep_hours": 7.98,
+          "sleep_score": 68.0
+        },
+        {
+          "date": "2026-07-01",
+          "sleep_hours": 7.1,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-07-02",
+          "sleep_hours": 6.3,
+          "sleep_score": 79.0
+        },
+        {
+          "date": "2026-07-03",
+          "sleep_hours": 5.88,
+          "sleep_score": 72.0
+        },
+        {
+          "date": "2026-07-04",
+          "sleep_hours": 6.12,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-07-05",
+          "sleep_hours": 6.4,
+          "sleep_score": 75.0
+        },
+        {
+          "date": "2026-07-06",
+          "sleep_hours": 7.73,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-07-07",
+          "sleep_hours": 4.6,
+          "sleep_score": 50.0
+        },
+        {
+          "date": "2026-07-08",
+          "sleep_hours": 6.13,
+          "sleep_score": 76.0
+        },
+        {
+          "date": "2026-07-09",
+          "sleep_hours": 7.32,
+          "sleep_score": 80.0
+        },
+        {
+          "date": "2026-07-10",
+          "sleep_hours": 4.2,
+          "sleep_score": 54.0
+        },
+        {
+          "date": "2026-07-11",
+          "sleep_hours": 7.5,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-07-12",
+          "sleep_hours": 6.33,
+          "sleep_score": 77.0
+        },
+        {
+          "date": "2026-07-13",
+          "sleep_hours": 6.72,
+          "sleep_score": 78.0
+        },
+        {
+          "date": "2026-07-14",
+          "sleep_hours": 6.47,
+          "sleep_score": 80.0
+        },
+        {
+          "date": "2026-07-15",
+          "sleep_hours": 7.11,
+          "sleep_score": 64.0
+        },
+        {
+          "date": "2026-07-16",
+          "sleep_hours": 5.6,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-07-25",
+          "sleep_hours": 4.85,
+          "sleep_score": 40.0
+        },
+        {
+          "date": "2026-07-26",
+          "sleep_hours": 4.73,
+          "sleep_score": 60.0
+        },
+        {
+          "date": "2026-07-27",
+          "sleep_hours": 6.75,
+          "sleep_score": 77.0
+        },
+        {
+          "date": "2026-07-28",
+          "sleep_hours": 5.32,
+          "sleep_score": 66.0
+        },
+        {
+          "date": "2026-07-29",
+          "sleep_hours": 6.28,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-07-30",
+          "sleep_hours": 6.1,
+          "sleep_score": 71.0
+        },
+        {
+          "date": "2026-07-31",
+          "sleep_hours": 5.73,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-08-01",
+          "sleep_hours": 6.57,
+          "sleep_score": 76.0
+        },
+        {
+          "date": "2026-08-02",
+          "sleep_hours": 5.93,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-08-03",
+          "sleep_hours": 7.13,
+          "sleep_score": 85.0
+        },
+        {
+          "date": "2026-08-04",
+          "sleep_hours": 6.37,
+          "sleep_score": 77.0
+        },
+        {
+          "date": "2026-08-05",
+          "sleep_hours": 6.65,
+          "sleep_score": 82.0
+        },
+        {
+          "date": "2026-08-06",
+          "sleep_hours": 5.5,
+          "sleep_score": 61.0
+        },
+        {
+          "date": "2026-08-07",
+          "sleep_hours": 6.6,
+          "sleep_score": 82.0
+        },
+        {
+          "date": "2026-08-08",
+          "sleep_hours": 7.28,
+          "sleep_score": 81.0
+        },
+        {
+          "date": "2026-08-09",
+          "sleep_hours": 6.2,
+          "sleep_score": 76.0
+        },
+        {
+          "date": "2026-08-10",
+          "sleep_hours": 5.58,
+          "sleep_score": 70.0
+        },
+        {
+          "date": "2026-08-11",
+          "sleep_hours": 5.93,
+          "sleep_score": 73.0
+        },
+        {
+          "date": "2026-08-12",
+          "sleep_hours": 6.53,
+          "sleep_score": 78.0
+        }
+      ],
+      "teaser": "r = 0.58 · duration vs score",
+      "why": "If hours and score still move together, bedtime length is the lever — not another sleep gadget. A weak r means stages or timing are stealing the score (late Capoeira, split nights with a one-year-old). You already run a chronic ~2h debt vs Garmin need; stretching time-in-bed after hard evenings beats optimizing deep %."
+    },
+    {
+      "id": "capoeira_sleep_tax",
+      "title": "Capoeira → next sleep",
+      "status": "amber",
+      "n": 25,
+      "short": {
+        "delta_h": null,
+        "n": 0
+      },
+      "long": {
+        "delta_h": -0.62,
+        "n": 25
+      },
+      "series": [
+        {
+          "date": "2026-02-06",
+          "after_cap": null,
+          "after_other": 6.86
+        },
+        {
+          "date": "2026-02-07",
+          "after_cap": null,
+          "after_other": 7.52
+        },
+        {
+          "date": "2026-02-08",
+          "after_cap": null,
+          "after_other": 6.4
+        },
+        {
+          "date": "2026-02-09",
+          "after_cap": null,
+          "after_other": 6.73
+        },
+        {
+          "date": "2026-02-10",
+          "after_cap": 6.75,
+          "after_other": null
+        },
+        {
+          "date": "2026-02-11",
+          "after_cap": null,
+          "after_other": 5.12
+        },
+        {
+          "date": "2026-02-12",
+          "after_cap": null,
+          "after_other": 7.08
+        },
+        {
+          "date": "2026-02-13",
+          "after_cap": null,
+          "after_other": 6.08
+        },
+        {
+          "date": "2026-02-14",
+          "after_cap": null,
+          "after_other": 8.8
+        },
+        {
+          "date": "2026-02-15",
+          "after_cap": null,
+          "after_other": 7.54
+        },
+        {
+          "date": "2026-02-16",
+          "after_cap": null,
+          "after_other": 7.4
+        },
+        {
+          "date": "2026-02-17",
+          "after_cap": 6.98,
+          "after_other": null
+        },
+        {
+          "date": "2026-02-18",
+          "after_cap": null,
+          "after_other": 6.72
+        },
+        {
+          "date": "2026-02-19",
+          "after_cap": null,
+          "after_other": 7.17
+        },
+        {
+          "date": "2026-02-20",
+          "after_cap": null,
+          "after_other": 7.23
+        },
+        {
+          "date": "2026-02-21",
+          "after_cap": null,
+          "after_other": 9.55
+        },
+        {
+          "date": "2026-02-22",
+          "after_cap": null,
+          "after_other": 7.38
+        },
+        {
+          "date": "2026-02-23",
+          "after_cap": null,
+          "after_other": 6.0
+        },
+        {
+          "date": "2026-02-24",
+          "after_cap": 6.34,
+          "after_other": null
+        },
+        {
+          "date": "2026-02-25",
+          "after_cap": null,
+          "after_other": 4.91
+        },
+        {
+          "date": "2026-02-26",
+          "after_cap": null,
+          "after_other": 6.66
+        },
+        {
+          "date": "2026-02-27",
+          "after_cap": null,
+          "after_other": 5.58
+        },
+        {
+          "date": "2026-02-28",
+          "after_cap": null,
+          "after_other": 7.58
+        },
+        {
+          "date": "2026-03-01",
+          "after_cap": null,
+          "after_other": 7.57
+        },
+        {
+          "date": "2026-03-02",
+          "after_cap": null,
+          "after_other": 8.58
+        },
+        {
+          "date": "2026-03-03",
+          "after_cap": null,
+          "after_other": 6.08
+        },
+        {
+          "date": "2026-03-04",
+          "after_cap": null,
+          "after_other": 7.35
+        },
+        {
+          "date": "2026-03-05",
+          "after_cap": null,
+          "after_other": 5.57
+        },
+        {
+          "date": "2026-03-06",
+          "after_cap": null,
+          "after_other": 5.78
+        },
+        {
+          "date": "2026-03-07",
+          "after_cap": null,
+          "after_other": 7.23
+        },
+        {
+          "date": "2026-03-08",
+          "after_cap": null,
+          "after_other": 7.28
+        },
+        {
+          "date": "2026-03-09",
+          "after_cap": null,
+          "after_other": 8.15
+        },
+        {
+          "date": "2026-03-10",
+          "after_cap": null,
+          "after_other": 8.28
+        },
+        {
+          "date": "2026-03-11",
+          "after_cap": null,
+          "after_other": 5.12
+        },
+        {
+          "date": "2026-03-12",
+          "after_cap": 4.68,
+          "after_other": null
+        },
+        {
+          "date": "2026-03-13",
+          "after_cap": null,
+          "after_other": 6.05
+        },
+        {
+          "date": "2026-03-14",
+          "after_cap": null,
+          "after_other": 9.1
+        },
+        {
+          "date": "2026-03-15",
+          "after_cap": null,
+          "after_other": 8.13
+        },
+        {
+          "date": "2026-03-16",
+          "after_cap": null,
+          "after_other": 4.78
+        },
+        {
+          "date": "2026-03-17",
+          "after_cap": null,
+          "after_other": 5.62
+        },
+        {
+          "date": "2026-03-18",
+          "after_cap": null,
+          "after_other": 6.37
+        },
+        {
+          "date": "2026-03-19",
+          "after_cap": 5.25,
+          "after_other": null
+        },
+        {
+          "date": "2026-03-20",
+          "after_cap": 7.5,
+          "after_other": null
+        },
+        {
+          "date": "2026-03-21",
+          "after_cap": null,
+          "after_other": 6.82
+        },
+        {
+          "date": "2026-03-22",
+          "after_cap": null,
+          "after_other": 5.98
+        },
+        {
+          "date": "2026-03-23",
+          "after_cap": null,
+          "after_other": 6.42
+        },
+        {
+          "date": "2026-03-24",
+          "after_cap": 6.27,
+          "after_other": null
+        },
+        {
+          "date": "2026-03-25",
+          "after_cap": null,
+          "after_other": 6.45
+        },
+        {
+          "date": "2026-03-26",
+          "after_cap": 4.68,
+          "after_other": null
+        },
+        {
+          "date": "2026-03-27",
+          "after_cap": null,
+          "after_other": 7.22
+        },
+        {
+          "date": "2026-03-28",
+          "after_cap": null,
+          "after_other": 5.53
+        },
+        {
+          "date": "2026-03-29",
+          "after_cap": null,
+          "after_other": 7.13
+        },
+        {
+          "date": "2026-03-30",
+          "after_cap": null,
+          "after_other": 6.42
+        },
+        {
+          "date": "2026-03-31",
+          "after_cap": 5.52,
+          "after_other": null
+        },
+        {
+          "date": "2026-04-01",
+          "after_cap": null,
+          "after_other": 7.25
+        },
+        {
+          "date": "2026-04-02",
+          "after_cap": null,
+          "after_other": 5.65
+        },
+        {
+          "date": "2026-04-03",
+          "after_cap": null,
+          "after_other": 7.65
+        },
+        {
+          "date": "2026-04-04",
+          "after_cap": null,
+          "after_other": 6.13
+        },
+        {
+          "date": "2026-04-05",
+          "after_cap": null,
+          "after_other": 6.88
+        },
+        {
+          "date": "2026-04-06",
+          "after_cap": null,
+          "after_other": 6.45
+        },
+        {
+          "date": "2026-04-07",
+          "after_cap": 7.1,
+          "after_other": null
+        },
+        {
+          "date": "2026-04-08",
+          "after_cap": null,
+          "after_other": 6.93
+        },
+        {
+          "date": "2026-04-09",
+          "after_cap": null,
+          "after_other": 6.55
+        },
+        {
+          "date": "2026-04-10",
+          "after_cap": 5.26,
+          "after_other": null
+        },
+        {
+          "date": "2026-04-11",
+          "after_cap": null,
+          "after_other": 8.03
+        },
+        {
+          "date": "2026-04-12",
+          "after_cap": null,
+          "after_other": 6.28
+        },
+        {
+          "date": "2026-04-13",
+          "after_cap": null,
+          "after_other": 6.45
+        },
+        {
+          "date": "2026-04-14",
+          "after_cap": null,
+          "after_other": 6.6
+        },
+        {
+          "date": "2026-04-15",
+          "after_cap": null,
+          "after_other": 6.43
+        },
+        {
+          "date": "2026-04-16",
+          "after_cap": null,
+          "after_other": 7.28
+        },
+        {
+          "date": "2026-04-17",
+          "after_cap": 6.33,
+          "after_other": null
+        },
+        {
+          "date": "2026-04-18",
+          "after_cap": null,
+          "after_other": 5.98
+        },
+        {
+          "date": "2026-04-19",
+          "after_cap": null,
+          "after_other": 6.8
+        },
+        {
+          "date": "2026-04-20",
+          "after_cap": null,
+          "after_other": 5.9
+        },
+        {
+          "date": "2026-04-21",
+          "after_cap": null,
+          "after_other": 6.75
+        },
+        {
+          "date": "2026-04-22",
+          "after_cap": null,
+          "after_other": 6.28
+        },
+        {
+          "date": "2026-04-23",
+          "after_cap": null,
+          "after_other": 6.85
+        },
+        {
+          "date": "2026-04-24",
+          "after_cap": 5.67,
+          "after_other": null
+        },
+        {
+          "date": "2026-04-25",
+          "after_cap": null,
+          "after_other": 6.0
+        },
+        {
+          "date": "2026-04-26",
+          "after_cap": null,
+          "after_other": 7.45
+        },
+        {
+          "date": "2026-04-27",
+          "after_cap": null,
+          "after_other": 6.37
+        },
+        {
+          "date": "2026-04-28",
+          "after_cap": 6.6,
+          "after_other": null
+        },
+        {
+          "date": "2026-04-29",
+          "after_cap": null,
+          "after_other": 6.93
+        },
+        {
+          "date": "2026-04-30",
+          "after_cap": null,
+          "after_other": 6.58
+        },
+        {
+          "date": "2026-05-01",
+          "after_cap": null,
+          "after_other": 6.45
+        },
+        {
+          "date": "2026-05-02",
+          "after_cap": null,
+          "after_other": 9.91
+        },
+        {
+          "date": "2026-05-03",
+          "after_cap": null,
+          "after_other": 6.92
+        },
+        {
+          "date": "2026-05-04",
+          "after_cap": null,
+          "after_other": 5.72
+        },
+        {
+          "date": "2026-05-05",
+          "after_cap": null,
+          "after_other": 6.92
+        },
+        {
+          "date": "2026-05-06",
+          "after_cap": null,
+          "after_other": 6.95
+        },
+        {
+          "date": "2026-05-07",
+          "after_cap": null,
+          "after_other": 6.82
+        },
+        {
+          "date": "2026-05-08",
+          "after_cap": null,
+          "after_other": 6.87
+        },
+        {
+          "date": "2026-05-09",
+          "after_cap": null,
+          "after_other": 8.82
+        },
+        {
+          "date": "2026-05-10",
+          "after_cap": null,
+          "after_other": 7.07
+        },
+        {
+          "date": "2026-05-11",
+          "after_cap": null,
+          "after_other": 6.02
+        },
+        {
+          "date": "2026-05-12",
+          "after_cap": 7.53,
+          "after_other": null
+        },
+        {
+          "date": "2026-05-13",
+          "after_cap": null,
+          "after_other": 7.23
+        },
+        {
+          "date": "2026-05-14",
+          "after_cap": null,
+          "after_other": 5.63
+        },
+        {
+          "date": "2026-05-15",
+          "after_cap": 6.57,
+          "after_other": null
+        },
+        {
+          "date": "2026-05-16",
+          "after_cap": null,
+          "after_other": 9.03
+        },
+        {
+          "date": "2026-05-17",
+          "after_cap": null,
+          "after_other": 6.62
+        },
+        {
+          "date": "2026-05-18",
+          "after_cap": null,
+          "after_other": 8.2
+        },
+        {
+          "date": "2026-05-19",
+          "after_cap": null,
+          "after_other": 8.96
+        },
+        {
+          "date": "2026-05-20",
+          "after_cap": null,
+          "after_other": 5.78
+        },
+        {
+          "date": "2026-05-21",
+          "after_cap": null,
+          "after_other": 8.73
+        },
+        {
+          "date": "2026-05-22",
+          "after_cap": null,
+          "after_other": 4.32
+        },
+        {
+          "date": "2026-05-23",
+          "after_cap": null,
+          "after_other": 5.23
+        },
+        {
+          "date": "2026-05-24",
+          "after_cap": null,
+          "after_other": 3.98
+        },
+        {
+          "date": "2026-05-25",
+          "after_cap": null,
+          "after_other": 6.47
+        },
+        {
+          "date": "2026-05-26",
+          "after_cap": 6.17,
+          "after_other": null
+        },
+        {
+          "date": "2026-05-27",
+          "after_cap": null,
+          "after_other": 5.77
+        },
+        {
+          "date": "2026-05-28",
+          "after_cap": null,
+          "after_other": 6.28
+        },
+        {
+          "date": "2026-05-29",
+          "after_cap": null,
+          "after_other": 5.82
+        },
+        {
+          "date": "2026-05-30",
+          "after_cap": null,
+          "after_other": 3.93
+        },
+        {
+          "date": "2026-05-31",
+          "after_cap": null,
+          "after_other": 5.85
+        },
+        {
+          "date": "2026-06-01",
+          "after_cap": null,
+          "after_other": 8.65
+        },
+        {
+          "date": "2026-06-02",
+          "after_cap": null,
+          "after_other": 4.57
+        },
+        {
+          "date": "2026-06-03",
+          "after_cap": null,
+          "after_other": 9.71
+        },
+        {
+          "date": "2026-06-04",
+          "after_cap": null,
+          "after_other": 5.77
+        },
+        {
+          "date": "2026-06-05",
+          "after_cap": null,
+          "after_other": 4.85
+        },
+        {
+          "date": "2026-06-06",
+          "after_cap": null,
+          "after_other": 6.67
+        },
+        {
+          "date": "2026-06-07",
+          "after_cap": null,
+          "after_other": 5.18
+        },
+        {
+          "date": "2026-06-08",
+          "after_cap": null,
+          "after_other": 5.88
+        },
+        {
+          "date": "2026-06-09",
+          "after_cap": null,
+          "after_other": 6.75
+        },
+        {
+          "date": "2026-06-10",
+          "after_cap": null,
+          "after_other": 5.92
+        },
+        {
+          "date": "2026-06-11",
+          "after_cap": null,
+          "after_other": 5.33
+        },
+        {
+          "date": "2026-06-12",
+          "after_cap": 6.37,
+          "after_other": null
+        },
+        {
+          "date": "2026-06-13",
+          "after_cap": null,
+          "after_other": 7.68
+        },
+        {
+          "date": "2026-06-14",
+          "after_cap": null,
+          "after_other": 4.7
+        },
+        {
+          "date": "2026-06-15",
+          "after_cap": null,
+          "after_other": 7.7
+        },
+        {
+          "date": "2026-06-16",
+          "after_cap": null,
+          "after_other": 6.42
+        },
+        {
+          "date": "2026-06-17",
+          "after_cap": null,
+          "after_other": 4.97
+        },
+        {
+          "date": "2026-06-18",
+          "after_cap": null,
+          "after_other": 7.5
+        },
+        {
+          "date": "2026-06-19",
+          "after_cap": null,
+          "after_other": 7.47
+        },
+        {
+          "date": "2026-06-20",
+          "after_cap": null,
+          "after_other": 7.92
+        },
+        {
+          "date": "2026-06-21",
+          "after_cap": null,
+          "after_other": 4.68
+        },
+        {
+          "date": "2026-06-22",
+          "after_cap": null,
+          "after_other": 5.73
+        },
+        {
+          "date": "2026-06-23",
+          "after_cap": 5.2,
+          "after_other": null
+        },
+        {
+          "date": "2026-06-24",
+          "after_cap": null,
+          "after_other": 5.8
+        },
+        {
+          "date": "2026-06-25",
+          "after_cap": null,
+          "after_other": 6.87
+        },
+        {
+          "date": "2026-06-26",
+          "after_cap": 5.53,
+          "after_other": null
+        },
+        {
+          "date": "2026-06-27",
+          "after_cap": null,
+          "after_other": 7.93
+        },
+        {
+          "date": "2026-06-28",
+          "after_cap": null,
+          "after_other": 5.3
+        },
+        {
+          "date": "2026-06-29",
+          "after_cap": null,
+          "after_other": 7.82
+        },
+        {
+          "date": "2026-06-30",
+          "after_cap": null,
+          "after_other": 7.98
+        },
+        {
+          "date": "2026-07-01",
+          "after_cap": null,
+          "after_other": 7.1
+        },
+        {
+          "date": "2026-07-02",
+          "after_cap": null,
+          "after_other": 6.3
+        },
+        {
+          "date": "2026-07-03",
+          "after_cap": null,
+          "after_other": 5.88
+        },
+        {
+          "date": "2026-07-04",
+          "after_cap": null,
+          "after_other": 6.12
+        },
+        {
+          "date": "2026-07-05",
+          "after_cap": null,
+          "after_other": 6.4
+        },
+        {
+          "date": "2026-07-06",
+          "after_cap": null,
+          "after_other": 7.73
+        },
+        {
+          "date": "2026-07-07",
+          "after_cap": 4.6,
+          "after_other": null
+        },
+        {
+          "date": "2026-07-08",
+          "after_cap": null,
+          "after_other": 6.13
+        },
+        {
+          "date": "2026-07-09",
+          "after_cap": null,
+          "after_other": 7.32
+        },
+        {
+          "date": "2026-07-10",
+          "after_cap": 4.2,
+          "after_other": null
+        },
+        {
+          "date": "2026-07-11",
+          "after_cap": null,
+          "after_other": 7.5
+        },
+        {
+          "date": "2026-07-12",
+          "after_cap": null,
+          "after_other": 6.33
+        },
+        {
+          "date": "2026-07-13",
+          "after_cap": 6.72,
+          "after_other": null
+        },
+        {
+          "date": "2026-07-14",
+          "after_cap": null,
+          "after_other": 6.47
+        },
+        {
+          "date": "2026-07-15",
+          "after_cap": null,
+          "after_other": 7.11
+        },
+        {
+          "date": "2026-07-16",
+          "after_cap": null,
+          "after_other": 5.6
+        },
+        {
+          "date": "2026-07-25",
+          "after_cap": null,
+          "after_other": 4.85
+        },
+        {
+          "date": "2026-07-26",
+          "after_cap": null,
+          "after_other": 4.73
+        },
+        {
+          "date": "2026-07-27",
+          "after_cap": null,
+          "after_other": 6.75
+        },
+        {
+          "date": "2026-07-28",
+          "after_cap": null,
+          "after_other": 5.32
+        },
+        {
+          "date": "2026-07-29",
+          "after_cap": null,
+          "after_other": 6.28
+        },
+        {
+          "date": "2026-07-30",
+          "after_cap": null,
+          "after_other": 6.1
+        },
+        {
+          "date": "2026-07-31",
+          "after_cap": null,
+          "after_other": 5.73
+        },
+        {
+          "date": "2026-08-01",
+          "after_cap": null,
+          "after_other": 6.57
+        },
+        {
+          "date": "2026-08-02",
+          "after_cap": null,
+          "after_other": 5.93
+        },
+        {
+          "date": "2026-08-03",
+          "after_cap": null,
+          "after_other": 7.13
+        },
+        {
+          "date": "2026-08-04",
+          "after_cap": null,
+          "after_other": 6.37
+        },
+        {
+          "date": "2026-08-05",
+          "after_cap": null,
+          "after_other": 6.65
+        },
+        {
+          "date": "2026-08-06",
+          "after_cap": null,
+          "after_other": 5.5
+        },
+        {
+          "date": "2026-08-07",
+          "after_cap": null,
+          "after_other": 6.6
+        },
+        {
+          "date": "2026-08-08",
+          "after_cap": null,
+          "after_other": 7.28
+        },
+        {
+          "date": "2026-08-09",
+          "after_cap": null,
+          "after_other": 6.2
+        },
+        {
+          "date": "2026-08-10",
+          "after_cap": null,
+          "after_other": 5.58
+        },
+        {
+          "date": "2026-08-11",
+          "after_cap": null,
+          "after_other": 5.93
+        },
+        {
+          "date": "2026-08-12",
+          "after_cap": null,
+          "after_other": 6.53
+        }
+      ],
+      "teaser": "Nights after evening hard run 37 min shorter",
+      "why": "Across this window, sleep after Capoeira/evening-hard is 37 min shorter than other nights. Late intensity delays cooldown into bedtime — that is a timing tax, not proof you 'can't handle' the class. Book 8h+ in bed on those nights and keep the cool-down walk; do not stack a hard morning 3k unless HRV/RHR stayed green."
+    },
+    {
+      "id": "intensity_next_debt",
+      "title": "Intensity → next debt",
+      "status": "neutral",
+      "n": 164,
+      "long": {
+        "r": 0.172
+      },
+      "series": [
+        {
+          "date": "2026-01-19",
+          "intensity_min": 84.0,
+          "next_debt_h": 2.42
+        },
+        {
+          "date": "2026-01-20",
+          "intensity_min": 1.0,
+          "next_debt_h": 4.7
+        },
+        {
+          "date": "2026-01-21",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.55
+        },
+        {
+          "date": "2026-01-22",
+          "intensity_min": 41.0,
+          "next_debt_h": 1.43
+        },
+        {
+          "date": "2026-01-23",
+          "intensity_min": 42.0,
+          "next_debt_h": 2.88
+        },
+        {
+          "date": "2026-01-24",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.03
+        },
+        {
+          "date": "2026-01-25",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.46
+        },
+        {
+          "date": "2026-01-26",
+          "intensity_min": 69.0,
+          "next_debt_h": 2.29
+        },
+        {
+          "date": "2026-01-27",
+          "intensity_min": 3.0,
+          "next_debt_h": 2.71
+        },
+        {
+          "date": "2026-01-28",
+          "intensity_min": 40.0,
+          "next_debt_h": 3.48
+        },
+        {
+          "date": "2026-01-29",
+          "intensity_min": 1.0,
+          "next_debt_h": 1.37
+        },
+        {
+          "date": "2026-01-30",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.7
+        },
+        {
+          "date": "2026-01-31",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.91
+        },
+        {
+          "date": "2026-02-01",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.68
+        },
+        {
+          "date": "2026-02-02",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.66
+        },
+        {
+          "date": "2026-02-03",
+          "intensity_min": 56.0,
+          "next_debt_h": 1.77
+        },
+        {
+          "date": "2026-02-04",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.64
+        },
+        {
+          "date": "2026-02-05",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.47
+        },
+        {
+          "date": "2026-02-06",
+          "intensity_min": 51.0,
+          "next_debt_h": 0.31
+        },
+        {
+          "date": "2026-02-07",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.43
+        },
+        {
+          "date": "2026-02-08",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.1
+        },
+        {
+          "date": "2026-02-09",
+          "intensity_min": 82.0,
+          "next_debt_h": 1.08
+        },
+        {
+          "date": "2026-02-10",
+          "intensity_min": 0.0,
+          "next_debt_h": 3.21
+        },
+        {
+          "date": "2026-02-11",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.92
+        },
+        {
+          "date": "2026-02-12",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.42
+        },
+        {
+          "date": "2026-02-13",
+          "intensity_min": 1.0,
+          "next_debt_h": -0.13
+        },
+        {
+          "date": "2026-02-14",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.29
+        },
+        {
+          "date": "2026-02-15",
+          "intensity_min": 1.0,
+          "next_debt_h": 0.43
+        },
+        {
+          "date": "2026-02-16",
+          "intensity_min": 71.0,
+          "next_debt_h": 0.85
+        },
+        {
+          "date": "2026-02-17",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.11
+        },
+        {
+          "date": "2026-02-18",
+          "intensity_min": 5.0,
+          "next_debt_h": 0.66
+        },
+        {
+          "date": "2026-02-19",
+          "intensity_min": 45.0,
+          "next_debt_h": 0.6
+        },
+        {
+          "date": "2026-02-20",
+          "intensity_min": 0.0,
+          "next_debt_h": -1.05
+        },
+        {
+          "date": "2026-02-21",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.45
+        },
+        {
+          "date": "2026-02-22",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.83
+        },
+        {
+          "date": "2026-02-23",
+          "intensity_min": 56.0,
+          "next_debt_h": 2.16
+        },
+        {
+          "date": "2026-02-24",
+          "intensity_min": 13.0,
+          "next_debt_h": 3.76
+        },
+        {
+          "date": "2026-02-25",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.34
+        },
+        {
+          "date": "2026-02-26",
+          "intensity_min": 1.0,
+          "next_debt_h": 3.09
+        },
+        {
+          "date": "2026-02-27",
+          "intensity_min": 3.0,
+          "next_debt_h": 1.25
+        },
+        {
+          "date": "2026-02-28",
+          "intensity_min": 39.0,
+          "next_debt_h": 0.93
+        },
+        {
+          "date": "2026-03-11",
+          "intensity_min": 27.0,
+          "next_debt_h": 4.32
+        },
+        {
+          "date": "2026-03-12",
+          "intensity_min": 1.0,
+          "next_debt_h": 2.95
+        },
+        {
+          "date": "2026-03-13",
+          "intensity_min": 0.0,
+          "next_debt_h": -0.43
+        },
+        {
+          "date": "2026-03-17",
+          "intensity_min": 13.0,
+          "next_debt_h": 2.13
+        },
+        {
+          "date": "2026-03-18",
+          "intensity_min": 57.0,
+          "next_debt_h": 3.42
+        },
+        {
+          "date": "2026-03-19",
+          "intensity_min": 74.0,
+          "next_debt_h": 1.5
+        },
+        {
+          "date": "2026-03-20",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.68
+        },
+        {
+          "date": "2026-03-21",
+          "intensity_min": 41.0,
+          "next_debt_h": 2.52
+        },
+        {
+          "date": "2026-03-22",
+          "intensity_min": 1.0,
+          "next_debt_h": 2.25
+        },
+        {
+          "date": "2026-03-23",
+          "intensity_min": 68.0,
+          "next_debt_h": 2.4
+        },
+        {
+          "date": "2026-03-24",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.38
+        },
+        {
+          "date": "2026-03-25",
+          "intensity_min": 33.0,
+          "next_debt_h": 3.99
+        },
+        {
+          "date": "2026-03-26",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.78
+        },
+        {
+          "date": "2026-03-27",
+          "intensity_min": 54.0,
+          "next_debt_h": 2.97
+        },
+        {
+          "date": "2026-03-28",
+          "intensity_min": 3.0,
+          "next_debt_h": 1.54
+        },
+        {
+          "date": "2026-03-29",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.91
+        },
+        {
+          "date": "2026-03-30",
+          "intensity_min": 81.0,
+          "next_debt_h": 3.15
+        },
+        {
+          "date": "2026-03-31",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.58
+        },
+        {
+          "date": "2026-04-01",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.68
+        },
+        {
+          "date": "2026-04-02",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.18
+        },
+        {
+          "date": "2026-04-03",
+          "intensity_min": 3.0,
+          "next_debt_h": 2.2
+        },
+        {
+          "date": "2026-04-04",
+          "intensity_min": 6.0,
+          "next_debt_h": 1.62
+        },
+        {
+          "date": "2026-04-05",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.05
+        },
+        {
+          "date": "2026-04-06",
+          "intensity_min": 80.0,
+          "next_debt_h": 1.23
+        },
+        {
+          "date": "2026-04-07",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.57
+        },
+        {
+          "date": "2026-04-08",
+          "intensity_min": 4.0,
+          "next_debt_h": 1.95
+        },
+        {
+          "date": "2026-04-09",
+          "intensity_min": 65.0,
+          "next_debt_h": 3.24
+        },
+        {
+          "date": "2026-04-10",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.8
+        },
+        {
+          "date": "2026-04-11",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.55
+        },
+        {
+          "date": "2026-04-12",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.88
+        },
+        {
+          "date": "2026-04-13",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.73
+        },
+        {
+          "date": "2026-04-14",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.07
+        },
+        {
+          "date": "2026-04-15",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.39
+        },
+        {
+          "date": "2026-04-16",
+          "intensity_min": 83.0,
+          "next_debt_h": 1.84
+        },
+        {
+          "date": "2026-04-17",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.69
+        },
+        {
+          "date": "2026-04-18",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.03
+        },
+        {
+          "date": "2026-04-19",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.43
+        },
+        {
+          "date": "2026-04-20",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.92
+        },
+        {
+          "date": "2026-04-21",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.05
+        },
+        {
+          "date": "2026-04-22",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.65
+        },
+        {
+          "date": "2026-04-23",
+          "intensity_min": 70.0,
+          "next_debt_h": 2.66
+        },
+        {
+          "date": "2026-04-24",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.17
+        },
+        {
+          "date": "2026-04-25",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.88
+        },
+        {
+          "date": "2026-04-26",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.46
+        },
+        {
+          "date": "2026-04-27",
+          "intensity_min": 39.0,
+          "next_debt_h": 1.57
+        },
+        {
+          "date": "2026-04-28",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.57
+        },
+        {
+          "date": "2026-04-29",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.92
+        },
+        {
+          "date": "2026-04-30",
+          "intensity_min": 11.0,
+          "next_debt_h": 1.88
+        },
+        {
+          "date": "2026-05-01",
+          "intensity_min": 2.0,
+          "next_debt_h": -1.41
+        },
+        {
+          "date": "2026-05-02",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.91
+        },
+        {
+          "date": "2026-05-03",
+          "intensity_min": 7.0,
+          "next_debt_h": 2.11
+        },
+        {
+          "date": "2026-05-04",
+          "intensity_min": 23.0,
+          "next_debt_h": 1.58
+        },
+        {
+          "date": "2026-05-05",
+          "intensity_min": 1.0,
+          "next_debt_h": 1.38
+        },
+        {
+          "date": "2026-05-06",
+          "intensity_min": 2.0,
+          "next_debt_h": 1.35
+        },
+        {
+          "date": "2026-05-07",
+          "intensity_min": 35.0,
+          "next_debt_h": 0.96
+        },
+        {
+          "date": "2026-05-08",
+          "intensity_min": 2.0,
+          "next_debt_h": -0.49
+        },
+        {
+          "date": "2026-05-09",
+          "intensity_min": 3.0,
+          "next_debt_h": 0.76
+        },
+        {
+          "date": "2026-05-10",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.81
+        },
+        {
+          "date": "2026-05-11",
+          "intensity_min": 68.0,
+          "next_debt_h": 0.8
+        },
+        {
+          "date": "2026-05-12",
+          "intensity_min": 7.0,
+          "next_debt_h": 1.27
+        },
+        {
+          "date": "2026-05-13",
+          "intensity_min": 8.0,
+          "next_debt_h": 2.54
+        },
+        {
+          "date": "2026-05-14",
+          "intensity_min": 90.0,
+          "next_debt_h": 1.93
+        },
+        {
+          "date": "2026-05-15",
+          "intensity_min": 0.0,
+          "next_debt_h": -0.36
+        },
+        {
+          "date": "2026-05-16",
+          "intensity_min": 1.0,
+          "next_debt_h": 1.21
+        },
+        {
+          "date": "2026-05-24",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.53
+        },
+        {
+          "date": "2026-05-25",
+          "intensity_min": 94.0,
+          "next_debt_h": 2.83
+        },
+        {
+          "date": "2026-05-26",
+          "intensity_min": 1.0,
+          "next_debt_h": 2.9
+        },
+        {
+          "date": "2026-05-27",
+          "intensity_min": 1.0,
+          "next_debt_h": 2.72
+        },
+        {
+          "date": "2026-05-28",
+          "intensity_min": 7.0,
+          "next_debt_h": 2.85
+        },
+        {
+          "date": "2026-05-29",
+          "intensity_min": 27.0,
+          "next_debt_h": 4.74
+        },
+        {
+          "date": "2026-05-30",
+          "intensity_min": 3.0,
+          "next_debt_h": 3.15
+        },
+        {
+          "date": "2026-05-31",
+          "intensity_min": 1.0,
+          "next_debt_h": 0.35
+        },
+        {
+          "date": "2026-06-08",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.08
+        },
+        {
+          "date": "2026-06-09",
+          "intensity_min": 29.0,
+          "next_debt_h": 2.91
+        },
+        {
+          "date": "2026-06-10",
+          "intensity_min": 0.0,
+          "next_debt_h": 3.5
+        },
+        {
+          "date": "2026-06-11",
+          "intensity_min": 84.0,
+          "next_debt_h": 2.63
+        },
+        {
+          "date": "2026-06-12",
+          "intensity_min": 60.0,
+          "next_debt_h": 1.32
+        },
+        {
+          "date": "2026-06-13",
+          "intensity_min": 1.0,
+          "next_debt_h": 3.13
+        },
+        {
+          "date": "2026-06-14",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.3
+        },
+        {
+          "date": "2026-06-20",
+          "intensity_min": 0.0,
+          "next_debt_h": 3.15
+        },
+        {
+          "date": "2026-06-21",
+          "intensity_min": 4.0,
+          "next_debt_h": 2.6
+        },
+        {
+          "date": "2026-06-22",
+          "intensity_min": 85.0,
+          "next_debt_h": 3.63
+        },
+        {
+          "date": "2026-06-23",
+          "intensity_min": 0.0,
+          "next_debt_h": 3.2
+        },
+        {
+          "date": "2026-06-24",
+          "intensity_min": 1.0,
+          "next_debt_h": 2.13
+        },
+        {
+          "date": "2026-06-25",
+          "intensity_min": 87.0,
+          "next_debt_h": 3.14
+        },
+        {
+          "date": "2026-06-26",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.9
+        },
+        {
+          "date": "2026-06-27",
+          "intensity_min": 2.0,
+          "next_debt_h": 3.03
+        },
+        {
+          "date": "2026-06-28",
+          "intensity_min": 23.0,
+          "next_debt_h": 0.85
+        },
+        {
+          "date": "2026-06-29",
+          "intensity_min": 0.0,
+          "next_debt_h": -0.15
+        },
+        {
+          "date": "2026-06-30",
+          "intensity_min": 20.0,
+          "next_debt_h": 0.73
+        },
+        {
+          "date": "2026-07-01",
+          "intensity_min": 21.0,
+          "next_debt_h": 1.53
+        },
+        {
+          "date": "2026-07-02",
+          "intensity_min": 1.0,
+          "next_debt_h": 1.95
+        },
+        {
+          "date": "2026-07-03",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.38
+        },
+        {
+          "date": "2026-07-04",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.1
+        },
+        {
+          "date": "2026-07-05",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.77
+        },
+        {
+          "date": "2026-07-06",
+          "intensity_min": 71.0,
+          "next_debt_h": 3.23
+        },
+        {
+          "date": "2026-07-07",
+          "intensity_min": 32.0,
+          "next_debt_h": 2.87
+        },
+        {
+          "date": "2026-07-08",
+          "intensity_min": 13.0,
+          "next_debt_h": 1.35
+        },
+        {
+          "date": "2026-07-09",
+          "intensity_min": 57.0,
+          "next_debt_h": 4.13
+        },
+        {
+          "date": "2026-07-10",
+          "intensity_min": 1.0,
+          "next_debt_h": 1.5
+        },
+        {
+          "date": "2026-07-11",
+          "intensity_min": 1.0,
+          "next_debt_h": 2.17
+        },
+        {
+          "date": "2026-07-12",
+          "intensity_min": 75.0,
+          "next_debt_h": 1.78
+        },
+        {
+          "date": "2026-07-13",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.03
+        },
+        {
+          "date": "2026-07-14",
+          "intensity_min": 32.0,
+          "next_debt_h": 1.22
+        },
+        {
+          "date": "2026-07-15",
+          "intensity_min": 8.0,
+          "next_debt_h": 3.07
+        },
+        {
+          "date": "2026-07-25",
+          "intensity_min": 0.0,
+          "next_debt_h": 4.27
+        },
+        {
+          "date": "2026-07-26",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.25
+        },
+        {
+          "date": "2026-07-27",
+          "intensity_min": 0.0,
+          "next_debt_h": 3.35
+        },
+        {
+          "date": "2026-07-28",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.55
+        },
+        {
+          "date": "2026-07-29",
+          "intensity_min": 28.0,
+          "next_debt_h": 2.57
+        },
+        {
+          "date": "2026-07-30",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.94
+        },
+        {
+          "date": "2026-07-31",
+          "intensity_min": 6.0,
+          "next_debt_h": 2.1
+        },
+        {
+          "date": "2026-08-01",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.57
+        },
+        {
+          "date": "2026-08-02",
+          "intensity_min": 1.0,
+          "next_debt_h": 1.7
+        },
+        {
+          "date": "2026-08-03",
+          "intensity_min": 1.0,
+          "next_debt_h": 1.8
+        },
+        {
+          "date": "2026-08-04",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.68
+        },
+        {
+          "date": "2026-08-05",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.67
+        },
+        {
+          "date": "2026-08-06",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.23
+        },
+        {
+          "date": "2026-08-07",
+          "intensity_min": 44.0,
+          "next_debt_h": 1.05
+        },
+        {
+          "date": "2026-08-08",
+          "intensity_min": 0.0,
+          "next_debt_h": 1.63
+        },
+        {
+          "date": "2026-08-09",
+          "intensity_min": 3.0,
+          "next_debt_h": 2.75
+        },
+        {
+          "date": "2026-08-10",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.74
+        },
+        {
+          "date": "2026-08-11",
+          "intensity_min": 0.0,
+          "next_debt_h": 2.14
+        }
+      ],
+      "teaser": "r = 0.17 · hard minutes vs next-night debt",
+      "why": "Vigorous + moderate minutes today predicting more sleep debt tomorrow means the session is winning the calendar. At 37, with kids and a recomp goal, that is the wrong trade: you cannot out-train a standing 2h nightly hole. If r stays useful (~0.3+), treat a hard day as a sleep appointment, not a suggestion."
+    },
+    {
+      "id": "stress_next_hrv",
+      "title": "Stress → next HRV",
+      "status": "neutral",
+      "n": 196,
+      "long": {
+        "r": -0.232
+      },
+      "series": [
+        {
+          "date": "2026-02-04",
+          "stress_avg": 21.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-02-05",
+          "stress_avg": -2.0,
+          "next_hrv": 31.0
+        },
+        {
+          "date": "2026-02-06",
+          "stress_avg": -2.0,
+          "next_hrv": 30.0
+        },
+        {
+          "date": "2026-02-07",
+          "stress_avg": 21.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-02-08",
+          "stress_avg": 18.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-02-09",
+          "stress_avg": 23.0,
+          "next_hrv": 30.0
+        },
+        {
+          "date": "2026-02-10",
+          "stress_avg": 25.0,
+          "next_hrv": 24.0
+        },
+        {
+          "date": "2026-02-11",
+          "stress_avg": 24.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-02-12",
+          "stress_avg": 20.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-02-13",
+          "stress_avg": 25.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-02-14",
+          "stress_avg": 28.0,
+          "next_hrv": 28.0
+        },
+        {
+          "date": "2026-02-15",
+          "stress_avg": 25.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-02-16",
+          "stress_avg": 23.0,
+          "next_hrv": 30.0
+        },
+        {
+          "date": "2026-02-17",
+          "stress_avg": 23.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-02-18",
+          "stress_avg": 24.0,
+          "next_hrv": 31.0
+        },
+        {
+          "date": "2026-02-19",
+          "stress_avg": 26.0,
+          "next_hrv": 24.0
+        },
+        {
+          "date": "2026-02-20",
+          "stress_avg": 26.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-02-21",
+          "stress_avg": 19.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-02-22",
+          "stress_avg": 19.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-02-23",
+          "stress_avg": 23.0,
+          "next_hrv": 32.0
+        },
+        {
+          "date": "2026-02-24",
+          "stress_avg": 28.0,
+          "next_hrv": 25.0
+        },
+        {
+          "date": "2026-02-25",
+          "stress_avg": 25.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-02-26",
+          "stress_avg": 26.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-02-27",
+          "stress_avg": 29.0,
+          "next_hrv": 25.0
+        },
+        {
+          "date": "2026-02-28",
+          "stress_avg": 42.0,
+          "next_hrv": 30.0
+        },
+        {
+          "date": "2026-03-01",
+          "stress_avg": 31.0,
+          "next_hrv": 32.0
+        },
+        {
+          "date": "2026-03-02",
+          "stress_avg": 23.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-03-03",
+          "stress_avg": 24.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-03-04",
+          "stress_avg": 21.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-03-05",
+          "stress_avg": 23.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-03-06",
+          "stress_avg": 31.0,
+          "next_hrv": 30.0
+        },
+        {
+          "date": "2026-03-07",
+          "stress_avg": 24.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-03-08",
+          "stress_avg": 34.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-03-09",
+          "stress_avg": 27.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-03-10",
+          "stress_avg": 18.0,
+          "next_hrv": 30.0
+        },
+        {
+          "date": "2026-03-11",
+          "stress_avg": 31.0,
+          "next_hrv": 33.0
+        },
+        {
+          "date": "2026-03-12",
+          "stress_avg": 26.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-03-13",
+          "stress_avg": 26.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-03-14",
+          "stress_avg": 27.0,
+          "next_hrv": 31.0
+        },
+        {
+          "date": "2026-03-15",
+          "stress_avg": 30.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-03-16",
+          "stress_avg": 23.0,
+          "next_hrv": 30.0
+        },
+        {
+          "date": "2026-03-17",
+          "stress_avg": 30.0,
+          "next_hrv": 32.0
+        },
+        {
+          "date": "2026-03-18",
+          "stress_avg": 25.0,
+          "next_hrv": 31.0
+        },
+        {
+          "date": "2026-03-19",
+          "stress_avg": 23.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-03-20",
+          "stress_avg": 21.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-03-21",
+          "stress_avg": 20.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-03-22",
+          "stress_avg": 21.0,
+          "next_hrv": 43.0
+        },
+        {
+          "date": "2026-03-23",
+          "stress_avg": 23.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-03-24",
+          "stress_avg": 19.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-03-25",
+          "stress_avg": 22.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-03-26",
+          "stress_avg": 21.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-03-27",
+          "stress_avg": 22.0,
+          "next_hrv": 53.0
+        },
+        {
+          "date": "2026-03-28",
+          "stress_avg": 17.0,
+          "next_hrv": 45.0
+        },
+        {
+          "date": "2026-03-29",
+          "stress_avg": 16.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-03-30",
+          "stress_avg": 21.0,
+          "next_hrv": 44.0
+        },
+        {
+          "date": "2026-03-31",
+          "stress_avg": 23.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-04-01",
+          "stress_avg": 22.0,
+          "next_hrv": 44.0
+        },
+        {
+          "date": "2026-04-02",
+          "stress_avg": 21.0,
+          "next_hrv": 43.0
+        },
+        {
+          "date": "2026-04-03",
+          "stress_avg": 18.0,
+          "next_hrv": 48.0
+        },
+        {
+          "date": "2026-04-04",
+          "stress_avg": 20.0,
+          "next_hrv": 54.0
+        },
+        {
+          "date": "2026-04-05",
+          "stress_avg": 16.0,
+          "next_hrv": 42.0
+        },
+        {
+          "date": "2026-04-06",
+          "stress_avg": 22.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-04-07",
+          "stress_avg": 28.0,
+          "next_hrv": 33.0
+        },
+        {
+          "date": "2026-04-08",
+          "stress_avg": 24.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-04-09",
+          "stress_avg": 21.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-04-10",
+          "stress_avg": 25.0,
+          "next_hrv": 41.0
+        },
+        {
+          "date": "2026-04-11",
+          "stress_avg": 20.0,
+          "next_hrv": 47.0
+        },
+        {
+          "date": "2026-04-12",
+          "stress_avg": 22.0,
+          "next_hrv": 45.0
+        },
+        {
+          "date": "2026-04-13",
+          "stress_avg": 20.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-04-14",
+          "stress_avg": 30.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-04-15",
+          "stress_avg": 26.0,
+          "next_hrv": 41.0
+        },
+        {
+          "date": "2026-04-16",
+          "stress_avg": 28.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-04-17",
+          "stress_avg": 28.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-04-18",
+          "stress_avg": 26.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-04-19",
+          "stress_avg": 19.0,
+          "next_hrv": 55.0
+        },
+        {
+          "date": "2026-04-20",
+          "stress_avg": 22.0,
+          "next_hrv": 41.0
+        },
+        {
+          "date": "2026-04-21",
+          "stress_avg": 23.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-04-22",
+          "stress_avg": 25.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-04-23",
+          "stress_avg": 25.0,
+          "next_hrv": 32.0
+        },
+        {
+          "date": "2026-04-24",
+          "stress_avg": 26.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-04-25",
+          "stress_avg": 28.0,
+          "next_hrv": 41.0
+        },
+        {
+          "date": "2026-04-26",
+          "stress_avg": 21.0,
+          "next_hrv": 45.0
+        },
+        {
+          "date": "2026-04-27",
+          "stress_avg": 31.0,
+          "next_hrv": 29.0
+        },
+        {
+          "date": "2026-04-28",
+          "stress_avg": 32.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-04-29",
+          "stress_avg": 23.0,
+          "next_hrv": 45.0
+        },
+        {
+          "date": "2026-04-30",
+          "stress_avg": 40.0,
+          "next_hrv": 28.0
+        },
+        {
+          "date": "2026-05-01",
+          "stress_avg": 23.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-05-02",
+          "stress_avg": 22.0,
+          "next_hrv": 43.0
+        },
+        {
+          "date": "2026-05-03",
+          "stress_avg": 22.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-05-04",
+          "stress_avg": 26.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-05-05",
+          "stress_avg": 28.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-05-06",
+          "stress_avg": 22.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-05-07",
+          "stress_avg": 24.0,
+          "next_hrv": 33.0
+        },
+        {
+          "date": "2026-05-08",
+          "stress_avg": 27.0,
+          "next_hrv": 30.0
+        },
+        {
+          "date": "2026-05-09",
+          "stress_avg": 31.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-05-10",
+          "stress_avg": 25.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-05-11",
+          "stress_avg": 27.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-05-12",
+          "stress_avg": 26.0,
+          "next_hrv": 49.0
+        },
+        {
+          "date": "2026-05-13",
+          "stress_avg": 22.0,
+          "next_hrv": 43.0
+        },
+        {
+          "date": "2026-05-14",
+          "stress_avg": 28.0,
+          "next_hrv": 32.0
+        },
+        {
+          "date": "2026-05-15",
+          "stress_avg": 29.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-05-16",
+          "stress_avg": 27.0,
+          "next_hrv": 32.0
+        },
+        {
+          "date": "2026-05-17",
+          "stress_avg": 32.0,
+          "next_hrv": 42.0
+        },
+        {
+          "date": "2026-05-18",
+          "stress_avg": 27.0,
+          "next_hrv": 50.0
+        },
+        {
+          "date": "2026-05-19",
+          "stress_avg": 28.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-05-20",
+          "stress_avg": 30.0,
+          "next_hrv": 43.0
+        },
+        {
+          "date": "2026-05-21",
+          "stress_avg": 34.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-05-22",
+          "stress_avg": 30.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-05-23",
+          "stress_avg": 29.0,
+          "next_hrv": 43.0
+        },
+        {
+          "date": "2026-05-24",
+          "stress_avg": 27.0,
+          "next_hrv": 31.0
+        },
+        {
+          "date": "2026-05-25",
+          "stress_avg": 27.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-05-26",
+          "stress_avg": 25.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-05-27",
+          "stress_avg": 20.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-05-28",
+          "stress_avg": 21.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-05-29",
+          "stress_avg": 26.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-05-30",
+          "stress_avg": 26.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-05-31",
+          "stress_avg": 29.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-06-01",
+          "stress_avg": 31.0,
+          "next_hrv": 45.0
+        },
+        {
+          "date": "2026-06-02",
+          "stress_avg": 36.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-06-03",
+          "stress_avg": 36.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-06-04",
+          "stress_avg": 32.0,
+          "next_hrv": 33.0
+        },
+        {
+          "date": "2026-06-05",
+          "stress_avg": 35.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-06-06",
+          "stress_avg": 39.0,
+          "next_hrv": 26.0
+        },
+        {
+          "date": "2026-06-07",
+          "stress_avg": 33.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-06-08",
+          "stress_avg": 24.0,
+          "next_hrv": 33.0
+        },
+        {
+          "date": "2026-06-09",
+          "stress_avg": 24.0,
+          "next_hrv": 43.0
+        },
+        {
+          "date": "2026-06-10",
+          "stress_avg": 20.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-06-11",
+          "stress_avg": 23.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-06-12",
+          "stress_avg": 35.0,
+          "next_hrv": 30.0
+        },
+        {
+          "date": "2026-06-13",
+          "stress_avg": 20.0,
+          "next_hrv": 42.0
+        },
+        {
+          "date": "2026-06-14",
+          "stress_avg": 19.0,
+          "next_hrv": 41.0
+        },
+        {
+          "date": "2026-06-15",
+          "stress_avg": 27.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-06-16",
+          "stress_avg": 32.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-06-17",
+          "stress_avg": 33.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-06-18",
+          "stress_avg": 35.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-06-19",
+          "stress_avg": 35.0,
+          "next_hrv": 34.0
+        },
+        {
+          "date": "2026-06-20",
+          "stress_avg": 33.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-06-21",
+          "stress_avg": 22.0,
+          "next_hrv": 44.0
+        },
+        {
+          "date": "2026-06-22",
+          "stress_avg": 17.0,
+          "next_hrv": 43.0
+        },
+        {
+          "date": "2026-06-23",
+          "stress_avg": 21.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-06-24",
+          "stress_avg": 22.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-06-25",
+          "stress_avg": 23.0,
+          "next_hrv": 49.0
+        },
+        {
+          "date": "2026-06-26",
+          "stress_avg": 23.0,
+          "next_hrv": 46.0
+        },
+        {
+          "date": "2026-06-27",
+          "stress_avg": 23.0,
+          "next_hrv": 42.0
+        },
+        {
+          "date": "2026-06-28",
+          "stress_avg": 24.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-06-29",
+          "stress_avg": 26.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-06-30",
+          "stress_avg": 27.0,
+          "next_hrv": 49.0
+        },
+        {
+          "date": "2026-07-01",
+          "stress_avg": 27.0,
+          "next_hrv": 45.0
+        },
+        {
+          "date": "2026-07-02",
+          "stress_avg": 26.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-07-03",
+          "stress_avg": 21.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-07-04",
+          "stress_avg": 18.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-07-05",
+          "stress_avg": 30.0,
+          "next_hrv": 44.0
+        },
+        {
+          "date": "2026-07-06",
+          "stress_avg": 22.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-07-07",
+          "stress_avg": 27.0,
+          "next_hrv": 44.0
+        },
+        {
+          "date": "2026-07-08",
+          "stress_avg": 22.0,
+          "next_hrv": 42.0
+        },
+        {
+          "date": "2026-07-09",
+          "stress_avg": 23.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-07-10",
+          "stress_avg": 21.0,
+          "next_hrv": 39.0
+        },
+        {
+          "date": "2026-07-11",
+          "stress_avg": 19.0,
+          "next_hrv": 46.0
+        },
+        {
+          "date": "2026-07-12",
+          "stress_avg": 20.0,
+          "next_hrv": 49.0
+        },
+        {
+          "date": "2026-07-13",
+          "stress_avg": 20.0,
+          "next_hrv": 42.0
+        },
+        {
+          "date": "2026-07-14",
+          "stress_avg": 20.0,
+          "next_hrv": 60.0
+        },
+        {
+          "date": "2026-07-15",
+          "stress_avg": 19.0,
+          "next_hrv": 42.0
+        },
+        {
+          "date": "2026-07-25",
+          "stress_avg": 19.0,
+          "next_hrv": 44.0
+        },
+        {
+          "date": "2026-07-26",
+          "stress_avg": 22.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-07-27",
+          "stress_avg": 21.0,
+          "next_hrv": 44.0
+        },
+        {
+          "date": "2026-07-28",
+          "stress_avg": 29.0,
+          "next_hrv": 35.0
+        },
+        {
+          "date": "2026-07-29",
+          "stress_avg": 26.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-07-30",
+          "stress_avg": 21.0,
+          "next_hrv": 37.0
+        },
+        {
+          "date": "2026-07-31",
+          "stress_avg": 30.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-08-01",
+          "stress_avg": 26.0,
+          "next_hrv": 36.0
+        },
+        {
+          "date": "2026-08-02",
+          "stress_avg": 25.0,
+          "next_hrv": 52.0
+        },
+        {
+          "date": "2026-08-03",
+          "stress_avg": 17.0,
+          "next_hrv": 49.0
+        },
+        {
+          "date": "2026-08-04",
+          "stress_avg": 21.0,
+          "next_hrv": 48.0
+        },
+        {
+          "date": "2026-08-05",
+          "stress_avg": 17.0,
+          "next_hrv": 28.0
+        },
+        {
+          "date": "2026-08-06",
+          "stress_avg": 31.0,
+          "next_hrv": 55.0
+        },
+        {
+          "date": "2026-08-07",
+          "stress_avg": 24.0,
+          "next_hrv": 44.0
+        },
+        {
+          "date": "2026-08-08",
+          "stress_avg": 22.0,
+          "next_hrv": 44.0
+        },
+        {
+          "date": "2026-08-09",
+          "stress_avg": 21.0,
+          "next_hrv": 38.0
+        },
+        {
+          "date": "2026-08-10",
+          "stress_avg": 20.0,
+          "next_hrv": 40.0
+        },
+        {
+          "date": "2026-08-11",
+          "stress_avg": 24.0,
+          "next_hrv": 43.0
+        }
+      ],
+      "teaser": "r = -0.23 · life load leaving a next-morning mark",
+      "why": "A negative lag means today's sympathetic load is still in tomorrow's HRV — life stress, not just training fatigue. That separates 'I trained hard' from 'the day never came down'. When this lights up, the move is an easier morning and earlier lights-out, not another quality session."
+    },
+    {
+      "id": "no_deload",
+      "title": "Steps on short-sleep days",
+      "status": "amber",
+      "n": 134,
+      "long": {
+        "delta_steps": 680,
+        "n_short": 134
+      },
+      "series": [
+        {
+          "date": "2026-02-06",
+          "steps": 15826.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-07",
+          "steps": 8619.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-08",
+          "steps": 5189.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-02-09",
+          "steps": 7926.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-10",
+          "steps": 4910.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-11",
+          "steps": 6916.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-02-12",
+          "steps": 4894.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-02-13",
+          "steps": 6486.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-02-14",
+          "steps": 5558.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-15",
+          "steps": 9235.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-16",
+          "steps": 9642.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-17",
+          "steps": 6271.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-18",
+          "steps": 7193.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-19",
+          "steps": 8373.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-20",
+          "steps": 10011.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-21",
+          "steps": 6030.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-22",
+          "steps": 3690.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-02-23",
+          "steps": 8677.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-02-24",
+          "steps": 12901.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-02-25",
+          "steps": 5968.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-02-26",
+          "steps": 6418.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-02-27",
+          "steps": 7018.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-02-28",
+          "steps": 12216.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-01",
+          "steps": 9063.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-02",
+          "steps": 7826.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-03",
+          "steps": 10379.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-04",
+          "steps": 9580.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-05",
+          "steps": 8347.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-06",
+          "steps": 8747.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-07",
+          "steps": 6254.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-08",
+          "steps": 7726.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-09",
+          "steps": 7392.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-10",
+          "steps": 7288.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-11",
+          "steps": 13886.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-12",
+          "steps": 10585.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-13",
+          "steps": 5396.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-14",
+          "steps": 4379.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-15",
+          "steps": 4340.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-03-16",
+          "steps": 10302.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-17",
+          "steps": 12187.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-18",
+          "steps": 17614.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-19",
+          "steps": 11826.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-20",
+          "steps": 7561.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-21",
+          "steps": 10065.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-22",
+          "steps": 8097.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-23",
+          "steps": 10814.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-24",
+          "steps": 6393.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-25",
+          "steps": 11009.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-26",
+          "steps": 4123.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-27",
+          "steps": 9888.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-28",
+          "steps": 7680.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-29",
+          "steps": 7753.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-30",
+          "steps": 7052.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-03-31",
+          "steps": 4917.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-01",
+          "steps": 8985.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-02",
+          "steps": 10500.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-03",
+          "steps": 6332.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-04-04",
+          "steps": 11575.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-05",
+          "steps": 5552.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-06",
+          "steps": 9498.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-07",
+          "steps": 5567.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-04-08",
+          "steps": 9535.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-09",
+          "steps": 8923.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-10",
+          "steps": 9033.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-11",
+          "steps": 7539.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-04-12",
+          "steps": 5069.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-13",
+          "steps": 6695.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-14",
+          "steps": 5740.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-15",
+          "steps": 8935.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-16",
+          "steps": 8972.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-04-17",
+          "steps": 8315.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-18",
+          "steps": 8397.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-19",
+          "steps": 6001.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-20",
+          "steps": 7281.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-21",
+          "steps": 12081.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-22",
+          "steps": 10531.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-23",
+          "steps": 9540.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-24",
+          "steps": 9626.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-25",
+          "steps": 10338.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-26",
+          "steps": 6626.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-04-27",
+          "steps": 12789.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-28",
+          "steps": 6506.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-29",
+          "steps": 5305.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-04-30",
+          "steps": 10856.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-01",
+          "steps": 7323.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-02",
+          "steps": 5348.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-03",
+          "steps": 6127.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-04",
+          "steps": 6650.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-05",
+          "steps": 5216.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-06",
+          "steps": 8008.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-07",
+          "steps": 6052.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-08",
+          "steps": 8721.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-09",
+          "steps": 4411.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-10",
+          "steps": 5287.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-11",
+          "steps": 7584.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-12",
+          "steps": 6474.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-13",
+          "steps": 7714.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-14",
+          "steps": 12001.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-15",
+          "steps": 10723.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-16",
+          "steps": 7897.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-17",
+          "steps": 8291.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-18",
+          "steps": 4612.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-19",
+          "steps": 4164.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-20",
+          "steps": 3635.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-21",
+          "steps": 6424.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-05-22",
+          "steps": 4253.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-23",
+          "steps": 4722.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-24",
+          "steps": 7059.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-25",
+          "steps": 10498.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-26",
+          "steps": 8586.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-27",
+          "steps": 9203.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-28",
+          "steps": 9398.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-29",
+          "steps": 12027.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-30",
+          "steps": 7659.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-05-31",
+          "steps": 5345.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-01",
+          "steps": 5360.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-02",
+          "steps": 3374.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-03",
+          "steps": 4997.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-04",
+          "steps": 4378.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-05",
+          "steps": 5814.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-06",
+          "steps": 5545.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-07",
+          "steps": 12157.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-08",
+          "steps": 9311.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-09",
+          "steps": 14290.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-10",
+          "steps": 11803.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-11",
+          "steps": 11469.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-12",
+          "steps": 21000.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-13",
+          "steps": 11370.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-14",
+          "steps": 5997.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-15",
+          "steps": 4367.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-16",
+          "steps": 3215.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-17",
+          "steps": 4824.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-18",
+          "steps": 3707.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-19",
+          "steps": 8166.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-20",
+          "steps": 5040.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-21",
+          "steps": 8356.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-22",
+          "steps": 11964.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-23",
+          "steps": 7641.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-24",
+          "steps": 7784.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-25",
+          "steps": 11549.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-26",
+          "steps": 7081.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-27",
+          "steps": 6165.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-28",
+          "steps": 6726.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-06-29",
+          "steps": 3397.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-06-30",
+          "steps": 4532.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-07-01",
+          "steps": 7190.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-07-02",
+          "steps": 14162.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-03",
+          "steps": 11496.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-04",
+          "steps": 6729.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-05",
+          "steps": 8708.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-06",
+          "steps": 13195.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-07-07",
+          "steps": 10216.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-08",
+          "steps": 11978.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-09",
+          "steps": 14268.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-07-10",
+          "steps": 6102.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-11",
+          "steps": 6729.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-12",
+          "steps": 14780.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-13",
+          "steps": 4392.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-14",
+          "steps": 10156.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-15",
+          "steps": 8702.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-07-16",
+          "steps": 6590.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-25",
+          "steps": 5586.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-26",
+          "steps": 3353.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-27",
+          "steps": 2612.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-28",
+          "steps": 2519.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-29",
+          "steps": 6405.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-30",
+          "steps": 2516.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-07-31",
+          "steps": 4823.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-01",
+          "steps": 3794.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-02",
+          "steps": 2199.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-03",
+          "steps": 2228.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-04",
+          "steps": 2358.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-05",
+          "steps": 2128.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-06",
+          "steps": 1396.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-07",
+          "steps": 12083.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-08",
+          "steps": 2661.0,
+          "short_sleep": false
+        },
+        {
+          "date": "2026-08-09",
+          "steps": 5650.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-10",
+          "steps": 2585.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-11",
+          "steps": 3210.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-12",
+          "steps": 6167.0,
+          "short_sleep": true
+        }
+      ],
+      "teaser": "+680 steps on short-sleep vs ≥7h nights",
+      "why": "If you walk more on the nights you already under-slept, you are not auto-deloading — you are stacking life load on a deficit. That pattern is common with kids + stroller mornings and it quietly blocks fat-loss. A green here would be fewer steps or true easy movement after a short night."
+    },
+    {
+      "id": "fitness_recovery_gap",
+      "title": "Fitness–recovery gap",
+      "status": "neutral",
+      "n": 23,
+      "long": {
+        "hrv_change": 0.73,
+        "rhr_change": 1.02,
+        "debt_change": 0.41
+      },
+      "series": [
+        {
+          "date": "2026-07-16",
+          "hrv": 42.0,
+          "rhr": 52.0,
+          "debt_h": 3.07
+        },
+        {
+          "date": "2026-07-18",
+          "hrv": 44.0,
+          "rhr": 56.0,
+          "debt_h": null
+        },
+        {
+          "date": "2026-07-23",
+          "hrv": null,
+          "rhr": null,
+          "debt_h": null
+        },
+        {
+          "date": "2026-07-24",
+          "hrv": null,
+          "rhr": null,
+          "debt_h": null
+        },
+        {
+          "date": "2026-07-25",
+          "hrv": 56.0,
+          "rhr": 54.0,
+          "debt_h": 3.82
+        },
+        {
+          "date": "2026-07-26",
+          "hrv": 44.0,
+          "rhr": 54.0,
+          "debt_h": 4.27
+        },
+        {
+          "date": "2026-07-27",
+          "hrv": 38.0,
+          "rhr": 55.0,
+          "debt_h": 2.25
+        },
+        {
+          "date": "2026-07-28",
+          "hrv": 44.0,
+          "rhr": 58.0,
+          "debt_h": 3.35
+        },
+        {
+          "date": "2026-07-29",
+          "hrv": 35.0,
+          "rhr": 57.0,
+          "debt_h": 2.55
+        },
+        {
+          "date": "2026-07-30",
+          "hrv": 40.0,
+          "rhr": 57.0,
+          "debt_h": 2.57
+        },
+        {
+          "date": "2026-07-31",
+          "hrv": 37.0,
+          "rhr": 59.0,
+          "debt_h": 2.94
+        },
+        {
+          "date": "2026-08-01",
+          "hrv": 38.0,
+          "rhr": 59.0,
+          "debt_h": 2.1
+        },
+        {
+          "date": "2026-08-02",
+          "hrv": 36.0,
+          "rhr": 60.0,
+          "debt_h": 2.57
+        },
+        {
+          "date": "2026-08-03",
+          "hrv": 52.0,
+          "rhr": 55.0,
+          "debt_h": 1.7
+        },
+        {
+          "date": "2026-08-04",
+          "hrv": 49.0,
+          "rhr": 57.0,
+          "debt_h": 1.8
+        },
+        {
+          "date": "2026-08-05",
+          "hrv": 48.0,
+          "rhr": 52.0,
+          "debt_h": 1.68
+        },
+        {
+          "date": "2026-08-06",
+          "hrv": 28.0,
+          "rhr": 59.0,
+          "debt_h": 2.67
+        },
+        {
+          "date": "2026-08-07",
+          "hrv": 55.0,
+          "rhr": 49.0,
+          "debt_h": 2.23
+        },
+        {
+          "date": "2026-08-08",
+          "hrv": 44.0,
+          "rhr": 55.0,
+          "debt_h": 1.05
+        },
+        {
+          "date": "2026-08-09",
+          "hrv": 44.0,
+          "rhr": 53.0,
+          "debt_h": 1.63
+        },
+        {
+          "date": "2026-08-10",
+          "hrv": 38.0,
+          "rhr": 56.0,
+          "debt_h": 2.75
+        },
+        {
+          "date": "2026-08-11",
+          "hrv": 40.0,
+          "rhr": 56.0,
+          "debt_h": 2.74
+        },
+        {
+          "date": "2026-08-12",
+          "hrv": 43.0,
+          "rhr": 53.0,
+          "debt_h": 2.14
+        },
+        {
+          "date": "2026-06-18",
+          "hrv": 37.0,
+          "rhr": 55.0,
+          "debt_h": null
+        },
+        {
+          "date": "2026-06-19",
+          "hrv": 36.0,
+          "rhr": 58.0,
+          "debt_h": null
+        },
+        {
+          "date": "2026-06-20",
+          "hrv": 34.0,
+          "rhr": 57.0,
+          "debt_h": null
+        },
+        {
+          "date": "2026-06-21",
+          "hrv": 36.0,
+          "rhr": 59.0,
+          "debt_h": 3.15
+        },
+        {
+          "date": "2026-06-22",
+          "hrv": 44.0,
+          "rhr": 56.0,
+          "debt_h": 2.6
+        },
+        {
+          "date": "2026-06-23",
+          "hrv": 43.0,
+          "rhr": 57.0,
+          "debt_h": 3.63
+        },
+        {
+          "date": "2026-06-24",
+          "hrv": 38.0,
+          "rhr": 52.0,
+          "debt_h": 3.2
+        },
+        {
+          "date": "2026-06-25",
+          "hrv": 38.0,
+          "rhr": 56.0,
+          "debt_h": 2.13
+        },
+        {
+          "date": "2026-06-26",
+          "hrv": 49.0,
+          "rhr": 55.0,
+          "debt_h": 3.14
+        },
+        {
+          "date": "2026-06-27",
+          "hrv": 46.0,
+          "rhr": 52.0,
+          "debt_h": 0.9
+        },
+        {
+          "date": "2026-06-28",
+          "hrv": 42.0,
+          "rhr": 55.0,
+          "debt_h": 3.03
+        },
+        {
+          "date": "2026-06-29",
+          "hrv": 39.0,
+          "rhr": 56.0,
+          "debt_h": 0.85
+        },
+        {
+          "date": "2026-06-30",
+          "hrv": 39.0,
+          "rhr": 54.0,
+          "debt_h": -0.15
+        },
+        {
+          "date": "2026-07-01",
+          "hrv": 49.0,
+          "rhr": 52.0,
+          "debt_h": 0.73
+        },
+        {
+          "date": "2026-07-02",
+          "hrv": 45.0,
+          "rhr": 52.0,
+          "debt_h": 1.53
+        },
+        {
+          "date": "2026-07-03",
+          "hrv": 40.0,
+          "rhr": 53.0,
+          "debt_h": 1.95
+        },
+        {
+          "date": "2026-07-04",
+          "hrv": 40.0,
+          "rhr": 55.0,
+          "debt_h": 2.38
+        },
+        {
+          "date": "2026-07-05",
+          "hrv": 38.0,
+          "rhr": 55.0,
+          "debt_h": 2.1
+        },
+        {
+          "date": "2026-07-06",
+          "hrv": 44.0,
+          "rhr": 52.0,
+          "debt_h": 0.77
+        },
+        {
+          "date": "2026-07-07",
+          "hrv": 39.0,
+          "rhr": 57.0,
+          "debt_h": 3.23
+        },
+        {
+          "date": "2026-07-08",
+          "hrv": 44.0,
+          "rhr": 56.0,
+          "debt_h": 2.87
+        },
+        {
+          "date": "2026-07-09",
+          "hrv": 42.0,
+          "rhr": 55.0,
+          "debt_h": 1.35
+        },
+        {
+          "date": "2026-07-10",
+          "hrv": 35.0,
+          "rhr": 55.0,
+          "debt_h": 4.13
+        },
+        {
+          "date": "2026-07-11",
+          "hrv": 39.0,
+          "rhr": 54.0,
+          "debt_h": 1.5
+        },
+        {
+          "date": "2026-07-12",
+          "hrv": 46.0,
+          "rhr": 52.0,
+          "debt_h": 2.17
+        },
+        {
+          "date": "2026-07-13",
+          "hrv": 49.0,
+          "rhr": 53.0,
+          "debt_h": 1.78
+        },
+        {
+          "date": "2026-07-14",
+          "hrv": 42.0,
+          "rhr": 51.0,
+          "debt_h": 2.03
+        },
+        {
+          "date": "2026-07-15",
+          "hrv": 60.0,
+          "rhr": 52.0,
+          "debt_h": 1.22
+        }
+      ],
+      "teaser": "HRV +0.7 · RHR +1.0 · debt +0.41h",
+      "why": "Engine up, overnight recharge not paying down: classic 'fit but under-recovered' split after miluim and with young kids. Leaner/defined needs the debt to fall, not just a prettier RHR. If this is amber/red, steal sleep from evening intensity before adding more quality work."
+    },
+    {
+      "id": "recovery_walk",
+      "title": "Run → walk HR recovery",
+      "status": "amber",
+      "n": 4,
+      "long": {
+        "last_grade": null,
+        "c_share": 0.25
+      },
+      "series": [
+        {
+          "date": "2026-07-14",
+          "min_hr": 121.0,
+          "duration_min": 8.0,
+          "grade": "C",
+          "stroller": true
+        },
+        {
+          "date": "2026-07-12",
+          "min_hr": 114.0,
+          "duration_min": 7.9,
+          "grade": "B",
+          "stroller": true
+        },
+        {
+          "date": "2026-07-07",
+          "min_hr": 105.0,
+          "duration_min": 11.9,
+          "grade": "A",
+          "stroller": true
+        },
+        {
+          "date": "2026-07-09",
+          "min_hr": 112.0,
+          "duration_min": 15.4,
+          "grade": "B",
+          "stroller": false
+        }
+      ],
+      "teaser": "Last grade C · 1/4 C's",
+      "why": "The walk is the test, not bonus cardio. Min HR on that 8–15 min stroll is the recovery number; stroller 3ks cost more than free pace shows, so they stay annotated and are not mixed into solo grades. Target longer easy cool-downs (10–15 min) and a falling min HR — that is the habit, not another interval."
+    }
+  ]
+}
