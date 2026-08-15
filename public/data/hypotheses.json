@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-08-14T07:30:12+03:00",
+  "updated_at": "2026-08-15T07:30:26+03:00",
   "items": [
     {
       "id": "hrv_rhr",
@@ -8,7 +8,7 @@
       "status": "green",
       "n": 201,
       "short": {
-        "r": -0.757
+        "r": -0.751
       },
       "long": {
         "r": -0.697
@@ -4511,7 +4511,7 @@
       "status": "amber",
       "n": 136,
       "long": {
-        "delta_steps": 605,
+        "delta_steps": 645,
         "n_short": 136
       },
       "series": [
@@ -5412,11 +5412,11 @@
         },
         {
           "date": "2026-08-14",
-          "steps": 138.0,
+          "steps": 5560.0,
           "short_sleep": true
         }
       ],
-      "teaser": "+605 steps on short-sleep vs ≥7h nights",
+      "teaser": "+645 steps on short-sleep vs ≥7h nights",
       "why": "If you walk more on the nights you already under-slept, you are not auto-deloading — you are stacking life load on a deficit. That pattern is common with kids + stroller mornings and it quietly blocks fat-loss. A green here would be fewer steps or true easy movement after a short night."
     },
     {
@@ -5425,17 +5425,11 @@
       "status": "neutral",
       "n": 24,
       "long": {
-        "hrv_change": 0.2,
-        "rhr_change": 1.42,
+        "hrv_change": -0.24,
+        "rhr_change": 1.55,
         "debt_change": 0.35
       },
       "series": [
-        {
-          "date": "2026-07-18",
-          "hrv": 44.0,
-          "rhr": 56.0,
-          "debt_h": null
-        },
         {
           "date": "2026-07-23",
           "hrv": null,
@@ -5575,9 +5569,9 @@
           "debt_h": 2.92
         },
         {
-          "date": "2026-06-20",
-          "hrv": 34.0,
-          "rhr": 57.0,
+          "date": "2026-08-15",
+          "hrv": null,
+          "rhr": 58.0,
           "debt_h": null
         },
         {
@@ -5735,9 +5729,15 @@
           "hrv": 42.0,
           "rhr": 52.0,
           "debt_h": 3.07
+        },
+        {
+          "date": "2026-07-18",
+          "hrv": 44.0,
+          "rhr": 56.0,
+          "debt_h": null
         }
       ],
-      "teaser": "HRV +0.2 · RHR +1.4 · debt +0.35h",
+      "teaser": "HRV -0.2 · RHR +1.6 · debt +0.35h",
       "why": "Engine up, overnight recharge not paying down: classic 'fit but under-recovered' split after miluim and with young kids. Leaner/defined needs the debt to fall, not just a prettier RHR. If this is amber/red, steal sleep from evening intensity before adding more quality work."
     },
     {
