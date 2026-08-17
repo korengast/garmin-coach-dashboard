@@ -1,24 +1,19 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-08-16T07:30:46+03:00",
+  "updated_at": "2026-08-17T07:30:50+03:00",
   "items": [
     {
       "id": "hrv_rhr",
       "title": "HRV ↔ RHR coupling",
       "status": "green",
-      "n": 203,
+      "n": 204,
       "short": {
-        "r": -0.688
+        "r": -0.73
       },
       "long": {
-        "r": -0.7
+        "r": -0.702
       },
       "series": [
-        {
-          "date": "2026-02-11",
-          "hrv": 24.0,
-          "rhr": 60.0
-        },
         {
           "date": "2026-02-12",
           "hrv": 34.0,
@@ -913,6 +908,11 @@
           "date": "2026-08-16",
           "hrv": 44.0,
           "rhr": 52.0
+        },
+        {
+          "date": "2026-08-17",
+          "hrv": 47.0,
+          "rhr": 48.0
         }
       ],
       "teaser": "Window r = -0.70 (want negative)",
@@ -922,16 +922,11 @@
       "id": "sleep_h_score",
       "title": "Hours still drive score?",
       "status": "green",
-      "n": 202,
+      "n": 203,
       "long": {
-        "r": 0.586
+        "r": 0.585
       },
       "series": [
-        {
-          "date": "2026-02-10",
-          "sleep_hours": 6.75,
-          "sleep_score": 74.0
-        },
         {
           "date": "2026-02-11",
           "sleep_hours": 5.12,
@@ -1826,9 +1821,14 @@
           "date": "2026-08-16",
           "sleep_hours": 6.38,
           "sleep_score": 80.0
+        },
+        {
+          "date": "2026-08-17",
+          "sleep_hours": 6.43,
+          "sleep_score": 78.0
         }
       ],
-      "teaser": "r = 0.59 · duration vs score",
+      "teaser": "r = 0.58 · duration vs score",
       "why": "If hours and score still move together, bedtime length is the lever — not another sleep gadget. A weak r means stages or timing are stealing the score (late Capoeira, split nights with a one-year-old). You already run a chronic ~2h debt vs Garmin need; stretching time-in-bed after hard evenings beats optimizing deep %."
     },
     {
@@ -1845,11 +1845,6 @@
         "n": 25
       },
       "series": [
-        {
-          "date": "2026-02-10",
-          "after_cap": 6.75,
-          "after_other": null
-        },
         {
           "date": "2026-02-11",
           "after_cap": null,
@@ -2744,6 +2739,11 @@
           "date": "2026-08-16",
           "after_cap": null,
           "after_other": 6.38
+        },
+        {
+          "date": "2026-08-17",
+          "after_cap": null,
+          "after_other": 6.43
         }
       ],
       "teaser": "Nights after evening hard run 37 min shorter",
@@ -2753,9 +2753,9 @@
       "id": "intensity_next_debt",
       "title": "Intensity → next debt",
       "status": "neutral",
-      "n": 168,
+      "n": 169,
       "long": {
-        "r": 0.175
+        "r": 0.176
       },
       "series": [
         {
@@ -3597,6 +3597,11 @@
           "date": "2026-08-15",
           "intensity_min": 2.0,
           "next_debt_h": 1.45
+        },
+        {
+          "date": "2026-08-16",
+          "intensity_min": 6.0,
+          "next_debt_h": 1.4
         }
       ],
       "teaser": "r = 0.18 · hard minutes vs next-night debt",
@@ -3606,16 +3611,11 @@
       "id": "stress_next_hrv",
       "title": "Stress → next HRV",
       "status": "neutral",
-      "n": 200,
+      "n": 201,
       "long": {
-        "r": -0.233
+        "r": -0.238
       },
       "series": [
-        {
-          "date": "2026-02-08",
-          "stress_avg": 18.0,
-          "next_hrv": 38.0
-        },
         {
           "date": "2026-02-09",
           "stress_avg": 23.0,
@@ -4510,26 +4510,26 @@
           "date": "2026-08-15",
           "stress_avg": 18.0,
           "next_hrv": 44.0
+        },
+        {
+          "date": "2026-08-16",
+          "stress_avg": 19.0,
+          "next_hrv": 47.0
         }
       ],
-      "teaser": "r = -0.23 · life load leaving a next-morning mark",
+      "teaser": "r = -0.24 · life load leaving a next-morning mark",
       "why": "A negative lag means today's sympathetic load is still in tomorrow's HRV — life stress, not just training fatigue. That separates 'I trained hard' from 'the day never came down'. When this lights up, the move is an easier morning and earlier lights-out, not another quality session."
     },
     {
       "id": "no_deload",
       "title": "Steps on short-sleep days",
       "status": "amber",
-      "n": 137,
+      "n": 138,
       "long": {
-        "delta_steps": 597,
-        "n_short": 137
+        "delta_steps": 588,
+        "n_short": 138
       },
       "series": [
-        {
-          "date": "2026-02-10",
-          "steps": 4910.0,
-          "short_sleep": false
-        },
         {
           "date": "2026-02-11",
           "steps": 6916.0,
@@ -5422,22 +5422,27 @@
         },
         {
           "date": "2026-08-16",
-          "steps": 31.0,
+          "steps": 6464.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-17",
+          "steps": 134.0,
           "short_sleep": true
         }
       ],
-      "teaser": "+597 steps on short-sleep vs ≥7h nights",
+      "teaser": "+588 steps on short-sleep vs ≥7h nights",
       "why": "If you walk more on the nights you already under-slept, you are not auto-deloading — you are stacking life load on a deficit. That pattern is common with kids + stroller mornings and it quietly blocks fat-loss. A green here would be fewer steps or true easy movement after a short night."
     },
     {
       "id": "fitness_recovery_gap",
       "title": "Fitness–recovery gap",
       "status": "neutral",
-      "n": 25,
+      "n": 26,
       "long": {
-        "hrv_change": -0.44,
-        "rhr_change": 1.35,
-        "debt_change": 0.25
+        "hrv_change": -0.21,
+        "rhr_change": 1.12,
+        "debt_change": 0.23
       },
       "series": [
         {
@@ -5591,10 +5596,10 @@
           "debt_h": 1.45
         },
         {
-          "date": "2026-06-22",
-          "hrv": 44.0,
-          "rhr": 56.0,
-          "debt_h": 2.6
+          "date": "2026-08-17",
+          "hrv": 47.0,
+          "rhr": 48.0,
+          "debt_h": 1.4
         },
         {
           "date": "2026-06-23",
@@ -5747,7 +5752,7 @@
           "debt_h": null
         }
       ],
-      "teaser": "HRV -0.4 · RHR +1.4 · debt +0.25h",
+      "teaser": "HRV -0.2 · RHR +1.1 · debt +0.23h",
       "why": "Engine up, overnight recharge not paying down: classic 'fit but under-recovered' split after miluim and with young kids. Leaner/defined needs the debt to fall, not just a prettier RHR. If this is amber/red, steal sleep from evening intensity before adding more quality work."
     },
     {
