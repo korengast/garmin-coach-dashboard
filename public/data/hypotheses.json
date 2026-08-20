@@ -1,24 +1,19 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-08-19T07:30:22+03:00",
+  "updated_at": "2026-08-20T07:30:40+03:00",
   "items": [
     {
       "id": "hrv_rhr",
       "title": "HRV ↔ RHR coupling",
       "status": "green",
-      "n": 206,
+      "n": 207,
       "short": {
-        "r": -0.868
+        "r": -0.848
       },
       "long": {
         "r": -0.702
       },
       "series": [
-        {
-          "date": "2026-02-14",
-          "hrv": 34.0,
-          "rhr": 57.0
-        },
         {
           "date": "2026-02-15",
           "hrv": 28.0,
@@ -913,6 +908,11 @@
           "date": "2026-08-19",
           "hrv": 40.0,
           "rhr": 54.0
+        },
+        {
+          "date": "2026-08-20",
+          "hrv": 37.0,
+          "rhr": 56.0
         }
       ],
       "teaser": "Window r = -0.70 (want negative)",
@@ -922,16 +922,11 @@
       "id": "sleep_h_score",
       "title": "Hours still drive score?",
       "status": "green",
-      "n": 205,
+      "n": 206,
       "long": {
-        "r": 0.582
+        "r": 0.583
       },
       "series": [
-        {
-          "date": "2026-02-13",
-          "sleep_hours": 6.08,
-          "sleep_score": 71.0
-        },
         {
           "date": "2026-02-14",
           "sleep_hours": 8.8,
@@ -1826,6 +1821,11 @@
           "date": "2026-08-19",
           "sleep_hours": 6.18,
           "sleep_score": 77.0
+        },
+        {
+          "date": "2026-08-20",
+          "sleep_hours": 5.9,
+          "sleep_score": 62.0
         }
       ],
       "teaser": "r = 0.58 · duration vs score",
@@ -1845,11 +1845,6 @@
         "n": 25
       },
       "series": [
-        {
-          "date": "2026-02-13",
-          "after_cap": null,
-          "after_other": 6.08
-        },
         {
           "date": "2026-02-14",
           "after_cap": null,
@@ -2744,6 +2739,11 @@
           "date": "2026-08-19",
           "after_cap": null,
           "after_other": 6.18
+        },
+        {
+          "date": "2026-08-20",
+          "after_cap": null,
+          "after_other": 5.9
         }
       ],
       "teaser": "Nights after evening hard run 37 min shorter",
@@ -2753,9 +2753,9 @@
       "id": "intensity_next_debt",
       "title": "Intensity → next debt",
       "status": "neutral",
-      "n": 171,
+      "n": 172,
       "long": {
-        "r": 0.17
+        "r": 0.168
       },
       "series": [
         {
@@ -3612,6 +3612,11 @@
           "date": "2026-08-18",
           "intensity_min": 1.0,
           "next_debt_h": 2.49
+        },
+        {
+          "date": "2026-08-19",
+          "intensity_min": 1.0,
+          "next_debt_h": 2.6
         }
       ],
       "teaser": "r = 0.17 · hard minutes vs next-night debt",
@@ -3621,16 +3626,11 @@
       "id": "stress_next_hrv",
       "title": "Stress → next HRV",
       "status": "neutral",
-      "n": 203,
+      "n": 204,
       "long": {
-        "r": -0.238
+        "r": -0.237
       },
       "series": [
-        {
-          "date": "2026-02-11",
-          "stress_avg": 24.0,
-          "next_hrv": 34.0
-        },
         {
           "date": "2026-02-12",
           "stress_avg": 20.0,
@@ -4525,6 +4525,11 @@
           "date": "2026-08-18",
           "stress_avg": 26.0,
           "next_hrv": 40.0
+        },
+        {
+          "date": "2026-08-19",
+          "stress_avg": 21.0,
+          "next_hrv": 37.0
         }
       ],
       "teaser": "r = -0.24 · life load leaving a next-morning mark",
@@ -4534,17 +4539,12 @@
       "id": "no_deload",
       "title": "Steps on short-sleep days",
       "status": "amber",
-      "n": 140,
+      "n": 141,
       "long": {
-        "delta_steps": 529,
-        "n_short": 140
+        "delta_steps": 508,
+        "n_short": 141
       },
       "series": [
-        {
-          "date": "2026-02-13",
-          "steps": 6486.0,
-          "short_sleep": true
-        },
         {
           "date": "2026-02-14",
           "steps": 5558.0,
@@ -5437,11 +5437,16 @@
         },
         {
           "date": "2026-08-19",
-          "steps": 59.0,
+          "steps": 4797.0,
+          "short_sleep": true
+        },
+        {
+          "date": "2026-08-20",
+          "steps": 22.0,
           "short_sleep": true
         }
       ],
-      "teaser": "+529 steps on short-sleep vs ≥7h nights",
+      "teaser": "+508 steps on short-sleep vs ≥7h nights",
       "why": "If you walk more on the nights you already under-slept, you are not auto-deloading — you are stacking life load on a deficit. That pattern is common with kids + stroller mornings and it quietly blocks fat-loss. A green here would be fewer steps or true easy movement after a short night."
     },
     {
@@ -5450,17 +5455,11 @@
       "status": "neutral",
       "n": 28,
       "long": {
-        "hrv_change": -0.66,
-        "rhr_change": 1.2,
-        "debt_change": 0.38
+        "hrv_change": -1.1,
+        "rhr_change": 1.33,
+        "debt_change": 0.4
       },
       "series": [
-        {
-          "date": "2026-07-23",
-          "hrv": null,
-          "rhr": null,
-          "debt_h": null
-        },
         {
           "date": "2026-07-24",
           "hrv": null,
@@ -5624,10 +5623,10 @@
           "debt_h": 2.49
         },
         {
-          "date": "2026-06-25",
-          "hrv": 38.0,
+          "date": "2026-08-20",
+          "hrv": 37.0,
           "rhr": 56.0,
-          "debt_h": 2.13
+          "debt_h": 2.6
         },
         {
           "date": "2026-06-26",
@@ -5760,9 +5759,15 @@
           "hrv": 44.0,
           "rhr": 56.0,
           "debt_h": null
+        },
+        {
+          "date": "2026-07-23",
+          "hrv": null,
+          "rhr": null,
+          "debt_h": null
         }
       ],
-      "teaser": "HRV -0.7 · RHR +1.2 · debt +0.38h",
+      "teaser": "HRV -1.1 · RHR +1.3 · debt +0.40h",
       "why": "Engine up, overnight recharge not paying down: classic 'fit but under-recovered' split after miluim and with young kids. Leaner/defined needs the debt to fall, not just a prettier RHR. If this is amber/red, steal sleep from evening intensity before adding more quality work."
     },
     {
