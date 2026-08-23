@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-08-22T07:30:16+03:00",
+  "updated_at": "2026-08-23T06:15:12+03:00",
   "timezone": "Asia/Jerusalem",
   "athlete_label": "Koren",
   "date": "2026-08-22",
@@ -108,75 +108,75 @@
     {
       "id": "stress",
       "label": "Stress",
-      "value": 23,
+      "value": 27,
       "unit": "",
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 22.0,
-        "sd": 2.878,
-        "z": 0.347,
-        "percentile": 28.6,
-        "delta": 1.0,
-        "band": "neutral"
+        "mean": 22.286,
+        "sd": 3.149,
+        "z": 1.497,
+        "percentile": 7.1,
+        "delta": 4.714,
+        "band": "amber"
       },
       "long": {
         "window_days": 211,
-        "mean": 24.388,
-        "sd": 5.408,
-        "z": -0.257,
-        "percentile": 52.2,
-        "delta": -1.388,
+        "mean": 24.407,
+        "sd": 5.411,
+        "z": 0.479,
+        "percentile": 23.4,
+        "delta": 2.593,
         "band": "neutral"
       }
     },
     {
       "id": "steps",
       "label": "Steps",
-      "value": 65,
+      "value": 5455,
       "unit": "",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 4445.071,
-        "sd": 1917.427,
-        "z": -2.284,
-        "percentile": 0.0,
-        "delta": -4380.071,
-        "band": "red"
+        "mean": 4830.071,
+        "sd": 1493.585,
+        "z": 0.418,
+        "percentile": 50.0,
+        "delta": 624.929,
+        "band": "neutral"
       },
       "long": {
         "window_days": 211,
-        "mean": 7501.474,
-        "sd": 3160.642,
-        "z": -2.353,
-        "percentile": 0.0,
-        "delta": -7436.474,
-        "band": "red"
+        "mean": 7527.263,
+        "sd": 3121.607,
+        "z": -0.664,
+        "percentile": 26.3,
+        "delta": -2072.263,
+        "band": "neutral"
       }
     },
     {
       "id": "intensity",
       "label": "Intensity",
-      "value": 0,
+      "value": 1,
       "unit": "min",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 3.0,
-        "sd": 6.845,
-        "z": -0.438,
-        "percentile": 0.0,
-        "delta": -3.0,
+        "mean": 3.071,
+        "sd": 6.819,
+        "z": -0.304,
+        "percentile": 35.7,
+        "delta": -2.071,
         "band": "neutral"
       },
       "long": {
         "window_days": 211,
-        "mean": 14.388,
-        "sd": 25.74,
-        "z": -0.559,
-        "percentile": 0.0,
-        "delta": -14.388,
+        "mean": 14.392,
+        "sd": 25.738,
+        "z": -0.52,
+        "percentile": 46.9,
+        "delta": -13.392,
         "band": "neutral"
       }
     },
