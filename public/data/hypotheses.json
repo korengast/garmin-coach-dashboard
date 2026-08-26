@@ -1,24 +1,19 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-08-25T07:30:50+03:00",
+  "updated_at": "2026-08-26T07:31:02+03:00",
   "items": [
     {
       "id": "hrv_rhr",
       "title": "HRV ↔ RHR coupling",
       "status": "green",
-      "n": 212,
+      "n": 213,
       "short": {
-        "r": -0.837
+        "r": -0.779
       },
       "long": {
-        "r": -0.705
+        "r": -0.701
       },
       "series": [
-        {
-          "date": "2026-02-20",
-          "hrv": 24.0,
-          "rhr": 57.0
-        },
         {
           "date": "2026-02-21",
           "hrv": 38.0,
@@ -913,6 +908,11 @@
           "date": "2026-08-25",
           "hrv": 49.0,
           "rhr": 51.0
+        },
+        {
+          "date": "2026-08-26",
+          "hrv": 32.0,
+          "rhr": 55.0
         }
       ],
       "teaser": "Window r = -0.70 (want negative)",
@@ -922,16 +922,11 @@
       "id": "sleep_h_score",
       "title": "Hours still drive score?",
       "status": "green",
-      "n": 211,
+      "n": 212,
       "long": {
-        "r": 0.586
+        "r": 0.587
       },
       "series": [
-        {
-          "date": "2026-02-19",
-          "sleep_hours": 7.17,
-          "sleep_score": 77.0
-        },
         {
           "date": "2026-02-20",
           "sleep_hours": 7.23,
@@ -1826,6 +1821,11 @@
           "date": "2026-08-25",
           "sleep_hours": 7.02,
           "sleep_score": 81.0
+        },
+        {
+          "date": "2026-08-26",
+          "sleep_hours": 7.08,
+          "sleep_score": 75.0
         }
       ],
       "teaser": "r = 0.59 · duration vs score",
@@ -1845,11 +1845,6 @@
         "n": 25
       },
       "series": [
-        {
-          "date": "2026-02-19",
-          "after_cap": null,
-          "after_other": 7.17
-        },
         {
           "date": "2026-02-20",
           "after_cap": null,
@@ -2744,6 +2739,11 @@
           "date": "2026-08-25",
           "after_cap": null,
           "after_other": 7.02
+        },
+        {
+          "date": "2026-08-26",
+          "after_cap": null,
+          "after_other": 7.08
         }
       ],
       "teaser": "Nights after evening hard run 37 min shorter",
@@ -2753,9 +2753,9 @@
       "id": "intensity_next_debt",
       "title": "Intensity → next debt",
       "status": "neutral",
-      "n": 177,
+      "n": 178,
       "long": {
-        "r": 0.175
+        "r": 0.178
       },
       "series": [
         {
@@ -3642,6 +3642,11 @@
           "date": "2026-08-24",
           "intensity_min": 0.0,
           "next_debt_h": 1.81
+        },
+        {
+          "date": "2026-08-25",
+          "intensity_min": 0.0,
+          "next_debt_h": 0.75
         }
       ],
       "teaser": "r = 0.18 · hard minutes vs next-night debt",
@@ -3651,16 +3656,11 @@
       "id": "stress_next_hrv",
       "title": "Stress → next HRV",
       "status": "neutral",
-      "n": 209,
+      "n": 210,
       "long": {
-        "r": -0.243
+        "r": -0.242
       },
       "series": [
-        {
-          "date": "2026-02-17",
-          "stress_avg": 23.0,
-          "next_hrv": 34.0
-        },
         {
           "date": "2026-02-18",
           "stress_avg": 24.0,
@@ -4555,6 +4555,11 @@
           "date": "2026-08-24",
           "stress_avg": 19.0,
           "next_hrv": 49.0
+        },
+        {
+          "date": "2026-08-25",
+          "stress_avg": 24.0,
+          "next_hrv": 32.0
         }
       ],
       "teaser": "r = -0.24 · life load leaving a next-morning mark",
@@ -4566,15 +4571,10 @@
       "status": "amber",
       "n": 143,
       "long": {
-        "delta_steps": 588,
+        "delta_steps": 623,
         "n_short": 143
       },
       "series": [
-        {
-          "date": "2026-02-19",
-          "steps": 8373.0,
-          "short_sleep": false
-        },
         {
           "date": "2026-02-20",
           "steps": 10011.0,
@@ -5467,11 +5467,16 @@
         },
         {
           "date": "2026-08-25",
-          "steps": 564.0,
+          "steps": 8727.0,
           "short_sleep": true
+        },
+        {
+          "date": "2026-08-26",
+          "steps": 293.0,
+          "short_sleep": false
         }
       ],
-      "teaser": "+588 steps on short-sleep vs ≥7h nights",
+      "teaser": "+623 steps on short-sleep vs ≥7h nights",
       "why": "If you walk more on the nights you already under-slept, you are not auto-deloading — you are stacking life load on a deficit. That pattern is common with kids + stroller mornings and it quietly blocks fat-loss. A green here would be fewer steps or true easy movement after a short night."
     },
     {
@@ -5480,17 +5485,11 @@
       "status": "neutral",
       "n": 28,
       "long": {
-        "hrv_change": -2.49,
-        "rhr_change": 0.98,
-        "debt_change": -0.29
+        "hrv_change": -1.93,
+        "rhr_change": 0.67,
+        "debt_change": -0.44
       },
       "series": [
-        {
-          "date": "2026-07-29",
-          "hrv": 35.0,
-          "rhr": 57.0,
-          "debt_h": 2.55
-        },
         {
           "date": "2026-07-30",
           "hrv": 40.0,
@@ -5654,10 +5653,10 @@
           "debt_h": 1.81
         },
         {
-          "date": "2026-07-01",
-          "hrv": 49.0,
-          "rhr": 52.0,
-          "debt_h": 0.73
+          "date": "2026-08-26",
+          "hrv": 32.0,
+          "rhr": 55.0,
+          "debt_h": 0.75
         },
         {
           "date": "2026-07-02",
@@ -5790,9 +5789,15 @@
           "hrv": 44.0,
           "rhr": 58.0,
           "debt_h": 3.35
+        },
+        {
+          "date": "2026-07-29",
+          "hrv": 35.0,
+          "rhr": 57.0,
+          "debt_h": 2.55
         }
       ],
-      "teaser": "HRV -2.5 · RHR +1.0 · debt -0.29h",
+      "teaser": "HRV -1.9 · RHR +0.7 · debt -0.44h",
       "why": "Engine up, overnight recharge not paying down: classic 'fit but under-recovered' split after miluim and with young kids. Leaner/defined needs the debt to fall, not just a prettier RHR. If this is amber/red, steal sleep from evening intensity before adding more quality work."
     },
     {
