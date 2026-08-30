@@ -1,158 +1,158 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-08-30T22:46:48+03:00",
+  "updated_at": "2026-08-30T22:47:02+03:00",
   "timezone": "Asia/Jerusalem",
   "athlete_label": "Koren",
-  "date": "2026-08-27",
+  "date": "2026-08-30",
   "metrics": [
     {
       "id": "sleep_h",
       "label": "Sleep",
-      "value": 7.2,
+      "value": 6.0,
       "unit": "h",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 6.681,
-        "sd": 0.873,
-        "z": 0.594,
-        "percentile": 71.4,
-        "delta": 0.519,
+        "mean": 6.579,
+        "sd": 0.701,
+        "z": -0.826,
+        "percentile": 25.0,
+        "delta": -0.579,
         "band": "neutral"
       },
       "long": {
-        "window_days": 216,
-        "mean": 6.544,
-        "sd": 1.079,
-        "z": 0.608,
-        "percentile": 74.2,
-        "delta": 0.656,
+        "window_days": 217,
+        "mean": 6.541,
+        "sd": 1.077,
+        "z": -0.503,
+        "percentile": 30.4,
+        "delta": -0.541,
         "band": "neutral"
       }
     },
     {
       "id": "hrv",
       "label": "HRV",
-      "value": 32,
+      "value": 33,
       "unit": "ms",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 39.214,
-        "sd": 4.798,
-        "z": -1.503,
-        "percentile": 0.0,
-        "delta": -7.214,
+        "mean": 38.25,
+        "sd": 5.117,
+        "z": -1.026,
+        "percentile": 16.7,
+        "delta": -5.25,
         "band": "amber"
       },
       "long": {
-        "window_days": 216,
-        "mean": 37.883,
-        "sd": 6.301,
-        "z": -0.934,
-        "percentile": 14.5,
-        "delta": -5.883,
+        "window_days": 217,
+        "mean": 37.86,
+        "sd": 6.295,
+        "z": -0.772,
+        "percentile": 19.5,
+        "delta": -4.86,
         "band": "neutral"
       }
     },
     {
       "id": "rhr",
       "label": "RHR",
-      "value": 61,
+      "value": 59,
       "unit": "bpm",
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 54.5,
-        "sd": 2.994,
-        "z": 2.171,
-        "percentile": 0.0,
-        "delta": 6.5,
-        "band": "red"
+        "mean": 55.0,
+        "sd": 3.266,
+        "z": 1.225,
+        "percentile": 8.3,
+        "delta": 4.0,
+        "band": "amber"
       },
       "long": {
-        "window_days": 216,
-        "mean": 55.958,
-        "sd": 2.745,
-        "z": 1.837,
-        "percentile": 0.5,
-        "delta": 5.042,
+        "window_days": 217,
+        "mean": 55.972,
+        "sd": 2.747,
+        "z": 1.102,
+        "percentile": 8.8,
+        "delta": 3.028,
         "band": "amber"
       }
     },
     {
       "id": "bb_wake",
       "label": "BB wake",
-      "value": 16,
+      "value": 5,
       "unit": "",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 29.5,
-        "sd": 7.908,
-        "z": -1.707,
+        "mean": 27.0,
+        "sd": 9.916,
+        "z": -2.219,
         "percentile": 0.0,
-        "delta": -13.5,
-        "band": "amber"
+        "delta": -22.0,
+        "band": "red"
       },
       "long": {
-        "window_days": 216,
-        "mean": 26.682,
-        "sd": 9.08,
-        "z": -1.176,
-        "percentile": 9.8,
-        "delta": -10.682,
-        "band": "amber"
+        "window_days": 217,
+        "mean": 26.557,
+        "sd": 9.201,
+        "z": -2.343,
+        "percentile": 0.0,
+        "delta": -21.557,
+        "band": "red"
       }
     },
     {
       "id": "stress",
       "label": "Stress",
-      "value": 31,
+      "value": 30,
       "unit": "",
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 22.929,
-        "sd": 3.972,
-        "z": 2.032,
-        "percentile": 0.0,
-        "delta": 8.071,
-        "band": "red"
+        "mean": 23.75,
+        "sd": 3.94,
+        "z": 1.586,
+        "percentile": 8.3,
+        "delta": 6.25,
+        "band": "amber"
       },
       "long": {
-        "window_days": 216,
-        "mean": 24.393,
-        "sd": 5.387,
-        "z": 1.226,
-        "percentile": 8.4,
-        "delta": 6.607,
+        "window_days": 217,
+        "mean": 24.419,
+        "sd": 5.388,
+        "z": 1.036,
+        "percentile": 12.1,
+        "delta": 5.581,
         "band": "amber"
       }
     },
     {
       "id": "steps",
       "label": "Steps",
-      "value": 6243,
+      "value": 13140,
       "unit": "",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 5303.071,
-        "sd": 1635.094,
-        "z": 0.575,
-        "percentile": 71.4,
-        "delta": 939.929,
-        "band": "neutral"
+        "mean": 5730.417,
+        "sd": 2792.477,
+        "z": 2.653,
+        "percentile": 91.7,
+        "delta": 7409.583,
+        "band": "green"
       },
       "long": {
-        "window_days": 216,
-        "mean": 7489.874,
-        "sd": 3104.757,
-        "z": -0.402,
-        "percentile": 36.9,
-        "delta": -1246.874,
-        "band": "neutral"
+        "window_days": 217,
+        "mean": 7516.153,
+        "sd": 3121.293,
+        "z": 1.802,
+        "percentile": 94.9,
+        "delta": 5623.847,
+        "band": "green"
       }
     },
     {
@@ -163,20 +163,20 @@
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 2.643,
-        "sd": 6.388,
-        "z": -0.414,
+        "mean": 2.417,
+        "sd": 6.825,
+        "z": -0.354,
         "percentile": 0.0,
-        "delta": -2.643,
+        "delta": -2.417,
         "band": "neutral"
       },
       "long": {
-        "window_days": 216,
-        "mean": 14.173,
-        "sd": 25.52,
-        "z": -0.555,
+        "window_days": 217,
+        "mean": 14.107,
+        "sd": 25.479,
+        "z": -0.554,
         "percentile": 0.0,
-        "delta": -14.173,
+        "delta": -14.107,
         "band": "neutral"
       }
     },
@@ -188,15 +188,15 @@
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 1.715,
-        "sd": 0.862,
+        "mean": 1.773,
+        "sd": 0.763,
         "z": null,
         "percentile": null,
         "delta": null,
         "band": "neutral"
       },
       "long": {
-        "window_days": 216,
+        "window_days": 217,
         "mean": 1.921,
         "sd": 1.036,
         "z": null,
@@ -210,7 +210,7 @@
     "band": "red",
     "reasons": [
       "HRV softer than the last 2 weeks",
-      "RHR well off your usual"
+      "RHR softer than the last 2 weeks"
     ]
   }
 }
