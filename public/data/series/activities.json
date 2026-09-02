@@ -1,5 +1,24 @@
 [
   {
+    "id": 24187746290,
+    "name": "Capoeira",
+    "garmin_type": "mixed_martial_arts",
+    "sport": "capoeira",
+    "start": "2026-08-31 19:36:46",
+    "duration_min": 120.1,
+    "calories": 712.0,
+    "avg_hr": 122.0,
+    "max_hr": 172.0,
+    "min_hr": null,
+    "distance_m": 0.0,
+    "steps": 1414.0,
+    "mod": 56.0,
+    "vig": 25.0,
+    "te_label": null,
+    "vo2": null,
+    "stroller": null
+  },
+  {
     "id": 23637104337,
     "name": "Walking",
     "garmin_type": null,
