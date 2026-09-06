@@ -1,5 +1,24 @@
 [
   {
+    "id": 24242375376,
+    "name": "Open Water Swimming",
+    "garmin_type": "open_water_swimming",
+    "sport": "open_water_swimming",
+    "start": "2026-09-05 09:00:04",
+    "duration_min": 26.2,
+    "calories": 235.0,
+    "avg_hr": 129.0,
+    "max_hr": 140.0,
+    "min_hr": null,
+    "distance_m": 919.6900024414062,
+    "steps": null,
+    "mod": 5.0,
+    "vig": 20.0,
+    "te_label": null,
+    "vo2": null,
+    "stroller": null
+  },
+  {
     "id": 24224833603,
     "name": "Walking",
     "garmin_type": "walking",
