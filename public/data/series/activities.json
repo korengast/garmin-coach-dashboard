@@ -1,5 +1,24 @@
 [
   {
+    "id": 24275366944,
+    "name": "Capoeira",
+    "garmin_type": "mixed_martial_arts",
+    "sport": "capoeira",
+    "start": "2026-09-07 19:33:59",
+    "duration_min": 122.6,
+    "calories": 772.0,
+    "avg_hr": 123.0,
+    "max_hr": 181.0,
+    "min_hr": null,
+    "distance_m": 0.0,
+    "steps": 2196.0,
+    "mod": 44.0,
+    "vig": 39.0,
+    "te_label": null,
+    "vo2": null,
+    "stroller": null
+  },
+  {
     "id": 24242375376,
     "name": "Open Water Swimming",
     "garmin_type": "open_water_swimming",
