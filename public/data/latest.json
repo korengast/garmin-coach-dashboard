@@ -1,32 +1,32 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-09T07:30:51+03:00",
+  "updated_at": "2026-09-10T07:30:19+03:00",
   "timezone": "Asia/Jerusalem",
   "athlete_label": "Koren",
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "metrics": [
     {
       "id": "sleep_h",
       "label": "Sleep",
-      "value": 6.83,
+      "value": 7.12,
       "unit": "h",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 6.311,
-        "sd": 0.657,
-        "z": 0.79,
-        "percentile": 66.7,
-        "delta": 0.519,
-        "band": "neutral"
+        "mean": 6.304,
+        "sd": 0.648,
+        "z": 1.258,
+        "percentile": 91.7,
+        "delta": 0.816,
+        "band": "green"
       },
       "long": {
-        "window_days": 227,
-        "mean": 6.528,
-        "sd": 1.063,
-        "z": 0.284,
-        "percentile": 62.9,
-        "delta": 0.302,
+        "window_days": 228,
+        "mean": 6.531,
+        "sd": 1.061,
+        "z": 0.555,
+        "percentile": 72.9,
+        "delta": 0.589,
         "band": "neutral"
       }
     },
@@ -38,120 +38,120 @@
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 35.833,
-        "sd": 2.764,
-        "z": 0.784,
-        "percentile": 58.3,
-        "delta": 2.167,
+        "mean": 36.333,
+        "sd": 2.56,
+        "z": 0.651,
+        "percentile": 50.0,
+        "delta": 1.667,
         "band": "neutral"
       },
       "long": {
-        "window_days": 227,
-        "mean": 37.8,
-        "sd": 6.183,
+        "window_days": 228,
+        "mean": 37.801,
+        "sd": 6.169,
         "z": 0.032,
-        "percentile": 50.2,
-        "delta": 0.2,
+        "percentile": 50.0,
+        "delta": 0.199,
         "band": "neutral"
       }
     },
     {
       "id": "rhr",
       "label": "RHR",
-      "value": 56,
+      "value": 58,
       "unit": "bpm",
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 57.333,
-        "sd": 1.795,
-        "z": -0.743,
-        "percentile": 50.0,
-        "delta": -1.333,
+        "mean": 57.083,
+        "sd": 1.441,
+        "z": 0.636,
+        "percentile": 16.7,
+        "delta": 0.917,
         "band": "neutral"
       },
       "long": {
-        "window_days": 227,
-        "mean": 56.009,
-        "sd": 2.706,
-        "z": -0.003,
-        "percentile": 43.1,
-        "delta": -0.009,
+        "window_days": 228,
+        "mean": 56.018,
+        "sd": 2.704,
+        "z": 0.733,
+        "percentile": 19.9,
+        "delta": 1.982,
         "band": "neutral"
       }
     },
     {
       "id": "bb_wake",
       "label": "BB wake",
-      "value": 19,
+      "value": 29,
       "unit": "",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 18.25,
-        "sd": 7.918,
-        "z": 0.095,
-        "percentile": 50.0,
-        "delta": 0.75,
-        "band": "neutral"
+        "mean": 19.333,
+        "sd": 8.41,
+        "z": 1.149,
+        "percentile": 83.3,
+        "delta": 9.667,
+        "band": "green"
       },
       "long": {
-        "window_days": 227,
-        "mean": 26.19,
-        "sd": 9.24,
-        "z": -0.778,
-        "percentile": 19.6,
-        "delta": -7.19,
+        "window_days": 228,
+        "mean": 26.205,
+        "sd": 9.218,
+        "z": 0.303,
+        "percentile": 60.0,
+        "delta": 2.795,
         "band": "neutral"
       }
     },
     {
       "id": "stress",
       "label": "Stress",
-      "value": 18,
+      "value": 22,
       "unit": "",
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 25.583,
-        "sd": 3.451,
-        "z": -2.197,
-        "percentile": 91.7,
-        "delta": -7.583,
+        "mean": 25.333,
+        "sd": 2.427,
+        "z": -1.374,
+        "percentile": 83.3,
+        "delta": -3.333,
         "band": "green"
       },
       "long": {
-        "window_days": 227,
-        "mean": 24.427,
-        "sd": 5.303,
-        "z": -1.212,
-        "percentile": 93.8,
-        "delta": -6.427,
-        "band": "green"
+        "window_days": 228,
+        "mean": 24.442,
+        "sd": 5.276,
+        "z": -0.463,
+        "percentile": 62.4,
+        "delta": -2.442,
+        "band": "neutral"
       }
     },
     {
       "id": "steps",
       "label": "Steps",
-      "value": 86,
+      "value": 0,
       "unit": "",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 7249.583,
-        "sd": 3027.014,
-        "z": -2.367,
+        "mean": 7198.5,
+        "sd": 3061.871,
+        "z": -2.351,
         "percentile": 0.0,
-        "delta": -7163.583,
+        "delta": -7198.5,
         "band": "red"
       },
       "long": {
-        "window_days": 227,
-        "mean": 7482.6,
-        "sd": 3106.936,
-        "z": -2.381,
+        "window_days": 228,
+        "mean": 7474.403,
+        "sd": 3103.182,
+        "z": -2.409,
         "percentile": 0.0,
-        "delta": -7396.6,
+        "delta": -7474.403,
         "band": "red"
       }
     },
@@ -171,43 +171,43 @@
         "band": "neutral"
       },
       "long": {
-        "window_days": 227,
-        "mean": 14.618,
-        "sd": 26.21,
-        "z": -0.558,
+        "window_days": 228,
+        "mean": 14.553,
+        "sd": 26.17,
+        "z": -0.556,
         "percentile": 0.0,
-        "delta": -14.618,
+        "delta": -14.553,
         "band": "neutral"
       }
     },
     {
       "id": "debt",
       "label": "Sleep debt",
-      "value": 2.17,
+      "value": 1.38,
       "unit": "h",
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 2.514,
-        "sd": 0.58,
-        "z": -0.593,
-        "percentile": 60.0,
-        "delta": -0.344,
-        "band": "neutral"
+        "mean": 2.411,
+        "sd": 0.642,
+        "z": -1.606,
+        "percentile": 90.9,
+        "delta": -1.031,
+        "band": "green"
       },
       "long": {
-        "window_days": 227,
-        "mean": 1.952,
-        "sd": 1.025,
-        "z": 0.212,
-        "percentile": 38.9,
-        "delta": 0.218,
+        "window_days": 228,
+        "mean": 1.949,
+        "sd": 1.024,
+        "z": -0.556,
+        "percentile": 73.3,
+        "delta": -0.569,
         "band": "neutral"
       }
     }
   ],
   "readiness": {
-    "band": "neutral",
+    "band": "green",
     "reasons": [
       "Not enough triad data to flag readiness"
     ]
