@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-12T07:30:25+03:00",
+  "updated_at": "2026-09-13T06:15:32+03:00",
   "items": [
     {
       "id": "hrv_rhr",
@@ -4581,7 +4581,7 @@
       "status": "amber",
       "n": 156,
       "long": {
-        "delta_steps": 549,
+        "delta_steps": 581,
         "n_short": 156
       },
       "series": [
@@ -5482,11 +5482,11 @@
         },
         {
           "date": "2026-09-12",
-          "steps": 186.0,
+          "steps": 5101.0,
           "short_sleep": true
         }
       ],
-      "teaser": "+549 steps on short-sleep vs ≥7h nights",
+      "teaser": "+581 steps on short-sleep vs ≥7h nights",
       "why": "If you walk more on the nights you already under-slept, you are not auto-deloading — you are stacking life load on a deficit. That pattern is common with kids + stroller mornings and it quietly blocks fat-loss. A green here would be fewer steps or true easy movement after a short night."
     },
     {
