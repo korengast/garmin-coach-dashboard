@@ -1,82 +1,82 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-13T07:30:50+03:00",
+  "updated_at": "2026-09-14T07:30:31+03:00",
   "timezone": "Asia/Jerusalem",
   "athlete_label": "Koren",
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "metrics": [
     {
       "id": "sleep_h",
       "label": "Sleep",
-      "value": 5.6,
+      "value": 5.7,
       "unit": "h",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 6.277,
-        "sd": 0.624,
-        "z": -1.085,
-        "percentile": 7.1,
-        "delta": -0.677,
-        "band": "amber"
+        "mean": 6.239,
+        "sd": 0.642,
+        "z": -0.84,
+        "percentile": 21.4,
+        "delta": -0.539,
+        "band": "neutral"
       },
       "long": {
-        "window_days": 231,
-        "mean": 6.525,
+        "window_days": 232,
+        "mean": 6.521,
         "sd": 1.056,
-        "z": -0.876,
-        "percentile": 16.7,
-        "delta": -0.925,
+        "z": -0.778,
+        "percentile": 20.1,
+        "delta": -0.821,
         "band": "neutral"
       }
     },
     {
       "id": "hrv",
       "label": "HRV",
-      "value": 35,
+      "value": 39,
       "unit": "ms",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 37.286,
-        "sd": 4.216,
-        "z": -0.542,
-        "percentile": 21.4,
-        "delta": -2.286,
+        "mean": 37.143,
+        "sd": 4.121,
+        "z": 0.451,
+        "percentile": 78.6,
+        "delta": 1.857,
         "band": "neutral"
       },
       "long": {
-        "window_days": 231,
-        "mean": 37.825,
-        "sd": 6.19,
-        "z": -0.456,
-        "percentile": 28.8,
-        "delta": -2.825,
+        "window_days": 232,
+        "mean": 37.83,
+        "sd": 6.177,
+        "z": 0.189,
+        "percentile": 58.7,
+        "delta": 1.17,
         "band": "neutral"
       }
     },
     {
       "id": "rhr",
       "label": "RHR",
-      "value": 58,
+      "value": 54,
       "unit": "bpm",
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 56.714,
-        "sd": 1.623,
-        "z": 0.792,
-        "percentile": 7.1,
-        "delta": 1.286,
-        "band": "neutral"
+        "mean": 56.5,
+        "sd": 1.722,
+        "z": -1.452,
+        "percentile": 85.7,
+        "delta": -2.5,
+        "band": "green"
       },
       "long": {
-        "window_days": 231,
-        "mean": 56.017,
-        "sd": 2.697,
-        "z": 0.735,
-        "percentile": 19.7,
-        "delta": 1.983,
+        "window_days": 232,
+        "mean": 56.004,
+        "sd": 2.692,
+        "z": -0.745,
+        "percentile": 72.6,
+        "delta": -2.004,
         "band": "neutral"
       }
     },
@@ -88,70 +88,70 @@
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 22.286,
-        "sd": 7.43,
-        "z": 0.5,
-        "percentile": 57.1,
-        "delta": 3.714,
+        "mean": 23.357,
+        "sd": 6.778,
+        "z": 0.39,
+        "percentile": 50.0,
+        "delta": 2.643,
         "band": "neutral"
       },
       "long": {
-        "window_days": 231,
-        "mean": 26.239,
-        "sd": 9.15,
+        "window_days": 232,
+        "mean": 26.238,
+        "sd": 9.126,
         "z": -0.026,
-        "percentile": 45.7,
-        "delta": -0.239,
+        "percentile": 45.5,
+        "delta": -0.238,
         "band": "neutral"
       }
     },
     {
       "id": "stress",
       "label": "Stress",
-      "value": 22,
+      "value": 17,
       "unit": "",
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 24.643,
-        "sd": 1.913,
-        "z": -1.382,
-        "percentile": 85.7,
-        "delta": -2.643,
+        "mean": 24.0,
+        "sd": 2.591,
+        "z": -2.701,
+        "percentile": 92.9,
+        "delta": -7.0,
         "band": "green"
       },
       "long": {
-        "window_days": 231,
-        "mean": 24.432,
-        "sd": 5.243,
-        "z": -0.464,
-        "percentile": 62.9,
-        "delta": -2.432,
-        "band": "neutral"
+        "window_days": 232,
+        "mean": 24.404,
+        "sd": 5.252,
+        "z": -1.41,
+        "percentile": 96.1,
+        "delta": -7.404,
+        "band": "green"
       }
     },
     {
       "id": "steps",
       "label": "Steps",
-      "value": 91,
+      "value": 82,
       "unit": "",
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 6652.571,
-        "sd": 2419.385,
-        "z": -2.712,
+        "mean": 6666.643,
+        "sd": 2430.923,
+        "z": -2.709,
         "percentile": 0.0,
-        "delta": -6561.571,
+        "delta": -6584.643,
         "band": "red"
       },
       "long": {
-        "window_days": 231,
-        "mean": 7463.358,
-        "sd": 3089.906,
-        "z": -2.386,
+        "window_days": 232,
+        "mean": 7467.291,
+        "sd": 3083.861,
+        "z": -2.395,
         "percentile": 0.0,
-        "delta": -7372.358,
+        "delta": -7385.291,
         "band": "red"
       }
     },
@@ -163,53 +163,53 @@
       "higher_is_better": true,
       "short": {
         "window_days": 14,
-        "mean": 18.786,
-        "sd": 33.152,
-        "z": -0.567,
+        "mean": 12.714,
+        "sd": 27.162,
+        "z": -0.468,
         "percentile": 0.0,
-        "delta": -18.786,
+        "delta": -12.714,
         "band": "neutral"
       },
       "long": {
-        "window_days": 231,
-        "mean": 14.393,
-        "sd": 26.037,
-        "z": -0.553,
+        "window_days": 232,
+        "mean": 14.343,
+        "sd": 25.992,
+        "z": -0.552,
         "percentile": 0.0,
-        "delta": -14.393,
+        "delta": -14.343,
         "band": "neutral"
       }
     },
     {
       "id": "debt",
       "label": "Sleep debt",
-      "value": 2.73,
+      "value": 2.97,
       "unit": "h",
       "higher_is_better": false,
       "short": {
         "window_days": 14,
-        "mean": 2.401,
-        "sd": 0.582,
-        "z": 0.564,
-        "percentile": 35.7,
-        "delta": 0.329,
+        "mean": 2.416,
+        "sd": 0.594,
+        "z": 0.934,
+        "percentile": 21.4,
+        "delta": 0.554,
         "band": "neutral"
       },
       "long": {
-        "window_days": 231,
-        "mean": 1.956,
+        "window_days": 232,
+        "mean": 1.961,
         "sd": 1.017,
-        "z": 0.761,
-        "percentile": 22.2,
-        "delta": 0.774,
+        "z": 0.992,
+        "percentile": 14.4,
+        "delta": 1.009,
         "band": "neutral"
       }
     }
   ],
   "readiness": {
-    "band": "amber",
+    "band": "green",
     "reasons": [
-      "Sleep softer than the last 2 weeks"
+      "Not enough triad data to flag readiness"
     ]
   }
 }
