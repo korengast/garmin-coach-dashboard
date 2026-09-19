@@ -1,24 +1,19 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-18T07:30:31+03:00",
+  "updated_at": "2026-09-19T07:30:59+03:00",
   "items": [
     {
       "id": "hrv_rhr",
       "title": "HRV ↔ RHR coupling",
       "status": "green",
-      "n": 233,
+      "n": 234,
       "short": {
-        "r": -0.636
+        "r": -0.656
       },
       "long": {
         "r": -0.701
       },
       "series": [
-        {
-          "date": "2026-03-13",
-          "hrv": 37.0,
-          "rhr": 58.0
-        },
         {
           "date": "2026-03-14",
           "hrv": 35.0,
@@ -913,6 +908,11 @@
           "date": "2026-09-17",
           "hrv": 42.0,
           "rhr": 55.0
+        },
+        {
+          "date": "2026-09-18",
+          "hrv": 32.0,
+          "rhr": 57.0
         }
       ],
       "teaser": "Window r = -0.70 (want negative)",
@@ -922,16 +922,11 @@
       "id": "sleep_h_score",
       "title": "Hours still drive score?",
       "status": "green",
-      "n": 232,
+      "n": 233,
       "long": {
-        "r": 0.576
+        "r": 0.549
       },
       "series": [
-        {
-          "date": "2026-03-12",
-          "sleep_hours": 4.68,
-          "sleep_score": 58.0
-        },
         {
           "date": "2026-03-13",
           "sleep_hours": 6.05,
@@ -1826,30 +1821,30 @@
           "date": "2026-09-17",
           "sleep_hours": 6.23,
           "sleep_score": 77.0
+        },
+        {
+          "date": "2026-09-18",
+          "sleep_hours": 8.52,
+          "sleep_score": 52.0
         }
       ],
-      "teaser": "r = 0.58 · duration vs score",
+      "teaser": "r = 0.55 · duration vs score",
       "why": "If hours and score still move together, bedtime length is the lever — not another sleep gadget. A weak r means stages or timing are stealing the score (late Capoeira, split nights with a one-year-old). You already run a chronic ~2h debt vs Garmin need; stretching time-in-bed after hard evenings beats optimizing deep %."
     },
     {
       "id": "capoeira_sleep_tax",
       "title": "Capoeira → next sleep",
-      "status": "red",
-      "n": 28,
+      "status": "amber",
+      "n": 29,
       "short": {
-        "delta_h": -0.83,
-        "n": 2
+        "delta_h": 0.19,
+        "n": 3
       },
       "long": {
-        "delta_h": -0.64,
-        "n": 28
+        "delta_h": -0.55,
+        "n": 29
       },
       "series": [
-        {
-          "date": "2026-03-11",
-          "after_cap": null,
-          "after_other": 5.12
-        },
         {
           "date": "2026-03-12",
           "after_cap": 4.68,
@@ -2744,25 +2739,25 @@
           "date": "2026-09-17",
           "after_cap": null,
           "after_other": 6.23
+        },
+        {
+          "date": "2026-09-18",
+          "after_cap": 8.52,
+          "after_other": null
         }
       ],
-      "teaser": "Nights after evening hard run 38 min shorter",
-      "why": "Across this window, sleep after Capoeira/evening-hard is 38 min shorter than other nights. Late intensity delays cooldown into bedtime — that is a timing tax, not proof you 'can't handle' the class. Book 8h+ in bed on those nights and keep the cool-down walk; do not stack a hard morning 3k unless HRV/RHR stayed green."
+      "teaser": "Nights after evening hard run 33 min shorter",
+      "why": "Across this window, sleep after Capoeira/evening-hard is 33 min shorter than other nights. Late intensity delays cooldown into bedtime — that is a timing tax, not proof you 'can't handle' the class. Book 8h+ in bed on those nights and keep the cool-down walk; do not stack a hard morning 3k unless HRV/RHR stayed green."
     },
     {
       "id": "intensity_next_debt",
       "title": "Intensity → next debt",
       "status": "neutral",
-      "n": 196,
+      "n": 197,
       "long": {
-        "r": 0.196
+        "r": 0.166
       },
       "series": [
-        {
-          "date": "2026-02-04",
-          "intensity_min": 0.0,
-          "next_debt_h": 1.64
-        },
         {
           "date": "2026-02-05",
           "intensity_min": 0.0,
@@ -3657,25 +3652,25 @@
           "date": "2026-09-16",
           "intensity_min": 0.0,
           "next_debt_h": 2.27
+        },
+        {
+          "date": "2026-09-17",
+          "intensity_min": 84.0,
+          "next_debt_h": -0.02
         }
       ],
-      "teaser": "r = 0.20 · hard minutes vs next-night debt",
+      "teaser": "r = 0.17 · hard minutes vs next-night debt",
       "why": "Vigorous + moderate minutes today predicting more sleep debt tomorrow means the session is winning the calendar. At 37, with kids and a recomp goal, that is the wrong trade: you cannot out-train a standing 2h nightly hole. If r stays useful (~0.3+), treat a hard day as a sleep appointment, not a suggestion."
     },
     {
       "id": "stress_next_hrv",
       "title": "Stress → next HRV",
       "status": "neutral",
-      "n": 229,
+      "n": 230,
       "long": {
-        "r": -0.241
+        "r": -0.237
       },
       "series": [
-        {
-          "date": "2026-03-09",
-          "stress_avg": 27.0,
-          "next_hrv": 36.0
-        },
         {
           "date": "2026-03-10",
           "stress_avg": 18.0,
@@ -4570,6 +4565,11 @@
           "date": "2026-09-16",
           "stress_avg": 23.0,
           "next_hrv": 42.0
+        },
+        {
+          "date": "2026-09-17",
+          "stress_avg": 21.0,
+          "next_hrv": 32.0
         }
       ],
       "teaser": "r = -0.24 · life load leaving a next-morning mark",
@@ -4581,15 +4581,10 @@
       "status": "amber",
       "n": 161,
       "long": {
-        "delta_steps": 600,
+        "delta_steps": 616,
         "n_short": 161
       },
       "series": [
-        {
-          "date": "2026-03-12",
-          "steps": 10585.0,
-          "short_sleep": true
-        },
         {
           "date": "2026-03-13",
           "steps": 5396.0,
@@ -5484,9 +5479,14 @@
           "date": "2026-09-17",
           "steps": 7594.0,
           "short_sleep": true
+        },
+        {
+          "date": "2026-09-18",
+          "steps": 5955.0,
+          "short_sleep": false
         }
       ],
-      "teaser": "+600 steps on short-sleep vs ≥7h nights",
+      "teaser": "+616 steps on short-sleep vs ≥7h nights",
       "why": "If you walk more on the nights you already under-slept, you are not auto-deloading — you are stacking life load on a deficit. That pattern is common with kids + stroller mornings and it quietly blocks fat-loss. A green here would be fewer steps or true easy movement after a short night."
     },
     {
@@ -5495,17 +5495,11 @@
       "status": "neutral",
       "n": 26,
       "long": {
-        "hrv_change": -4.68,
-        "rhr_change": 1.28,
-        "debt_change": -0.09
+        "hrv_change": -4.12,
+        "rhr_change": 1.13,
+        "debt_change": 0.0
       },
       "series": [
-        {
-          "date": "2026-08-22",
-          "hrv": 36.0,
-          "rhr": 56.0,
-          "debt_h": 0.56
-        },
         {
           "date": "2026-08-23",
           "hrv": 37.0,
@@ -5652,15 +5646,15 @@
         },
         {
           "date": "2026-09-18",
-          "hrv": null,
-          "rhr": 59.0,
-          "debt_h": null
+          "hrv": 32.0,
+          "rhr": 57.0,
+          "debt_h": -0.02
         },
         {
-          "date": "2026-07-25",
-          "hrv": 56.0,
-          "rhr": 54.0,
-          "debt_h": 3.82
+          "date": "2026-09-19",
+          "hrv": null,
+          "rhr": 56.0,
+          "debt_h": null
         },
         {
           "date": "2026-07-26",
@@ -5823,9 +5817,15 @@
           "hrv": 37.0,
           "rhr": 55.0,
           "debt_h": 1.45
+        },
+        {
+          "date": "2026-08-22",
+          "hrv": 36.0,
+          "rhr": 56.0,
+          "debt_h": 0.56
         }
       ],
-      "teaser": "HRV -4.7 · RHR +1.3 · debt -0.09h",
+      "teaser": "HRV -4.1 · RHR +1.1 · debt +0.00h",
       "why": "Engine up, overnight recharge not paying down: classic 'fit but under-recovered' split after miluim and with young kids. Leaner/defined needs the debt to fall, not just a prettier RHR. If this is amber/red, steal sleep from evening intensity before adding more quality work."
     },
     {

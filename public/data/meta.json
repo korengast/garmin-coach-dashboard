@@ -1,12 +1,12 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-18T07:30:31+03:00",
+  "updated_at": "2026-09-19T07:30:59+03:00",
   "timezone": "Asia/Jerusalem",
   "athlete_label": "Koren",
   "window": {
     "start": "2026-01-19",
-    "end": "2026-09-18",
-    "n_days": 236
+    "end": "2026-09-19",
+    "n_days": 237
   },
   "source": "hermes-garmin-export"
 }
